@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/ccenrw_hlp.txt
+Edit CC Node Resources

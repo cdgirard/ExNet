@@ -1,0 +1,48 @@
+English
+ccenrw_aboutnode
+About Node
+English
+ccenrw_an
+Adj. Nodes
+English
+ccenrw_ba
+Bank Account
+English
+ccenrw_csat
+Can Send A Token
+English
+ccenrw_cop
+Can Offer Points
+English
+ccenrw_csm
+Can Send Message
+English
+ccenrw_crof
+Can Reward or Fine
+English
+ccenrw_done
+Done
+English
+ccenrw_file
+File
+English
+ccenrw_help
+Help
+English
+ccenrw_nodes
+Nodes
+English
+ccenrw_fa
+Fine Amt:
+English
+ccenrw_percent
+Percent:
+English
+ccenrw_pp
+Point Pool
+English
+ccenrw_ra
+Reward Amt:
+English
+ccenrw_title
+Edit CC Node Resources

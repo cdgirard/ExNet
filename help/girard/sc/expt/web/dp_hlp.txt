@@ -1,0 +1,25 @@
+                     View Data
+
+Used to view data from experiments that have been run.  To view a data file, first select the Experiment for which you wish to view the data of.  Then click the top "Retrieve" button.  All applications that were run in this experiment should be displayed in the File List below the Experiment List. To view a specific file simply select it then click the bottom "Retrieve" Button.
+
+Main Area
+---------
+1. Experiment List - A list of all the Experiments that have been run ExNet3 system for the selected access group in the Access Groups List.
+
+2. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, a list of run Experiments saved under that group will be displayed in the Experiment List.  The "<NONE>" group refers to files that only you can access.
+
+3. File List - Displays a list of all the files saved from the selected experiment in the Experiment List.
+
+4. Name Field - Shows the name of the selected file in the File List.
+
+5. Date Field - Shows the date and time the selected file in the File List was created.
+
+Buttons
+-------
+1. Retrieve(Top) - Loads the list of saved files for the selected Experiment.
+
+2. Retrieve(Bottom) - Loads the actual data saved for the selected file for viewing.
+
+3. Back - Takes you back to the Main Menu.
+
+4. Help - Calls up the Help System with this help page being displayed.

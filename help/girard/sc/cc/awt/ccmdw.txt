@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/ccmdw_hlp.txt
+CC Message Data Window

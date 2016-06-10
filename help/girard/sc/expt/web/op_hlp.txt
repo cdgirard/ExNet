@@ -1,0 +1,11 @@
+                   Main Menu
+
+1. Start - this application is used to start and run experiments that have been created in ExNet 3.0.
+
+2. Construct - this application can be used to create Actions (i.e. background networks, tutorial pages, questions), Simulants (computer controlled actors), or Experiments.
+
+3. Data - directory data for all experiments run in the ExNet 3.0 system that you can access.
+
+4. Help - Calls up the Help System, displaying this help file for the Main Menu.
+
+5. Back - Takes you back to the Web-Lab.

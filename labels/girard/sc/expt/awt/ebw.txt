@@ -1,0 +1,91 @@
+English
+ebw_ad
+Action Details
+English
+ebw_add
+Add
+English
+ebw_aa
+Add Action
+English
+ebw_al
+Action List
+English
+ebw_co
+Change Order
+English
+ebw_delete
+Delete
+English
+ebw_da
+Delete Action
+English
+ebw_eas
+Enable Auto Start
+English
+ebw_ed
+Experiment Description
+English
+ebw_edit
+Edit
+English
+ebw_exit
+Exit
+English
+ebw_ea
+Experiment Actions
+English
+ebw_ee
+Experiment End
+English
+ebw_file
+File
+English
+ebw_format
+Format
+English
+ebw_fa
+Format Action
+English
+ebw_fte
+for the experiment.
+English
+ebw_help
+Help
+English
+ebw_ia
+Import Action
+English
+ebw_new
+New
+English
+ebw_nou.
+number of users.
+English
+ebw_noust
+Number of Users Set To:
+English
+ebw_network
+Network
+English
+ebw_open
+Open
+English
+ebw_praththas
+Please remove actions that have to have a set
+English
+ebw_save
+Save
+English
+ebw_set
+Set
+English
+ebw_title
+Experiment Constructor
+English
+ebw_users
+Users
+English
+ebw_utcpnou
+Unable to change present number of users
+English

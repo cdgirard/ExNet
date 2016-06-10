@@ -1,0 +1,45 @@
+English
+scnnaew_details
+Details
+English
+scnnaew_ei
+Edge   Info
+English
+scnnaew_exit
+Exit
+English
+scnnaew_experiment
+Experiment
+English
+scnnaew_file
+File
+English
+scnnaew_observers
+Observers
+English
+scnnaew_pause
+Pause
+English
+scnnaew_period
+Period:
+English
+scnnaew_round
+Round:
+English
+scnnaew_srs
+Subject    Reg    State
+English
+scnnaew_stop
+Stop
+English
+benaew_timer
+Timer:
+English
+scnnaew_title
+Experimenter Station
+English
+scnnaew_zi
+Zoom In
+English
+scnnaew_zo
+Zoom Out

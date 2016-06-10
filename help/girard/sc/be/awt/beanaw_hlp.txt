@@ -1,0 +1,31 @@
+                    Add BE Network
+
+Links a Network (created using the Network Builder Window) to the BENetworkAction.  Select the filename of the Network you wish to use, and then click "OK".  
+
+NOTE: Be sure that you have set the "Number of Users" at the bottom right of the Experiment Constructor Window to the number matching the number of actors in the Network you plan to use.
+
+Help Menu
+---------
+1. Help - Returns to this help file.
+
+Main Area
+---------
+1. Exchange Rule - This is set depending on what sort of structural exchange conditions you want to run the network.  Once you have created a BE Network Action with a specific structural exchange condition, the structural exchange condition cannot be changed.
+    *Basic - Each node can be set to have a minimum (1 to max) to a maximum (min to number of edges a node has) number of exchanges possible.  Failure of a node to make the minimum number of exchanges results in no points being earned.
+    *Subnetworks - As with basic, but now number of exchanges can be assigned across groups of nodes as well as individual nodes.
+    *Ordered Subnetworks - As with Subnetworks, but now an ordering of who a node has to trade with can be added.
+
+2. Network Field - Shows the name of the network you have choosen to attach to this BE Network Action.
+
+3. Access Group Field - Shows the access group associated with the choosen network.
+
+Buttons
+-------
+1. Select Network - Calls up the Load Base Action window, allowing you to select a network from the ones saved to the database.  The Description area for the saved network files will inform you how many subjects are needed for the selected network.
+
+2. OK - Once you have selected a network you wish to use, this button to create a BE Network Action with this network.
+
+3. Cancel - Click ‘cancel’ to return to the experiment constructor without adding a BE Network Action.
+
+
+Related Help Files - Construction Menu, Base Action Constructor, and Network Builder Window.

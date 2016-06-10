@@ -1,0 +1,12 @@
+English
+scnedw_cancel
+Cancel
+English
+scnedw_description
+Description
+English
+scnedw_ok
+  OK  
+English
+scnedw_title
+Edit Description

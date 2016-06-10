@@ -1,0 +1,22 @@
+             Load Base Action Window
+
+Used to load a saved Action object. To load an object, select the access group and file you want to load then click "OK". 
+
+Main Area
+---------
+1. Saved Files List - List of files under the selected access group that are already saved.  Only lists Action objects of the same type as the one you wish to load.
+
+2. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, a list of Actions of a specific type saved under that group will be displayed in the Saved Files List.  The "<NONE>" group refers to files that only you can access.
+
+3. The Descriptions - The Description under the Saved File List gives a description of the selected saved file.  The Description under the Access Group List gives a description of the selected Access Group.
+*Note: The "<NONE>" access group does not have a description, other Access Groups may not as well.
+
+4. Filename Field - Where the name of the file you have selected to load is displayed. 
+
+Buttons
+-------
+1. Ok - If you have selected a file to load then it is loaded and displayed within the interface for building an object of that Action type.
+
+2. Cancel - Exits out without load any file.
+
+3. Help - Calls up this help file.

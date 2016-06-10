@@ -1,0 +1,12 @@
+English
+cevodw_exit
+Exit
+English
+cevodw_file
+File
+English
+cevodw_help
+Help
+English
+cevodw_title
+CE View Offer Data

@@ -1,0 +1,33 @@
+English
+cenadd_date
+Date:
+English
+cenadd_description
+Description
+English
+cenadd_exit
+Exit
+English
+cenadd_file
+File
+English
+cenadd_help
+Help
+English
+cenadd_name
+Name:
+English
+cenadd_options
+Options
+English
+cenadd_rb
+Run By:
+English
+cenadd_title
+CE Network Action Data Viewer
+English
+cenadd_vod
+View Offer Data
+English
+cenadd_vrd
+View Resource Data

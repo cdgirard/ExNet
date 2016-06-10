@@ -1,0 +1,31 @@
+         Import Experiment Action Window
+
+To import an Experiment Action select the desired action from the "Actions" list, and then click "Import".
+*Note: The user requirements (how many are needed) must match those of the Experiment you are adding the action to.  
+
+Help Menu
+---------
+Help - Calls up this help file.
+
+Main Area
+---------
+1. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, the list of Experiments saved under that group will be displayed in the Experiments List.  The "<NONE>" group refers to files that only you can access.
+
+2. Experiments List - List of files under the selected access group that are already saved.
+
+3. Actions List - Lists all the Experiment Actions for an Experiment.  The list is generated when you double click on an Experiment in the Experiment list.
+
+3. The Descriptions - The Description under the Access Group List gives a description of the selected Access Group. The Description under the Experiments List gives a description of the selected saved file. The Description under the Actions List gives a description of the selected action file.
+*Note: Not all files have descriptions.
+
+4. # Users Label - Shows the number of users required for the selected Experiment.
+
+5. Fixed Label - If yes then you must have exactly that (same as the # Users label shows) number of users in your Experiment for the selected action. If no then the number of users needed can be different from the Experiment you are adding the action from.
+
+6. Action Label - Where the name of the file you have selected to import is displayed.
+
+Buttons
+-------
+Import - Attempts to import the selected file and (if successful) exits.
+
+Cancel - Exits out without importing a file.

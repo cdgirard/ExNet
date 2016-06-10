@@ -1,0 +1,18 @@
+English
+qew_file
+File
+English
+qew_observers
+Observers
+English
+qew_pause
+Pause
+English
+qew_stop
+Stop
+English
+qew_title
+Experimenter Window
+English
+qew_urqt
+User  Reg  Ques  Total

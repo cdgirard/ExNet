@@ -1,0 +1,48 @@
+English
+qaeiw_activate
+Activate
+English
+qaeiw_cancel
+Cancel
+English
+qaeiw_cf
+Continue From
+English
+qaeiw_client
+Client
+English
+qaeiw_experimenter
+Experimenter
+English
+qaeiw_fs
+Font Size
+English
+qaeiw_large
+Large
+English
+qaeiw_location
+Location:
+English
+qaeiw_medium
+Medium
+English
+qaeiw_message
+Message
+English
+qaeiw_no
+No
+English
+qaeiw_ok
+  OK  
+English
+qaeiw_small
+Small
+English
+qaeiw_title
+QA Edit Initial Window Settings
+English
+qaeiw_update
+Update
+English
+qaeiw_yes
+Yes

@@ -1,0 +1,36 @@
+English
+ccfnaw_add
+Add
+English
+ccfnaw_description
+Description
+English
+ccfnaw_done
+Done
+English
+ccfnaw_edit
+Edit
+English
+ccfnaw_exchanges
+Exchanges
+English
+ccfnaw_file
+File
+English
+ccfnaw_format
+Format
+English
+ccfnaw_help
+Help
+English
+ccfnaw_nr
+Node Resources
+English
+ccfnaw_pay
+Pay
+English
+ccfnaw_period
+Period
+English
+ccfnaw_title
+Edit CC Network Action

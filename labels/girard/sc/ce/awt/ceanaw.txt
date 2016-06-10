@@ -1,0 +1,27 @@
+English
+ceanaw_ag
+Access Group:
+English
+ceanaw_cancel
+Cancel
+English
+ceanaw_help
+Help
+English
+ceanaw_nf
+Network Files
+English
+ceanaw_nondnmnou
+Number of nodes do not match number of users.
+English
+ceanaw_network
+Network: 
+English
+ceanaw_ok
+OK
+English
+ceanaw_sn
+Select Network
+English
+ceanaw_title
+Add CE Network

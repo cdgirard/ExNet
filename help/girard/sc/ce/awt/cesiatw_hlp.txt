@@ -1,0 +1,35 @@
+            CE Set Info and Timing
+
+Used to set the timing of exchanges and the level of information shown. The level of information shown is set on a node by node basis.
+
+File Menu
+---------
+1. Done - Used to close the window when finished.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Timing Method - If set to 'Non-Simultaneous' then actors are allowed to complete exchanges during the course of a round.  If set to Simultaneous then exchanges are completed at the end of the round using the following random selection method:
+       -All actors are randomly placed into a list.
+       -The program goes down the list in order, for each actor it finds the best agreement reached and completes that exchange. All other relations are then updated based on that exchange occuring before moving on to the next actor.
+       -When the program reaches the bottom of the list it starts back at the top again.
+       -When there are now more possible exchanges the program stops and informs the subjects, experimenter, and any observers.
+
+2. "Node ID Level" List - Lists all the nodes and shows the level of network information each node sees.  The default starting value is 10.  Detail information on what each level of information means is provided at the bottom of the window.
+
+3. Information Level - Allows you to change the level of network information a node can view by selecting it in the "Node ID Level" List and then selecting a new level of information for it.
+
+Glossary
+--------
+Structure - The physical structure of the network (i.e. The edges and nodes).
+
+Network Information - The interactions that go on (i.e. Offers being made).
+
+Local - Only the node's neighbors.
+
+Intermediate - The node's neighbors and their neighbors.
+
+Full - The whole network.

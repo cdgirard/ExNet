@@ -1,0 +1,12 @@
+English
+qabew_einp
+Experiment is Now Paused
+English
+qabew_pptre
+Press Button to Resume Experiment.
+English
+qabew_resume
+RESUME
+English
+qabew_title
+Resume Window

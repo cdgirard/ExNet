@@ -1,0 +1,12 @@
+English
+scnodw_exit
+Exit
+English
+scnodw_file
+File
+English
+scnodw_help
+Help
+English
+scnodw_title
+SCNet Offer Data

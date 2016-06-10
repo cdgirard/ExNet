@@ -1,0 +1,24 @@
+English
+ceecw_cancel
+Cancel
+English
+ceecw_error1
+Invalid Resource Name.
+English
+ceecw_error2
+Resource Name Already in Use.
+English
+ceecw_error3
+Invalid Resource Label.
+English
+ceecw_label
+Label:
+English
+ceecw_name
+Name:
+English
+ceecw_title
+CE Edit Commodity
+English
+ceecw_update
+Update

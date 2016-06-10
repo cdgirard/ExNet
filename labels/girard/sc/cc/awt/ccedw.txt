@@ -1,0 +1,12 @@
+English
+ccedw_cancel
+Cancel
+English
+ccedw_description
+Description
+English
+ccedw_ok
+  OK  
+English
+ccedw_title
+Action Description Window

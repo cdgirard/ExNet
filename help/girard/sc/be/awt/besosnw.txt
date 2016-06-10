@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/besosnw_hlp.txt
+Set Ordered Subnetworks Window

@@ -1,0 +1,6 @@
+English
+ceesw_ready
+Ready
+English
+ceesw_title
+Starting Window

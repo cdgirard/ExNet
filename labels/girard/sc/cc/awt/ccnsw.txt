@@ -1,0 +1,39 @@
+English
+ccnsw_fine
+Fine
+English
+ccnsw_no
+No
+English
+ccnsw_points
+points.
+English
+ccnsw_reward
+Reward
+English
+ccnsw_send
+SEND
+English
+ccnsw_title
+Send Sanctions/Rewards Window
+English
+ccnsw_to
+to
+English
+ccnsw_worth
+worth
+English
+ccnsw_wrtsmptsb
+When ready to send messages press the SEND button.
+English
+ccnsw_wyltsaf
+Would you like to send a fine
+English
+ccnsw_wyltsar
+Would you like to send a reward
+English
+ccnsw_wyltsarf
+Would you like to send a reward/fine
+English
+ccnsw_yes
+Yes

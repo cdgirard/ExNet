@@ -1,0 +1,51 @@
+English
+ftaw_add
+ Add  
+English
+ftaw_ag
+  Access Grps
+English
+ftaw_available
+  Available
+English
+ftaw_ct
+Copy Tut
+English
+ftaw_description
+Description
+English
+ftaw_edit
+Edit
+English
+ftaw_exit
+Exit
+English
+ftaw_file
+File
+English
+ftaw_format
+Format
+English
+ftaw_help
+Help
+English
+ftaw_insert
+Insert
+English
+ftaw_remove
+Remove
+English
+ftaw_title
+Format Tutorial Action
+English
+ftaw_tutorial
+  Tutorial
+English
+ftaw_types
+    Types
+English
+ftaw_vd
+View Desc
+English
+ftaw_users
+  Users

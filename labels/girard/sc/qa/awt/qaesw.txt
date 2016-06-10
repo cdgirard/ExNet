@@ -1,0 +1,6 @@
+English
+qaesw_ready
+READY
+English
+qaesw_title
+Window

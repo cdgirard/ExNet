@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/web/rep_hlp.txt
+Start Experiment

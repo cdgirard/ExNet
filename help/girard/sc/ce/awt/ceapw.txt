@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/ceapw_hlp.txt
+CE Add Period Window

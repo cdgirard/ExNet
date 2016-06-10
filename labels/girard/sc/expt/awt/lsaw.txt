@@ -1,0 +1,30 @@
+English
+lsaw_ag
+Access Groups
+English
+lsaw_cancel
+Cancel
+English
+lsaw_description
+Description
+English
+lsaw_ftpltf
+Failed to properly load the file.
+English
+lsaw_ga
+Group Access: 
+English
+lsaw_help
+Help
+English
+lsaw_ok
+OK
+English
+lsaw_saf
+Simulant Actor Files
+English
+lsaw_simulant
+Simulant:
+English
+lsaw_title
+Load Simulant Actor

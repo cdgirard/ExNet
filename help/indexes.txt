@@ -1,0 +1,195 @@
+English
+ehlp_aaw
+Add Action Window
+English
+ehlp_abw
+Base Action Constructor
+English
+ehlp_beanaw
+Add BE Network Window
+English
+ehlp_beapw
+BE Network Period Window
+English
+ehlp_beerpw
+Edit BE Edge Resources
+English
+ehlp_befnaw
+Edit BE Network Action
+English
+ehlp_befsaw
+Format BE CSIE Actor
+English
+ehlp_befudsaw
+BE Format UD Simulant Actor
+English
+ehlp_benadd
+BE Network Action Data Viewer
+English
+ehlp_benew
+BE Set Number of Exchanges Window
+English
+ehlp_beodw
+BE Offer Data
+English
+ehlp_besmiw
+BE Network Settings Window
+English
+ehlp_besdw
+BE Sanction Data Window
+English
+ehlp_besosnw
+BE Set Ordered Subnetworks
+English
+ehlp_bespw
+Set BE Pay Amounts
+English
+ehlp_bessw
+Define Subnetworks Window
+English
+ehlp_bessw2
+Set BE Sanctions Window
+English
+ehlp_bqbw
+Base Question Builder Window
+English
+ehlp_ccanw
+Add CC Network
+English
+ehlp_ccenrw
+Edit CC Node Resources
+English
+ehlp_ccepw
+Edit CC Period Window
+English
+ehlp_ccfmsaw
+Format CC Msg Simulant Actor
+English
+ehlp_ccfnaw
+Edit CC Network Action
+English
+ehlp_ccnew
+CC Set Number of Exchanges Window
+English
+ehlp_ccmdw
+CC Message Data Window
+English
+ehlp_ccnadd
+CC Network Action Data Viewer
+English
+ehlp_ccodw
+CC Offer Data Window
+English
+ehlp_cp
+Construction Menu
+English
+ehlp_ccsdw
+CC Sanction Data Window
+English
+ehlp_ccspw
+Set CC Pay Amounts
+English
+ehlp_cctdw
+CC Token Data Window
+English
+ehlp_ceanaw
+Add CE Network Action
+English
+ehlp_ceapw
+CE Add Period Window
+English
+ehlp_ceerw
+CE Edit Resources Window
+English
+ehlp_cefnaw
+Format CE Network Action
+English
+ehlp_cenadd
+CE Network Action Data Viewer
+English
+ehlp_ceselw
+CE Set Exchange Limits Window
+English
+ehlp_cesiatw
+CE Set Info and Timing
+English
+ehlp_cespw
+CE Set Pay Window
+English
+ehlp_cevodw
+CE View Offer Data Window
+English
+ehlp_cevrdw
+CE View Resource Data Window
+English
+ehlp_dbaw
+Delete Base Action Window
+English
+ehlp_dew
+Delete Experiments Window
+English
+ehlp_dp
+View Data
+English
+ehlp_ecw
+Experiment Constructor Window
+English
+ehlp_esw
+Experimenter Station
+English
+ehlp_fgtpw
+Format Generic Tutorial Page
+English
+ehlp_flqw
+Format Likert Question
+English
+ehlp_fqw
+Format Questionaire Window
+English
+ehlp_ftaw
+Format Tutorial Action
+English
+ehlp_ftsaw
+Format Tutorial Simulant Actor
+English
+ehlp_iew
+Import Experiment Action
+English
+ehlp_lbaw
+Load Base Action Window
+English
+ehlp_lew
+Load Experiment Window
+English
+ehlp_lsaw
+Load Simulant Actor Window
+English
+ehlp_ltw
+Likert Transition Window
+English
+ehlp_nbw
+Network Builder Window
+English
+ehlp_op
+Main Menu
+English
+ehlp_rep
+Start Experiment
+English
+ehlp_sbaw
+Save Base Action Window
+English
+ehlp_sbw
+Simulant Actor Constructor Window
+English
+ehlp_sew
+Save Experiment Window
+English
+ehlp_ssaw
+Save Simulant Actor Window
+English
+ehlp_suw
+Set User Window
+English
+ehlp_tpbw
+Tutorial Page Builder

@@ -1,0 +1,17 @@
+                 Set CC Pay Amounts
+
+Allows the experimenter to set payment due to subjects (per point earned).  To set a pay rate, select a subject, then adjust the number in the pay field at the bottom to the number of dollars per point earned you wish to give that subject.  Then, press enter. 
+
+File Menu
+---------
+1. Done - Returns you back to the Edit CC Network Action window.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Pay List - Lists the users and their pay rates (per point).
+
+2. Pay Field - Where you can change the amount a selected node is paid per point.  Changes are updated by pressing the "Enter" key on the keyboard.

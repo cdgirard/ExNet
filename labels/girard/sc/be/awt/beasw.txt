@@ -1,0 +1,39 @@
+English
+beasw_dnspf
+did NOT subtract points from
+English
+beasw_op
+Outside Payoffs
+English
+beasw_os
+Outside Subtractions
+English
+beasw_pf
+points from
+English
+beasw_pt
+points to
+English
+beasw_ready
+READY
+English
+beasw_safo
+sent a FINE of
+English
+beasw_sent
+sent
+English
+beasw_snpt
+sent no points to
+English
+beasw_subtracted
+subtracted
+English
+beasw_title
+Payoffs and Subtractions
+English
+beasw_total
+total
+English
+beasw_wrtcptb
+When Ready to Continue Press the Button.

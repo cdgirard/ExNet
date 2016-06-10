@@ -1,0 +1,33 @@
+English
+benadd_date
+Date:
+English
+benadd_description
+Description
+English
+benadd_exit
+Exit
+English
+benadd_file
+File
+English
+benadd_help
+Help
+English
+benadd_name
+Name:
+English
+benadd_options
+Options
+English
+benadd_rb
+Run By:
+English
+benadd_title
+BE Network Action Data Viewer
+English
+benadd_vod
+View Offer Data
+English
+benadd_vsd
+View Sanction Data

@@ -1,0 +1,12 @@
+English
+cgtpw_done
+  Next  
+English
+cgtpw_finish
+Finish
+English
+cgtpw_prev
+Previous
+English
+cgtpw_title
+Tutorial Page

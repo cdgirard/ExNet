@@ -1,0 +1,25 @@
+            CE Network Action Data Viewer 
+
+File Menu
+---------
+1. Exit - Returns to View Data home page.
+
+Options Menu
+------------
+1. View Offer Data - Displays log of all exchange communications: offers sent, offers accepted, exchanges completed.  For more information see the help file on CE View Offer Data window.
+
+2. View Resource Data - Displays how many resources each node had at the end of each round.  For more information see the help file on CE View Resource Data window.
+
+Help Menu
+---------
+1. Help - Brings up this help window.
+
+Main Area
+---------
+1. Name - Displays action and network used in the experiment.
+
+2. Description - Brief description of the network action (written by experimenter during experiment construction).
+
+3. Run By - Gives experimenter’s name.
+
+4. Date -  Date/time that experiment was run.

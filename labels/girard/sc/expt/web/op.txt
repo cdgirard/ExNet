@@ -1,0 +1,39 @@
+English
+beeop_sae
+Start an Experiment
+English
+beeop_caa
+Construct an Action/
+English
+beeop_atfd
+Access the File Database
+English
+beeop_es
+Experiment/Simulant
+English
+beeop_athf
+Access the Help Files
+English
+beeop_btthp
+Back to the Home Page
+English
+beeop_start
+Start
+English
+beeop_construct
+Construct
+English
+beeop_simulants
+Simulants
+English
+beeop_data
+Data
+English
+beeop_help
+Help
+English
+beeop_back
+Back
+English
+beeop_title
+Main Menu

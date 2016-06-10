@@ -1,0 +1,12 @@
+               CE View Resource Data Window 
+
+File Menu
+---------
+Exit - Returns to CE Network Action Data Viewer.
+
+Help Menu
+---------
+Help - Brings up this help window.
+
+Main Area
+---------

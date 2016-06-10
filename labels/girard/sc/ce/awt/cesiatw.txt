@@ -1,0 +1,57 @@
+English
+cesiatw_done
+Done
+English
+cesiatw_file
+File
+English
+cesiatw_help
+Help
+English
+cesiatw_il
+Information Level
+English
+cesiatw_l1
+Level 1: Local Structure and Network Information.
+English
+cesiatw_l2
+Level 2: Intermediate Structure and Local Network Information.
+English
+cesiatw_l3
+Level 3: Intermediate Structure and Local Network Information.
+English
+cesiatw_l4
+Level 4: Intermediate Structure and Network Information.
+English
+cesiatw_l5
+Level 5: Intermediate Structure and Network Information.
+English
+cesiatw_l6
+Level 6: Full Structure and Local Network Information.
+English
+cesiatw_l7
+Level 7: Full Structure and Intermediate Network Information.
+English
+cesiatw_l8
+Level 8: Full Structure and Intermediate Network Information.
+English
+cesiatw_l9
+Level 9: Full Structure and Network Information
+English
+cesiatw_l10
+Level 10: Full Structure and Network Information.
+English
+cesiatw_nil
+Node    ID    Level
+English
+cesiatw_ns
+Non-Simultaneous
+English
+cesiatw_simultaneous
+Simultaneous
+English
+cesiatw_title
+Set Info and Timing
+English
+cesiatw_tm
+Timing Method

@@ -1,0 +1,63 @@
+English
+suw_aafeea
+actor assigned for each experiment action.
+English
+suw_acSim
+  Action     Simulant
+English
+suw_ag
+Access Groups
+English
+suw_ag:
+Access Group:
+English
+suw_avSims
+Available Simulants
+English
+suw_cancel
+Cancel
+English
+suw_cg
+Change Group
+English
+suw_computer
+Computer
+English
+suw_experiment
+Experiment:
+English
+suw_file
+File
+English
+suw_help
+Help 
+English
+suw_human
+Human
+English
+suw_info
+Info
+English
+suw_nacsh
+Not all computer subjects have a simulant
+English
+suw_password
+Password:
+English
+suw_start
+Register
+English
+suw_title
+Set User Window
+English
+suw_type
+Type
+English
+suw_uppass
+Update Password
+English
+suw_user
+User:
+English
+suw_utp
+User  Type   Password

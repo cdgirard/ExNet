@@ -1,0 +1,18 @@
+English
+ccspw_done
+Done
+English
+ccspw_file
+File
+English
+ccspw_help
+Help
+English
+ccspw_pay
+Pay:
+English
+ccspw_title
+Set CC Pay Amounts
+English
+ccspw_upr
+User   Pay Rate

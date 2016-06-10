@@ -1,0 +1,24 @@
+English
+cenacw_cav
+ |  Cmd  Amt  Val
+English
+cenacw_help
+Help
+English
+cenacw_messages
+Messages
+English
+cenacw_o
+O|
+English
+cenacw_profit
+Profit
+English
+cenacw_title
+Client Window
+English
+cenacw_u
+u|
+English
+cenacw_y
+Y|

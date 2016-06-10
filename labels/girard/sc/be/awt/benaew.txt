@@ -1,0 +1,45 @@
+English
+benaew_details
+Details
+English
+benaew_ei
+Edge   Info
+English
+benaew_exit
+Exit
+English
+benaew_experiment
+Experiment
+English
+benaew_file
+File
+English
+benaew_observers
+Observers
+English
+benaew_pause
+Pause
+English
+benaew_period
+Period:
+English
+benaew_round
+Round:
+English
+benaew_srs
+Subject    Reg    State
+English
+benaew_stop
+Stop
+English
+benaew_timer
+Timer:
+English
+benaew_title
+Experimenter Station
+English
+benaew_zi
+Zoom In
+English
+benaew_zo
+Zoom Out

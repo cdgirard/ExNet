@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/likert/awt/flqw_hlp.txt
+Format Likert Question

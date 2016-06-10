@@ -1,0 +1,12 @@
+English
+taow_exit
+Exit
+English
+taow_file
+File
+English
+taow_title
+Observer Window
+English
+taow_urp
+User  Reg  Page  Total

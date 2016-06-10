@@ -1,0 +1,30 @@
+English
+lew_ag
+Access Groups
+English
+lew_cancel
+Cancel
+English
+lew_description
+Description
+English
+lew_experiments
+Experiments
+English
+lew_ftpltf
+Failed to properly load the file.
+English
+lew_filename
+Filename:
+English
+lew_ga
+Group Access:
+English
+lew_help
+Help
+English
+lew_ok
+OK
+English
+lew_title
+Load Experiment Window

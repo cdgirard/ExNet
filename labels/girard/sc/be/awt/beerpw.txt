@@ -1,0 +1,42 @@
+English
+beerpw_dri
+Display Resource Info
+English
+beerpw_edge
+Edge:
+English
+beerpw_eridr
+     Edge    Res     Init   Reset
+English
+beerpw_exit
+Exit
+English
+beerpw_file
+File
+English
+beerpw_help
+Help
+English
+beerpw_id
+Initial Demand:
+English
+beerpw_no
+No
+English
+beerpw_node
+Node:
+English
+beerpw_rd
+Reset Demand
+English
+beerpw_resources
+Resources:
+English
+beerpw_sr
+Set Resource
+English
+beerpw_title
+Edit BE Edge Resources
+English
+beerpw_yes
+Yes

@@ -1,0 +1,21 @@
+              Start Experiment
+
+This interface is used to select an Experiment created using ExNet 3.0 for setup and running.
+
+Main Area
+---------
+1. Allow Observers - this option is used to toggle between whether or not the experimenter wishes to allow observers to look on during the Experiment.  If so, a password can be assigned.  Observers watch an Experiment by joining as an Observer at the subject login page for ExNet 3.0 (http://129.252.51.52/Java/ExNet/ExSocSubjectLogin.html).
+
+2. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, a list of Experiments saved under that group will be displayed in the Experiment List.  The "<NONE>" group refers to Experiments that only you can access.
+
+3. Experiments List (and Description) - Lists all the experiments that have been constructed using the Construct Experiment application.  After highlighting an experiment name, a description of it is displayed in the description window.
+
+Buttons
+-------
+1. Setup - Brings up the Set User Window (see help file for more information).
+
+2. Back - Takes you back to the Main Menu page (see help file for more information).
+
+3. Help - Calls up this help page.
+
+*Note: The access group that you choose to run the Experiment from will also determine which access group can view the data.  At this time there is no way to copy or move data so that it can be accessed by a different group.  See the help file on the Data Page for more information. 

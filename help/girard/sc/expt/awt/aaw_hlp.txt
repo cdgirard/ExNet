@@ -1,0 +1,13 @@
+               Add Action Window
+
+Select the type of Experiment Action you want to add to your Experiment and click "OK".    Additional steps may be needed depending on the Experiment Action added.
+
+Possible Actions - Gives a list of the available types of experiment actions you can create.  
+
+Descriptions - Located on the right portion of the winodw. Highlighting an action will bring up a detailed description of it. 
+
+OK - Once you have highlighted the experiment action you wish to add to your experiment, you can click "OK" to try and add this action to your experiment.  Some experiment actions may require additional steps before they are added. 
+
+Cancel - Click cancel to return to the Experiment Constructor window without adding an experiment action.
+
+Help - Shows this help window.

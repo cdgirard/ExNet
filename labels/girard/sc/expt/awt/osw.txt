@@ -1,0 +1,18 @@
+English
+osw_exit
+Exit
+English
+osw_file
+File
+English
+osw_experiment
+Experiment:
+English
+osw_pwfets
+Please wait for experiment to start.
+English
+osw_title
+Observer Station
+English
+osw_ur
+ User     Registered

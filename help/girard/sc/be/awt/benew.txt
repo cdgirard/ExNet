@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/benew_hlp.txt
+BE Set Nubmer of Exchanges Window

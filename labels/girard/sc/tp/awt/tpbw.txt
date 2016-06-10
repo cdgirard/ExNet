@@ -1,0 +1,27 @@
+English
+tpbw_delete
+Delete
+English
+tpbw_description
+Description
+English
+tpbw_exit
+Exit
+English
+tpbw_file
+File
+English
+tpbw_help
+Help
+English
+tpbw_new
+New
+English
+tpbw_open
+Open
+English
+tpbw_title
+Tutorial Page Builder
+English
+tpbw_tpt
+Tutorial Page Types

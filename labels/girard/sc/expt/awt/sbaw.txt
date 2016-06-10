@@ -1,0 +1,42 @@
+English
+sbaw_ag
+Access Groups
+English
+sbaw_cancel
+Cancel
+English
+sbaw_description
+Description
+English
+sbaw_dywtoi
+Do You Want to Overwrite It?
+English
+sbaw_filename
+Filename: 
+English
+sbaw_fae
+File Already Exists!
+English
+sbaw_ftpstf
+Failed to properly save the file.
+English
+sbaw_ga
+Group Access:
+English
+sbaw_help
+Help
+English
+sbaw_no
+No
+English
+sbaw_sf
+Saved Files
+English
+sbaw_save
+Save
+English
+sbaw_title
+Save Base Action
+English
+sbaw_yes
+Yes

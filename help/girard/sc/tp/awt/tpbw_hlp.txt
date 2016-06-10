@@ -1,0 +1,27 @@
+          Tutorial Page Builder Window
+
+Allows you to build various types of tutorial pages.  At the moment there is only one tutorial page type available.
+
+File Menu
+---------
+1. New - Allows you to build a completely new tutorial page of a specific type by selecting one of the possible tutorial page types from the Tutorial Page Types List and choosing this option.
+
+2. Open - Allows you to load a previously built tutorial page of a specific type by selecting one of the possible tutorial page types from the Tutorial Page Types List and choosing this option.  Calls up the "Load Base Action Window", see its help file for additional information. 
+
+3. Delete - Allows you to delete a previously built tutorial page of a specific type by selecting one of the possible tutorial page types from the Tutorial Page Types List and choosing this option.  Calls up the "Delete Base Action Window", see its help file for additional information.
+
+4. Exit - Allows you to ext out of this window and return control back to the Base Action Constructor Window.
+
+Help Menu
+---------
+1. Help - Calls up this help page.
+
+Main Area
+---------
+Tutorial  Types List - List all the available types of tutorial pages that you can edit, build, or delete.
+
+Description - Shows a description of the selected tutorial page type.
+
+Available Tutorial Pages
+------------------------
+1. Generic Tutorial Page - The Generic Tutorial Page consists of an area of text where the instructions are displayed and an area with an image may be displayed as well.  The interface for building the Generic Tutorial Page is the "Format Generic Tutorial Page" window, see its help file for additional information.

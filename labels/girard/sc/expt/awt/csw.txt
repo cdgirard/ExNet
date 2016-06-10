@@ -1,0 +1,15 @@
+English
+csw_exit
+Exit
+English
+csw_file
+File
+English
+csw_experiment
+Experiment:
+English
+csw_pwfets
+Please wait for experiment to start.
+English
+csw_title
+Client Station

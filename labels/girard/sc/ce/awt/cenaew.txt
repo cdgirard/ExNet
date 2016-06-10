@@ -1,0 +1,36 @@
+English
+cenaew_aa
+Active Action:
+English
+cenaew_experiment
+Experiment:
+English
+cenaew_file
+File
+English
+cenaew_observers
+Observers
+English
+cenaew_pause
+Pause
+English
+cenaew_period
+Period:
+English
+cenaew_profit
+Profit
+English
+cenaew_round
+Round:
+English
+cenaew_sr
+Subject  Reg
+English
+cenaew_stop
+Stop
+English
+cenaew_timer
+Timer:
+English
+cenaew_title
+CE Experimenter Window

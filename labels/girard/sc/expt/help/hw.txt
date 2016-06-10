@@ -1,0 +1,21 @@
+English
+hw_contents
+Contents
+English
+hw_exit
+Exit
+English
+hw_file
+File
+English
+hw_help
+Help
+English
+hw_index
+Index
+English
+hw_retrieve
+Retrieve
+English
+hw_title
+Help System

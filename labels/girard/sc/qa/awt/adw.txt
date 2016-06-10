@@ -1,0 +1,12 @@
+English
+adw_exit
+Exit
+English
+adw_file
+File
+English
+adw_help
+Help
+English
+adw_title
+Answers Data Display

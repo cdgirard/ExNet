@@ -1,0 +1,27 @@
+English
+ccnfw_about
+About:
+English
+ccnfw_bad
+Bad
+English
+ccnfw_good
+Good
+English
+ccnfw_message
+Message:
+English
+ccnfw_ready
+READY
+English
+ccnfw_title
+Send Fuzzies
+English
+ccnfw_to
+To:
+English
+ccnfw_wrtsmptrb
+When ready to send messages press the READY button.
+English
+ccnfw_ycsmao
+You can send messages about others.

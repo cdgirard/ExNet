@@ -1,0 +1,15 @@
+English
+slp_logn
+Login Name:
+English
+slp_password
+Password:
+English
+slp_login
+Login
+English
+slp_cancel
+Cancel
+English
+slp_title
+Login

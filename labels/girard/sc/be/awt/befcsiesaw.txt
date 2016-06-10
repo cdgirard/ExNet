@@ -1,0 +1,54 @@
+English
+befsaw_cr
+Concession Rate:
+English
+befsaw_degree
+Degree
+English
+befsaw_description
+Description
+English
+befsaw_exit
+Exit
+English
+befsaw_er
+Exclusion Rate:
+English
+befsaw_file
+File
+English
+befsaw_help
+Help
+English
+befsaw_io
+Initial Offer
+English
+befsaw_ir
+Inclusion Rate:
+English
+befsaw_no
+No
+English
+befsaw_open
+Open
+English
+befsaw_random
+Random
+English
+befsaw_save
+Save
+English
+befsaw_stas
+Start Spite:
+English
+befsaw_stos
+Stop Spite:
+English
+befsaw_te
+Time Effect
+English
+befsaw_title
+Format BE CSIE Actor
+English
+befsaw_yes
+Yes

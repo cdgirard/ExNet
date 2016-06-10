@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/beerpw_hlp.txt
+Edit BE Edge Resources

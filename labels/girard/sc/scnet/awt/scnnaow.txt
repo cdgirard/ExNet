@@ -1,0 +1,39 @@
+English
+scnnaow_details
+Details
+English
+scnnaow_ei
+Edge   Info
+English
+scnnaow_exit
+Exit
+English
+scnnaow_experiment
+Experiment
+English
+scnnaow_file
+File
+English
+scnnaow_period
+Period:
+English
+scnnaow_round
+Round:
+English
+scnnaow_sr
+Subject    Registered
+English
+scnnaow_stop
+Stop
+English
+scnnaow_timer
+Timer:
+English
+scnnaow_title
+SCNet Observer Station
+English
+scnnaow_zi
+Zoom In
+English
+scnnaow_zo
+Zoom Out

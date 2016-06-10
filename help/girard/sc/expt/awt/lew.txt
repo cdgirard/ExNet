@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/lew_hlp.txt
+Load Experiment Window

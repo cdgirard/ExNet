@@ -1,0 +1,23 @@
+          CC Set Number of Exchanges Window
+
+Used to modify the maximum number of exchanges each actor can make.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Display Area
+-----------------
+1. Node ID Max List - Node: The letter that is displayed for a position on the subject screens.  ID: The unique identifier for a position that is displayed only on the experimenter and observer screens. Max: The maximum number of exchanges a position can make.  This number can not exceed the degree of connectivity for the position.
+
+2. Max Exch Field - Display a given position's Maximum number of exchanges.
+
+Buttons
+-------
+1. '+' Button - Used to increase the number of exchanges a selected position can make. Can not be more than the number of positions a node can send offers to (see Edit CC Node Resources).
+
+2. '-' Button - Used to decrease the number of exchanges a selected position can make. Minimum is either 0 or 1 depending on if the position can negoiate with any other positions (see Edit CC Node Resources).
+
+3. OK -  Ok's the changes and exits out of the window.
+
+4. Cancel - Ignores the changes and exits out of the window.

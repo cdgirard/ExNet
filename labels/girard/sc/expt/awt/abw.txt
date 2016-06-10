@@ -1,0 +1,21 @@
+English
+abw_bal
+Base Action List
+English
+abw_create
+Create
+English
+abw_details
+Details
+English
+abw_exit
+Exit
+English
+abw_file
+File
+English
+abw_help
+Help
+English
+abw_title
+Base Action Constructor

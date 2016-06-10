@@ -1,0 +1,11 @@
+              Construction Menu
+
+1. Action - This function is used to create objects such as tutorial pages and networks.  Clicking on "Action" will bring up the Base Action Constructor Window (see "Base Action Constructor" help file for additional information).
+
+2. Simulant - Used to construct computer controlled actors that are refered to as "simulant actors" to participate in an Experiment.  Clicking on Simulant will bring up the Simulant Actor Constructor Window (see "Simulant Actor Constructor Window" help file for additional information).
+
+3. Experiment - This action is used to build Experiments using objects such as the networks and tutorial pages that were created using the Action function.  Clicking on the Experiment button will bring up the Experiment Constructor window (see "Experiment Constructor Window" help file for additional information).
+
+4. Help - Calls up this help page.
+
+5. Back - Sends you back to the Main Menu page.

@@ -1,0 +1,42 @@
+English
+sew_ag
+Access Groups
+English
+sew_cancel
+Cancel
+English
+sew_description
+Description
+English
+sew_dywtoi
+Do you want to overwrite it?
+English
+sew_experiments
+Experiments
+English
+sew_ftpstf
+Failed to properly save the file.
+English
+sew_fae
+File already exists.
+English
+sew_ga
+Group Access:
+English
+sew_help
+Help
+English
+sew_no
+No
+English
+sew_ok
+  OK  
+English
+sew_sa
+Save As:
+English
+sew_title
+Save Experiment Window
+English
+sew_yes
+Yes

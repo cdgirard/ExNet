@@ -1,0 +1,34 @@
+           Edit CC Node Resources Window
+
+Allows experimenter to adjust each positions starting resources, ability to send sanctions, and ability to send messages.  
+
+File Menu
+---------
+1. Done - Returns you back to the Edit CC Network Action window.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Top Frame
+---------
+1. Nodes List - Lists all nodes in the network.
+
+2. Adj. Nodes List - Lists all nodes connected to the selected node in the Nodes List.
+
+3. Bank Account - Adjusts the starting account of the selected node in the Nodes List (left).
+
+4. Point Pool - Adjusts the resources given to the selected node in the Nodes List (Left) each round.  These resources may be given to other nodes to avoid negative sanctions or to receive positive ones.
+
+Bottom Frame
+------------
+1. Can offer points - For a node to be able to offer its resources to any of its adjacent positions, this box must be checked.  Select a position from the Adj. Nodes List to change whether a node can offer points to that node or not.
+NOTE: One of the nodes must have a positive point pool for this option.  Making adjustments here will reset the maximum exchange settings for the nodes in the network.
+
+2. Token - If the box enabling a node to send tokens is enabled, that actor will have the chance to send a token to the selected node in the Adj. Node List. The token increases the receiver’s chance of receiving either a reward or avoiding a fine at the end of the experiment.
+NOTE: For a fine to remove resources it must be a negative number.  Fines that are positive in value will add resources to who they are sent.
+
+3. Can Send Message - If the box enabling a node to send messages is enabled, that actor will have the chance to send a message to the selected node in the Adj. Node List.  The node will be able to choose whether to send a positive or negative message about one or more nodes in the network.  Which nodes messages are sent about is determined by which nodes are selected in the About Node List.
+
+4. Can Reward or Fine - If the box enabling a node to send rewards and fines is enabled, that actor will have the chance to send a reward or fine to the selected node in the Adj. Node List.
+NOTE: For a fine to remove resources it must be a negative number.  Fines that are positive in value will add resources to who they are sent.

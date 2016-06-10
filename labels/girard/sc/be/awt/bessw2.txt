@@ -1,0 +1,27 @@
+English
+bessw2_an
+Adj. Nodes
+English
+bessw2_crop
+Can Reward or Punish
+English
+bessw2_done
+Done
+English
+bessw2_file
+File
+English
+bessw2_help
+Help
+English
+bessw2_nodes
+Nodes
+English
+bessw2_pa
+Punish Amt:
+English
+bessw2_ra
+Reward Amt:
+English
+bessw2_title
+Set BE Sanctions

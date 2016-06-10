@@ -1,0 +1,31 @@
+            CC Network Action Data Viewer 
+
+
+
+File Menu
+---------
+Exit - Returns to View Data home page.
+
+Options Menu
+------------
+View Message Data - Displays a log of all messages sent during the experiment (positive/negative).
+
+View Offer Data - Displays log of all exchange communications: offers sent, offers accepted, exchanges completed.
+
+View Sanction Data - Displays a log of sanctions (immediate) sent from one position to another.
+
+View Token Data - Displays log of token information for each round and if delayed reward/sanction occurred.
+
+Help Menu
+---------
+Help - Brings up this help window.
+
+Main Area
+---------
+Name - Displays action and network used in the experiment.
+
+Description - Brief description of the network action (written by experimenter during experiment construction).
+
+Run By - Gives experimenter’s name.
+
+Date -  Date/time that experiment was run.

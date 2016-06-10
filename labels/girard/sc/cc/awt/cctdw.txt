@@ -1,0 +1,12 @@
+English
+cctdw_exit
+Exit
+English
+cctdw_file
+File
+English
+cctdw_help
+Help
+English
+cctdw_title
+CC Token Data Window

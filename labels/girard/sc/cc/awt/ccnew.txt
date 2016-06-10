@@ -1,0 +1,21 @@
+English
+ccnew_cancel
+Cancel
+English
+ccnew_help
+Help
+English
+ccnew_mine
+Min Exchanges
+English
+ccnew_maxe
+Max Exchanges
+English
+ccnew_nimm
+  Node   ID  Max  
+English
+ccnew_ok
+  OK  
+English
+ccnew_title
+Set Number of Exchanges Window

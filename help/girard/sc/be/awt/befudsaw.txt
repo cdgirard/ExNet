@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/befudsaw_hlp.txt
+BE Format UD Simulant Actor

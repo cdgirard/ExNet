@@ -1,0 +1,24 @@
+English
+berw_ftr
+FOR THIS ROUND
+English
+berw_lr
+Last Round 
+English
+berw_ready
+READY
+English
+berw_title
+Start Next Round
+English
+berw_tpe
+Total Points Earned:
+English
+berw_wrtcptb
+To Continue Press the READY Button.
+English
+berw_ya
+You Are: 
+English
+berw_ye
+You Earned: 

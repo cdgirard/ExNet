@@ -1,0 +1,30 @@
+English
+scnapw_co
+Change Order
+English
+scnapw_delete
+Delete
+English
+scnapw_done
+Done
+English
+scnapw_file
+File
+English
+scnapw_help
+Help
+English
+scnapw_new
+New
+English
+scnapw_rounds
+Rounds
+English
+scnapw_title
+SCNet Network Period Window
+English
+scnapw_time
+Time
+English
+scnapw_unnnn
+    User  Node Name  Node Number

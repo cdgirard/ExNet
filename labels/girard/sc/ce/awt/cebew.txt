@@ -1,0 +1,12 @@
+English
+cebew_einp
+The Experiment is now Paused.
+English
+cebew_pptre
+Please press "Resume" to unpause.
+English
+cebew_resume
+Resume
+English
+cebew_title
+Begin Experiment Window

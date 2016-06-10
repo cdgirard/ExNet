@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/cesiatw_hlp.txt
+CE Set Info and Timing

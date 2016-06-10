@@ -1,0 +1,24 @@
+English
+scnspw_done
+Done
+English
+scnspw_file
+File
+English
+scnspw_help
+Help
+English
+scnspw_pay
+Pay:
+English
+scnspw_set
+Set
+English
+scnspw_sa
+Set All
+English
+scnspw_title
+Set BE Pay Amounts
+English
+scnspw_upr
+User   Pay Rate

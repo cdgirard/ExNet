@@ -1,0 +1,27 @@
+English
+ccanaw_ag
+Access Group:
+English
+ccanaw_cancel
+Cancel
+English
+ccanaw_help
+Help
+English
+ccanaw_nf
+Network Files
+English
+ccanaw_nondnmnou
+Number of nodes do not match number of users.
+English
+ccanaw_network
+Network: 
+English
+ccanaw_ok
+OK
+English
+ccanaw_sn
+Select Network
+English
+ccanaw_title
+Add CC Network

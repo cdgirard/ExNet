@@ -1,0 +1,12 @@
+English
+cedcw_cancel
+Cancel
+English
+cedcw_message1
+Are you sure you want to delete this commodity?
+English
+cedcw_ok
+  OK  
+English
+cedcw_title
+CE Delete Commodity

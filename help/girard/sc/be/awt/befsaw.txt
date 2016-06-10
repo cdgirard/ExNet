@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/befsaw_hlp.txt
+Format BE CSIE Actor

@@ -1,0 +1,12 @@
+English
+besdw_exit
+Exit
+English
+besdw_file
+File
+English
+besdw_help
+Help
+English
+besdw_title
+BE Sanction Data Window

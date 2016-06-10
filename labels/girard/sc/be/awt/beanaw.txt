@@ -1,0 +1,36 @@
+English
+beanaw_ag
+Access Group:
+English
+beanaw_basic
+Basic
+English
+beanaw_cancel
+Cancel
+English
+beanaw_er
+Exchange Rule
+English
+beanaw_help
+Help
+English
+beanaw_nondnmnou
+Number of nodes do not match number of users.
+English
+beanaw_network
+Network: 
+English
+beanaw_ok
+  OK  
+English
+beanaw_os
+Ordered Subnetworks
+English
+beanaw_sn
+Select Network
+English
+beanaw_subnetworks
+Subnetworks
+English
+beanaw_title
+Add BE Network

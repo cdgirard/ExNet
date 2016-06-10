@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/gtp/awt/fgtpw_hlp.txt
+Format Generic Tutorial Page

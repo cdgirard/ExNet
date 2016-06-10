@@ -1,0 +1,63 @@
+English
+bessw_an
+Available Node
+English
+bessw_back
+Back
+English
+bessw_cancel
+Cancel
+English
+bessw_expand
+Expand
+English
+bessw_group
+Group
+English
+bessw_help
+Help
+English
+bessw_iw
+Information Window
+English
+bessw_mine
+Min Exchange:
+English
+bessw_maxe
+Max Exchange:
+English
+bessw_minv
+Min Value:
+English
+bessw_maxv
+Max Value:
+English
+bessw_mnl
+Main Node List
+English
+bessw_ni
+  Node ID
+English
+bessw_ninl
+Node ID    Node Label
+English
+bessw_no
+No
+English
+bessw_ok
+OK
+English
+bessw_regroup
+Regroup
+English
+bessw_snn
+Subnetwork       Nodes
+English
+bessw_snl
+Subnetworks List
+English
+bessw_title
+Define Subnetworks Window
+English
+bessw_yes
+Yes

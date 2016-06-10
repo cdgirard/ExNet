@@ -1,0 +1,45 @@
+English
+ccntw_fine
+Fine
+English
+ccntw_no
+No
+English
+ccntw_opf
+or potentially fining
+English
+ccntw_pf
+potentially fining
+English
+ccntw_points
+points
+English
+ccntw_points.
+points.
+English
+ccntw_pr
+potentially rewarding
+English
+ccntw_reward
+Reward
+English
+ccntw_send
+SEND
+English
+ccntw_title
+Send Tokens Window
+English
+ccntw_to
+to
+English
+ccntw_wrtstptsb
+When ready to send tokens press the SEND button.
+English
+ccntw_wyltsat
+Would you like to send a Token
+English
+ccntw_ycst
+You can send tokens.
+English
+ccntw_yes
+Yes

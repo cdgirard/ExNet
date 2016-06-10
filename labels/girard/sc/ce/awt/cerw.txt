@@ -1,0 +1,21 @@
+English
+cerw_ftr
+For This Round
+English
+cerw_wrtcptb
+When ready to continue please press the button.
+English
+cerw_lr
+Last Round
+English
+cerw_ready
+Ready
+English
+cerw_title
+Starting a New Round
+English
+cerw_ya
+You Are:
+English
+cerw_ye
+You Earned:

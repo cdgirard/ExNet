@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/ceselw_hlp.txt
+CE Set Exchange Limits Window

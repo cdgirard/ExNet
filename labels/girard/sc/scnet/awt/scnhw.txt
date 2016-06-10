@@ -1,0 +1,15 @@
+English
+scnhw_clear
+CLEAR
+English
+scnhw_nh
+ Needs Help.
+English
+scnhw_pbtc
+Press Button to Clear.
+English
+scnhw_title
+Help Window
+English
+scnhw_user
+User 

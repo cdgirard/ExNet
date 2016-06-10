@@ -1,0 +1,33 @@
+English
+ceselw_done
+Done
+English
+ceselw_ea
+Exchanges Allowed:
+English
+ceselw_edge
+Edge
+English
+ceselw_edge:
+Edge:
+English
+ceselw_em
+   Edge      Max
+English
+ceselw_file
+File
+English
+ceselw_help
+Help
+English
+ceselw_nm
+  Node     Max
+English
+ceselw_node
+Node:
+English
+ceselw_title
+CE Set Exchange Limits
+English
+ceselw_update
+Update

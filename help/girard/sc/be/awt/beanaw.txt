@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/beanaw_hlp.txt
+Add BE Network Window

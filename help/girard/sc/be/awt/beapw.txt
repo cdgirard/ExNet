@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/beapw_hlp.txt
+BE Network Period Window

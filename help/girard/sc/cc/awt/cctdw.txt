@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/cctdw_hlp.txt
+CC Token Data Window

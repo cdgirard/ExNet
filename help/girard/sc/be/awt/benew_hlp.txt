@@ -1,0 +1,28 @@
+          BE Set Number of Exchanges Window
+
+Used to modify the maximum and minimum number of exchanges each actor can/must make respectively.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Node List
+    Node: The letter that is displayed for a position on the subject screens.
+
+    ID: The unique identifier for a position that is displayed only on the experimenter and observer screens.  Is displayed to the top right of the node label of the display area of the Edit BE Network Action window.
+
+    Max: The maximum number of exchanges a position can make.  This number can not exceed the degree of connectivity for the position.
+
+    Min: The number of exchanges a position must make to keep any earnings.  This number can not exceed the Max value for the position.
+
+Buttons
+-------
+1. Max Exch: Used to adjust a given position's Max value up or down a point by using the '+' and '-' buttons.
+
+2. Min Exch: Used to adjust a given position's Min value up or down a point by using the '+' and '-' buttons.
+
+3. OK: Saves the changes and exits out of the window.
+
+4. Cancel: Ignores the changes and exits out of the window.

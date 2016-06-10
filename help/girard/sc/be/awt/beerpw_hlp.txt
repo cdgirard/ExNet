@@ -1,0 +1,30 @@
+        Edit BE Edge Resources Window
+
+Allows experimenter to adjust the size of the resource pool between each set of connected positions. To edit the resources for a given connection, highlight the edge listed in the window, then adjust the available resources in the box below (default is 24).  Click "Set Resource" to change the amount
+
+File Menu
+---------
+1. Exit - Closes the Edit BE Edge Resources Window, saving any changes.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Display Resource Info - Can toggle between yes or no, depending on whether or not you wish to display on each edge the size of its resource pool.
+
+2. Edge List - Displays the list of edges for the network.  Each edge is represented in the "Edge" column as the node pair it connects together.  Under the "Res" column is listed the size of the resource pool for that edge.  Under the "Init" column is listed what each node that is attached to that edge will have their initial demand set to.  Under the "Reset" column is listed whether the initial demand will be reset to the initial setting or if it will be determined by any exchanges made the previous round.
+Example: A(1)-B(2)   24    12 / 8  Y / N
+This edge joins node A(1) to node B(2).  There are a total of 24 resources for node A(1) and B(2) to divide.  Node A(1) will have their demand set to 12 resources from the resource pool.  Node B(2) will have their demand set to 8 resources from the resource pool.  Node A(1) will have their demand at the start of each round set to 12 resources.  Node B(2) will have their demand on the first round set to 8 resources, but subsequent rounds will be determined by any exchanges B(2) makes with A(1). 
+
+3. Resources Field - Where you can adjust the size of the resource pool for a selected edge.
+
+4. Initial Demand Fields - Where you can adjust the initial demands for either node attached to the edge.  The node you are adjusting will be display above the field.
+*NOTE: The initial demand must be at least 1 and can not be more than one less than the size of the resource pool for the edge.
+
+5. Reset Demand Toggles - Allows you to change how the initial demand is determined every round for a node attached to the selected edge.  The node you are adjusting will be displayed to the left of the toggle.
+
+Buttons
+-------
+1. Set Resource - Updates the edge to all the new values.

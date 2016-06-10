@@ -1,0 +1,21 @@
+English
+apw_co
+Change Order
+English
+apw_done
+Done
+English
+apw_help
+Help
+English
+apw_rounds
+Rounds
+English
+apw_title
+Edit CC Period Window
+English
+apw_time
+Time
+English
+apw_unl
+  User     Node   Label  

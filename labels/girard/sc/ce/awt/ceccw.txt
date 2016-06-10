@@ -1,0 +1,30 @@
+English
+ceccw_cancel
+Cancel
+English
+ceccw_create
+Create
+English
+ceccw_da
+Default Amount:
+English
+ceccw_du
+Default Utility:
+English
+ceccw_error1
+Invalid Resource Name.
+English
+ceccw_error2
+Resource Name Already in Use.
+English
+ceccw_error3
+Invalid Resource Label.
+English
+ceccw_label
+Label:
+English
+ceccw_name
+Name:
+English
+ceccw_title
+CE Create Commodity

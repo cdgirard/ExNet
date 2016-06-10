@@ -1,0 +1,38 @@
+            Set Ordered Subnetworks Window 
+
+Enables the creation of sub-groups (called subnetworks) within the network.  Limits can then be placed on how many of these sub-groups a node can make an exchange with.  Additionally, limits can be placed within a sub-group itself as to how many exchanges the node can make once it starts making agreements with nodes in that sub-group.  Lastly, an ordering of agreements can be placed as to who a node can negiotiate with.
+
+Main Area
+---------
+1. Information Window - Allows you to select whether or not the subnetwork information window will be visible to subjects during the experiment.  This option should normally be set to false as the information window itself needs work.
+
+2. Main Node List - Shows all nodes in the network for the BE Network Action.
+
+3. Max and Min Values - The "Max" value lists the maximum number of subnetworks that can be exchanged with.  The "Min" value lists the minimume number of subnetworks that must be exchanged with to keep all points earned.
+
+4. Max and Min Exchange Fields - Allows you to change the Max and Min values.  Simply enter a number into the field and press the <Enter> key to update a value.
+*NOTE: The Min value cannot be larger than the Max value and the Max value cannot be larger than the number of subnetworks.
+
+6. Available Node List - Used when creating subnetworks or orderings. Shows nodes available to place in a subnetwork.  For the first subnetwork and ordering, all the neighbors for a node in the network are potentially available.  For subnetworks the nodes are removed from the list as they are put into a subnetwork.  For orderings all nodes are available for each ordering.  The number of orderings must match the the number of subnetworks.   For subnetworks and orderings within subnetworks, the only available nodes will be included in the previous level.
+
+5. Subnetworks List - Lists the subnetworks the selected node from the Main Node List is connected to.
+
+6. Ordering List - Lists which nodes a node change exchange with on a particular exchange.  The first exchange is '0', the second '1', and so on.
+
+Buttons
+-------
+1. Group - Once nodes have been selected (highlighted) in the 'Available Nodes' list, click ‘Group’ to designate them as a subnetwork or as an ordering.
+
+2. Regroup - To create a new set of subnetworks click ‘regroup.’  All the available nodes will appear in the ‘Available Nodes’ list.
+
+3. Back - Used with ‘Expand’ to scroll up and down through levels of subnetworks.
+
+4. Expand - Used with ‘Back’ to scroll up and down through levels of subnetworks.
+
+5. Reorder - Used to create a new set of orderings.  All the available nodes will appear in the ‘Available Nodes’ list.
+
+6. OK - Once you have completed building subnetworks, click ‘OK’ to return to the Edit Network Action window.
+
+7. Cancel - Returns to the Edit Network Action without forming subnetworks . 
+
+8. Help - Brings up this help file.

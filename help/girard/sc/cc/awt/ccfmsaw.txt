@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/ccfmsaw_hlp.txt
+Format CC Msg Simulant Actor

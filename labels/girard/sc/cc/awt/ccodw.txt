@@ -1,0 +1,12 @@
+English
+ccodw_exit
+Exit
+English
+ccodw_file
+File
+English
+ccodw_help
+Help
+English
+ccodw_title
+CC Offer Data Window

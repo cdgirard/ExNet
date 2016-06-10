@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/ceerw_hlp.txt
+CE Edit Resources Window

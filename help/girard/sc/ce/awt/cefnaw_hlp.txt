@@ -1,0 +1,38 @@
+          Edit CE Network Action Window
+
+This option allows you to change a variety of details about the CE Network Action in the experiment.
+
+File Menu
+---------
+1. Done - When finished making changes use this choice to return back to the Experiment Builder Window.
+
+Edit Menu
+---------
+1. Description - Allows the action details information for this experiment action to be edited.  This allows you to add an explanation for this part of the experiment for you or anyone else who needs to edit the experiment.
+
+2. Initial Window - Allows you to customize the intial window shown to subjects when a CE Network Action starts.  You can set the text of the window, the size of the Font, the Location of the window, and whether the experimenter or the subjects can click past the window.
+    *Update Button - Updates any changes you have made.
+    *OK Button - Click when done, saves any changes.
+    *Cancel Button - Click when done and don't want to save any changes.
+
+3. Info and Timing - Calls up a window that allows you to edit each node's level of information and change when exchanges are allowed to occur.  See the CE Network Settings Window help file for additional information.
+
+Format Menu
+-----------
+The format item allows you to add the specific details of the trading, restrict trades, and opt to pay the participants or not.
+
+1. Periods - Allows the selection for number of rounds per period, time per round, and position of a subject in each network.  See the help file for CE Network Period Window for additional information.
+
+2. Pay - allows experimenter to set payment due to subject (per point earned).
+
+3. Resources - allows experimenter to change which commodities may be traded between the nodes.  For additional information see the help file on the CE Edit Resources Window.
+
+4. Exchanges - Used to set how many exchanges may be made by each node and along each edge.  For additional information see the help file on the CE Set Exchange Limits window.
+
+Help Menu
+
+1. Help - Calls up this help file.
+
+Main Area
+---------
+Displays an image of the network.  Then numbers show to the top right of the node labels are the unique identifiers for the nodes.  Edges are represented as lines.  You can adjust the area shown in the display area by using the scroll bars located on the bottom and right side of the Edit CE Network Action window.

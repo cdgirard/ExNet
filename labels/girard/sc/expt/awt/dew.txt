@@ -1,0 +1,42 @@
+English
+dew_ag
+Access Groups
+English
+dew_ays
+Are You Sure?
+English
+dew_delete
+Delete
+English
+dew_description
+Description
+English
+dew_done
+Done
+English
+dew_dywtoi
+Do you want to delete this file?
+English
+dew_experiments
+Experiments
+English
+dew_ftdtf
+Failed to delete the file.
+English
+dew_ga
+Group Access:
+English
+dew_help
+Help
+English
+dew_no
+No
+English
+dew_sf
+Seleted File:
+English
+dew_title
+Delete Experiments Window
+English
+dew_yes
+Yes

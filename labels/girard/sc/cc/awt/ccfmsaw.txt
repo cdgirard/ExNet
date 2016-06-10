@@ -1,0 +1,21 @@
+English
+ccfmsaw_description
+Description
+English
+ccfmsaw_exit
+Exit
+English
+ccfmsaw_file
+File
+English
+ccfmsaw_help
+Help
+English
+ccfmsaw_open
+Open
+English
+ccfmsaw_save
+Save
+English
+ccfmsaw_title
+Format CC Msg Simulant Actor

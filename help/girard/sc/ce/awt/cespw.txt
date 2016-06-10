@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/cespw_hlp.txt
+Set CE Pay Amounts

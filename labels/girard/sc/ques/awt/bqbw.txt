@@ -1,0 +1,27 @@
+English
+bqbw_delete
+Delete
+English
+bqbw_description
+Description
+English
+bqbw_exit
+Exit
+English
+bqbw_file
+File
+English
+bqbw_help
+Help
+English
+bqbw_new
+New
+English
+bqbw_open
+Open
+English
+bqbw_title
+Base Question Builder
+English
+bqbw_tpt
+Question Types

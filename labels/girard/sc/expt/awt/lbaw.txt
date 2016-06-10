@@ -1,0 +1,27 @@
+English
+lbaw_ag
+Access Groups
+English
+lbaw_cancel
+Cancel
+English
+lbaw_description
+Description
+English
+lbaw_help
+Help
+English
+lbaw_ftpltf
+Failed to properly load the file.
+English
+lbaw_fn
+File Name: 
+English
+lbaw_ok
+OK
+English
+lbaw_sf
+Saved Files
+English
+lbaw_title
+Load Base Action

@@ -1,0 +1,24 @@
+            Set BE Sanctions Window 
+
+Allows you to give positions the ability to send sanctions to one or more of their neighbors at the end of a round.
+
+File Menu
+---------
+1. Done - Saves the changes and exits.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Nodes List - Lists all the nodes in the network.
+
+2. Adj. Nodes List - Lists all the nodes connected to the selected node in the Nodes List.
+
+3. Can Reward/Punish Toggle - Allows you to set whether the node selected from the Nodes List can Reward or Punish the node you have selected in the Adj. Nodes List.
+
+4. Reward Amt. - If the node decides to reward the other node at the end of the round, allows you to set how much the reward is.
+
+5. Punish Amt. - If the node decides to punish the other node at the end of the round, allows you to set how much the punishment is.
+*NOTE: For both rewards and punishments a positive amount means the node will send a positive amount of resources to the other node, while a negative amount means the node will take away that amount of resources from the other node.

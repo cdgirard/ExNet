@@ -1,0 +1,30 @@
+English
+scnnadd_date
+Date:
+English
+scnnadd_description
+Description
+English
+scnnadd_exit
+Exit
+English
+scnnadd_file
+File
+English
+scnnadd_help
+Help
+English
+scnnadd_name
+Name:
+English
+scnnadd_options
+Options
+English
+scnnadd_rb
+Run By:
+English
+scnnadd_title
+SCNet Network Action Data Viewer
+English
+scnnadd_vod
+View Offer Data

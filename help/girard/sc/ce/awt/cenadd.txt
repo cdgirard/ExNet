@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/cenadd_hlp.txt
+CE Network Action Data Viewer

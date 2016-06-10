@@ -1,0 +1,39 @@
+English
+ceeiw_cancel
+Cancel
+English
+ceeiw_cf
+Continue From
+English
+ceeiw_client
+Client
+English
+ceeiw_experimenter
+Experimenter
+English
+ceeiw_fs
+Font Size
+English
+ceeiw_large
+Large
+English
+ceeiw_location
+Location:
+English
+ceeiw_medium
+Medium
+English
+ceeiw_message
+Message
+English
+ceeiw_ok
+  OK  
+English
+ceeiw_small
+Small
+English
+ceeiw_title
+CE Edit Initial Window
+English
+ceeiw_update
+Update

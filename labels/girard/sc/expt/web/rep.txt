@@ -1,0 +1,33 @@
+English
+rep_ag
+Access Groups
+English
+rep_ao
+Allow Observers
+English
+rep_ennu
+      Expt Name      Users
+English
+rep_back
+Back
+English
+rep_description
+Description
+English
+rep_help
+Help
+English
+rep_title
+Start Experiment
+English
+rep_no
+No
+English
+rep_op
+Observer Password:
+English
+rep_setup
+Setup
+English
+rep_yes
+Yes

@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/tut/awt/ftaw_hlp.txt
+Format Tutorial Action

@@ -1,0 +1,12 @@
+English
+ccmdw_exit
+Exit
+English
+ccmdw_file
+File
+English
+ccmdw_help
+Help
+English
+ccmdw_title
+CC Message Data Window

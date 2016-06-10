@@ -1,0 +1,19 @@
+English
+aaw_cancel
+Cancel
+English
+aaw_description
+Description
+English
+aaw_help
+Help
+English
+aaw_ok
+OK
+English
+aaw_pa
+Possible Actions
+English
+aaw_title
+Add Action Window
+ 

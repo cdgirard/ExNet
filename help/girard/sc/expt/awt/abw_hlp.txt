@@ -1,0 +1,29 @@
+             Base Action Constructor
+
+Lists the avaiable types of Action objects that you can build.  These objects are used later when you construct the an Experiment.
+
+File Menu
+---------
+1. Create - Highlight one of the listed options.  Then, click on the file heading, and click create to build an Action object of that type.  
+
+2. Exit - Will exit out of the Base Action Constructor Window and return control to the Construction page.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Base Action List - Lists all available types of Action objects that you can create.
+
+2. Details - Displays a description of the selected Action in the Base Action List.
+
+Available Actions
+-----------------
+1. BaseQuestion - Allows you to build questions of various types (only one type available at the moment) that are then used with the Questionaire application within an Experiment.
+
+2. Network - Allows you to build a background network.  The Network Builder Applet will appear when you choose to construct objects of this type.  Theses objects are used with the BE Network Action and CC Network Action applications within an Experiment.
+
+3. Tutorial Page - Allows you to build tutorial pages of various types (only one type available at the moment) that are then used with the Tutorial application within an Experiment.
+
+*Note:  To remove any window from the screen, click on file and select exit.  This is the only way to go "back".  The x-out button will not work, and no window can be closed if a following window is still open.  For example: if the Tutorial Page Types window is on the screen, you will not be able to close the Base Action Constructor.  Windows can only be exited in the reverse order that they were brought up.

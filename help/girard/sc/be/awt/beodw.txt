@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/beodw_hlp.txt
+BE Offer Data

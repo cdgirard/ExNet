@@ -1,0 +1,24 @@
+English
+nbw_delete
+Delete
+English
+nbw_exit
+Exit
+English
+nbw_file
+File
+English
+nbw_help
+Help
+English
+nbw_new
+New
+English
+nbw_open
+Open
+English
+nbw_save
+Save
+English
+nbw_title
+Network Builder

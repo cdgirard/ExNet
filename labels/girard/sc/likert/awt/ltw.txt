@@ -1,0 +1,15 @@
+English
+ltw_ag
+Answer    Goto
+English
+ltw_done
+Done
+English
+ltw_help
+Help
+English
+ltw_questionnaire
+Questionnaire
+English
+ltw_title
+Set Transitions

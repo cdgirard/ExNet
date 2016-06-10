@@ -1,0 +1,21 @@
+English
+scnrw_ftr
+FOR THIS ROUND
+English
+scnrw_lr
+Last Round 
+English
+scnrw_ready
+READY
+English
+scnrw_title
+Start Next Round
+English
+scnrw_wrtcptb
+To Continue Press the READY Button.
+English
+scnrw_ya
+You Are: 
+English
+scnrw_ye
+You Earned: 

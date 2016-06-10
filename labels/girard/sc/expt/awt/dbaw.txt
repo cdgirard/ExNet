@@ -1,0 +1,36 @@
+English
+dbaw_ag
+Access Groups
+English
+dbaw_delete
+Delete
+English
+dbaw_description
+Description
+English
+dbaw_done
+Done
+English
+dbaw_dywtdtf
+Do You Want To Delete This File?
+English
+dbaw_files
+Files
+English
+dbaw_ftdtf
+Failed to delete the file.
+English
+dbaw_help
+Help
+English
+dbaw_no
+No
+English
+dbaw_sf
+Selected File:
+English
+dbaw_title
+Delete Base Action
+English
+dbaw_yes
+Yes

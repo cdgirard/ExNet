@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/cefnaw_hlp.txt
+Edit CE Network Action

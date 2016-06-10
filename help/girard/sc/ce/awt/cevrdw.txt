@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/cevrdw_hlp.txt
+CE View Resource Data Window

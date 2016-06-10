@@ -1,0 +1,15 @@
+English
+tedw_cancel
+Cancel
+English
+tedw_description
+Description
+English
+tedw_dn
+Detail Name: 
+English
+tedw_ok
+  OK  
+English
+tedw_title
+Edit Description

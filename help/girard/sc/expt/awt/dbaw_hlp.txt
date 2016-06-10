@@ -1,0 +1,23 @@
+             Delete Base Action Window
+
+Used to delete saved Action objects of a specific type. To delete an object, select the access group and file you want to delete then click "Delete".  The file will be deleted when you confirm that you want to remove it. 
+*NOTE: This operation cannot be undone.
+
+Main Area
+---------
+1. Files List - List of files under the selected access group.  Only lists Action objects of the same type as the ones you wish to delete.
+
+2. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, a list of Actions of a specific type saved under that group will be displayed in the Saved Files List.  The "<NONE>" group refers to files that only you can access.
+
+3. The Descriptions - The Description under the File List gives a description of the selected saved file.  The Description under the Access Group List gives a description of the selected Access Group.
+*Note: The "<NONE>" access group does not have a description, other Access Groups may not as well.
+
+4. Selected File Field - Where the name of the file you have selected to delete is displayed. 
+
+Buttons
+-------
+1. Delete - If you have selected a file to delete then a window pops up confirming that you want to delete the selected file.  If you confirm then that file is deleted.
+
+2. Done - Exits out when don't want to delete any more files.
+
+3. Help - Calls up this help file.

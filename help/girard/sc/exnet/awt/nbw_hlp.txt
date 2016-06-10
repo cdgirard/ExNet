@@ -1,0 +1,32 @@
+                 Network Builder Window
+
+File Menu
+---------
+1. New - Clears the work area so you can start from scratch.
+
+2. Open - Used to load saved networks (see - Load Base Action Window).
+  
+3. Save - Used to save networks that have been constructed (see - Save Base Action Window).
+
+4. Delete - Removes saved network files that are no longer needed (see - Delete Base Action Window). 
+*NOTE: Deleted networks can not be un-deleted.
+
+5. Exit - Exits out of the Network Builder Window and returns control to the Base Action Constructor Window.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Tools
+-----
+1. Add Node - To add a node, click on the button labeled Add Node and then click on a dot on the grid where you wish to place the node.  The Add Node Window will appear.  Select the letter with which you wish to label the node.  NOTE: the default letter is "A".  Each node will be labeled with an individual subscript number.
+
+2. Add Edge - To add an edge linking any two nodes, click on the button labeled Add Edge.  Then, click on one and then the other of the two nodes you intend to connect.  The edge will appear linking the two.
+
+3. Delete Node - To delete a node already placed on the grid, click on the button labeled Delete Node, and then click on the node on the grid that you wish to remove.  The node will be erased.  NOTE:  deleting a node will also delete any edges to which it is connected.
+
+4. Delete Edge - To delete an edge connecting two nodes, click on the button labeled Delete Edge and then click on the small circle at the midpoint of the edge that you wish to remove.  The edge will be erased.
+
+Main Area
+---------
+Area where you can construct a network of nodes and edges.  Each small "dot" represents an anchor point for where a node can be placed.  Nodes are placed on the anchor point closest to where you click to add them.

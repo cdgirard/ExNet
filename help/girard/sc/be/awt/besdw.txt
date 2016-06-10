@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/besdw_hlp.txt
+BE Sanction Data Window

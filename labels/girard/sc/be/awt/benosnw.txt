@@ -1,0 +1,33 @@
+English
+benosnw_ec
+Exclusion Color:
+English
+benosnw_ic
+Inclusion Color:
+English
+benosnw_iac
+Inactive Color:
+English
+benosnw_iec
+Inclusion-Exclusion Color:
+English
+benosnw_max
+Max:
+English
+benosnw_min
+Min:
+English
+benosnw_node
+Node:
+English
+benosnw_nodes
+Nodes:
+English
+benosnw_nc
+Null Color:
+English
+benosnw_subnetwork
+Subnetwork:
+English
+benosnw_title
+Subnetwork Information

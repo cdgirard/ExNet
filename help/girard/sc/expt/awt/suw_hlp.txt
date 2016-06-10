@@ -1,0 +1,35 @@
+                   Set User Window
+
+Allows expermenter to set the passwords for the user positions or to set a user position to be controlled by a simulant actor.
+
+File Menu
+---------
+1. Register - Allows the experimenter to register the Experiment with the main server once all positions have been properly set.  Until an Experiment is registered with the main server it is not possible to connect human subjects to the Experiment or run the Experiment.  When an Experiment is registered you will call up the Experimenter Station Window. 
+
+2. Cancel -  Returns you back to the Start Experiment page.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Experiment - Shows which Experiment you selected from the Start Experiment Page to run.
+
+2. User List - Lists how many user positions there are, whether that position is to be occupied by a Human or a Computer (Simulant) and what the password is to connect to that position.
+
+3. User/Password - If a human actor is selected, then that position will have to submit a password (on his or her console) in order to enter the experiment.  The required password can be changed by highlighting the desired position, typing the new password beside "Password:", and then clicking the "Update Password" button.
+
+4. Human/Computer option - the positions in the "User List" must each be set to either a Human or Simulant actor.  Any changes made here are updated automatically to the User List.
+
+5. The Simulant Lists - For every action, a simulant actor describing the desired behavior must be submitted.  After highlighting a computer controlled position (one of the users in the User List), click on one of the actions in the lower right list (the Action/Simulant List).  A list of the available simulant actors (that have been created under the Construct Simulant application) will appear in the lower left list (the Available Simulants List).  Select a simulant that you have created and it will be assigned to that action for that user position.
+
+Buttons
+-------
+1. Update Password - Updates the selected user's password to the one in the password field.
+
+2. Info - Provides information on the selected Simulant actor in the Available Simulants List.
+
+3. Change Group - The Simulant actors listed in the Available Simulants List are determined by which access group you want to choose them from.  The window initially lists the Simulant Actors that are accessible through the "<NONE>" group.  This allows you to change which access group you choose your Simulants from.
+
+*Note:  Before beginning, all computer actors must have simulant actors assigned for each action in an experiment.

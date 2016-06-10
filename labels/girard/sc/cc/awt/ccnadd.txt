@@ -1,0 +1,39 @@
+English
+ccnadd_date
+Date:
+English
+ccnadd_description
+Description
+English
+ccnadd_exit
+Exit
+English
+ccnadd_file
+File
+English
+ccnadd_help
+Help
+English
+ccnadd_name
+Name:
+English
+ccnadd_options
+Options
+English
+ccnadd_rb
+Run By:
+English
+ccnadd_title
+CC Network Action Data Viewer
+English
+ccnadd_vmd
+View Message Data
+English
+ccnadd_vod
+View Offer Data
+English
+ccnadd_vsd
+View Sanction Data
+English
+ccnadd_vtd
+View Token Data

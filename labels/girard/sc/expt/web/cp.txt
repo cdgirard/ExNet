@@ -1,0 +1,36 @@
+English
+ecp_action
+Action
+English
+ecp_athf
+Access the Help Files
+English
+ecp_back
+Back
+English
+ecp_ca
+Construct Actions
+English
+ecp_csa
+Construct Simulant Actors
+English
+ecp_ct
+Construct Tutorials
+English
+ecp_ce
+Construct Experiments
+English
+ecp_experiment
+Experiment
+English
+ecp_help
+Help
+English
+ecp_rbttmm
+Return Back to the Main Menu
+English
+ecp_simulant
+Simulant
+English
+ecp_title
+Construction Menu

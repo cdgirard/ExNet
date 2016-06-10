@@ -1,0 +1,42 @@
+            CE Edit Resources Window
+
+
+Allows experimenter to change which commodities may be traded, how many commodities each node starts off with initially during a round and how much each commodity is worth to each node.  
+
+
+Menu Bar
+---------
+1. File
+   Done - When finished editting the commodities use this to return back to the Edit CE Network Action window.
+
+2. Help
+   Help - Calls up this help file.
+
+Top Area
+---------
+1. Display All Profits - If 'Yes' then subjects will be able to see not only how much they will make from an exchange, but how much the other subjects will make in an exchange.  If 'No' then subjects will only see how much they make from an exchange.  This does not affect a subject's ability to see what commodities are being traded in the network.  To change that see CE Set Info and Timing window.
+
+2. Nodes List - Lists the nodes in the network.  Highlight a node to see how many of each commodity they start with each round and how much they value each commodity.  This information is displayed in the 'Res Amt Util' List. 
+
+3. Res Amt Util List - Lists the commodities that may be traded within the network.  Information about each commodity is broken down in the list by: 'Res', the abbr. for the name of the commodity, 'Amt', how many of the commodity a node has, and 'Util', how much the commodity is worth to the selected node. New commodities may be created and existing commodities may be editted or deleted by using the buttons under the list.
+
+Bottom Area
+------------
+1. Name - Lists the name of the presently selected commodity from the 'Res Amt Util' List.
+
+2. Label - Lists the label of the presently selected commodity from the 'Res Amt Util' List.
+
+3. Amount Field - Allows you to adjust the amount of the selected commodity the selected node starts with each round.  Any changes made must be registered by pressing the 'Update' button at the bottom of the window.
+
+4. Amount Field - Allows you to adjust the worth of the selected commodity to the selected node.  Any changes made must be registered by pressing the 'Update' button at the bottom of the window.
+
+Buttons
+-------
+1. Create - Allows you to create a new commodity.  There is a limit of 4 commodities.  Using the window that appears you must give a name to your commodity, an abbr. of the name (only 1 character is allowed), a default amount for each node (can be 0 or a positive integer), and a default utility for each node (can be a negative or positive integer).
+
+2. Edit - Allows you to edit the name and label for the selected commodity.  Using the window that appears you can change the name and/or label of the commodity.
+
+3. Delete - Allows you to delete the selected commodity.  You are asked to confirm your deletion request before it is completed.
+
+4. Update - Allows you to update the settings for a commodity owned by a specific node.
+

@@ -1,0 +1,15 @@
+                CC Token Data Window 
+
+
+
+File Menu
+---------
+Exit - Returns to CC Network Action Data Viewer.
+
+Help Menu
+---------
+Help - Brings up this help window.
+
+Main Area
+---------
+Displays information regarding tokens sent, which increase the receiver’s chance of getting a reward or fine at the end of the experiment.  It includes who sent the token, who received it, whether it was reward or fine, and the "amount" of the token.  Which refers to the potential amount to be paid at the end.  At end of the list, "toss" denotes the actual outcome, and thus whether or not the fine/reward was levied.

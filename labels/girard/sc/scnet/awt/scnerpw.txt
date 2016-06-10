@@ -1,0 +1,33 @@
+English
+scnerpw_dri
+Display Resource Info
+English
+scnerpw_edge
+Edge:
+English
+scnerpw_er
+      Edge     Resources
+English
+scnerpw_exit
+Exit
+English
+scnerpw_file
+File
+English
+scnerpw_help
+Help
+English
+scnerpw_no
+No
+English
+scnerpw_resources
+Resources:
+English
+scnerpw_sr
+Set Resource
+English
+scnerpw_title
+Edit SCNet Edge Resources
+English
+scnerpw_yes
+Yes

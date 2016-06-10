@@ -1,0 +1,39 @@
+English
+beeiw_cancel
+Cancel
+English
+beeiw_cf
+Continue From
+English
+beeiw_client
+Client
+English
+beeiw_experimenter
+Experimenter
+English
+beeiw_fs
+Font Size
+English
+beeiw_large
+Large
+English
+beeiw_location
+Location:
+English
+beeiw_medium
+Medium
+English
+beeiw_message
+Message
+English
+beeiw_ok
+  OK  
+English
+beeiw_small
+Small
+English
+beeiw_title
+Edit Initial Window Settings
+English
+beeiw_update
+Update

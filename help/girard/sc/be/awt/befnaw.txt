@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/befnaw_hlp.txt
+Edit BE Network Action

@@ -1,0 +1,30 @@
+English
+beapw_co
+Change Order
+English
+beapw_delete
+Delete
+English
+beapw_done
+Done
+English
+beapw_file
+File
+English
+beapw_help
+Help
+English
+beapw_new
+New
+English
+beapw_rounds
+Rounds
+English
+beapw_title
+BE Network Period Window
+English
+beapw_time
+Time
+English
+beapw_unnnn
+   User    Node ID  Node Label

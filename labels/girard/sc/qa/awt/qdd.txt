@@ -1,0 +1,42 @@
+English
+qdd_answers
+Answers
+English
+qdd_date
+Date: 
+English
+qdd_description
+Description
+English
+qdd_eaqttat
+   ID    AI   QI       Type       TI         Ans          Time
+English
+qdd_exit
+Exit
+English
+qdd_file
+File
+English
+qdd_help
+Help
+English
+qdd_name
+Name: 
+English
+qdd_rb
+Run By: 
+English
+qdd_title
+Questionaire Data Display
+English
+qdd_user
+User
+English
+qdd_user:
+User: 
+English
+qdd_view
+View
+English
+qdd_vq
+View Question

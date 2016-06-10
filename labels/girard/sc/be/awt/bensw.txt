@@ -1,0 +1,39 @@
+English
+bensw_fine
+Fine
+English
+bensw_no
+No
+English
+bensw_points
+points.
+English
+bensw_reward
+Reward
+English
+bensw_send
+SEND
+English
+bensw_title
+Send Sanctions/Rewards Window
+English
+bensw_to
+to
+English
+bensw_worth
+worth
+English
+bensw_wrtsmptsb
+When ready to send messages press the SEND button.
+English
+bensw_wyltsaf
+Would you like to send a fine
+English
+bensw_wyltsar
+Would you like to send a reward
+English
+bensw_wyltsarf
+Would you like to send a reward/fine
+English
+bensw_yes
+Yes

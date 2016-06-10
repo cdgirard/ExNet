@@ -1,0 +1,60 @@
+English
+ceerw_amount
+Amount
+English
+ceerw_cau
+ Res   Amt   Util
+English
+ceerw_create
+Create
+English
+ceerw_dap
+Display All Profits
+English
+ceerw_delete
+Delete
+English
+ceerw_edit
+Edit
+English
+ceerw_error1
+No more than 4 Commodities Allowed.
+English
+ceerw_error2
+You must select a commodity before editting.
+English
+ceerw_error3
+You must select a commodity before deleting.
+English
+ceerw_exit
+Done
+English
+ceerw_file
+File
+English
+ceerw_help
+Help
+English
+ceerw_label
+Label:
+English
+ceerw_name
+Name:
+English
+ceerw_no
+No
+English
+ceerw_nodes
+Nodes
+English
+ceerw_title
+CE Edit Resources Window
+English
+ceerw_update
+Update
+English
+ceerw_utility
+Utility:
+English
+ceerw_yes
+Yes

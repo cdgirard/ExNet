@@ -1,0 +1,15 @@
+English
+cehw_nh
+Needs Help.
+English
+cehw_pbtc
+Press Butuon to Remove this Window.
+English
+cehw_rw
+Remove Window
+English
+cehw_title
+User Needs Help
+English
+cehw_user
+User 

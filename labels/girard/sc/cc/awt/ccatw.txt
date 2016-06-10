@@ -1,0 +1,57 @@
+English
+ccatw_afo
+ AVIODS FINE of
+English
+ccatw_apftwsf
+A Potential Fine Token Was Sent From
+English
+ccatw_aprtwsf
+A Potential Reward Token Was Sent From
+English
+ccatw_atwsf
+A Token Was Sent From
+English
+ccatw_ccorf
+Current Chance of Receiving Fine:
+English
+ccatw_ccorr
+Current Chance of Receiving Reward:
+English
+ccatw_ftrro
+FAILS to receive REWARD of
+English
+ccatw_from
+From:
+English
+ccatw_gro
+ gets REWARD of
+English
+ccatw_gfo
+gets FINE of
+English
+ccatw_ntwsf
+No Token Was Sent From
+English
+ccatw_pf
+Potential Fine:
+English
+ccatw_points
+points.
+English
+ccatw_pr
+Potential Reward:
+English
+ccatw_ready
+READY
+English
+ccatw_title
+Tokens Sent Window
+English
+ccatw_to
+To
+English
+ccatw_tokens
+Tokens
+English
+ccatw_wrtcptb
+When Ready to Continue Press the Button.

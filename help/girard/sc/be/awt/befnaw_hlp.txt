@@ -1,0 +1,45 @@
+             Edit BE Network Action
+
+This option allows you to change a variety of details about the network in the experiment.
+
+File Menu
+---------
+1. Done - Returns you back to the Experiment Constructor Window.
+
+Edit Menu
+---------
+1. Description - Allows the Action Details for this Experiment Action to be edited.  This allows you to add an explanation for the BE Network Action for you or anyone else who needs to edit the Experiment or when viewing data for this BE Network action.
+
+2. Initial Window - Allows you to customize the intial window shown to subjects when a BE Network Action starts.  You can set the text of the window, the size of the Font, the Location of the window, and whether the experimenter or the subjects can click past the window.
+    *Update Button - Updates any changes you have made.
+    *OK Button - Click when done, saves any changes.
+    *Cancel Button - Click when done and don't want to save any changes.
+
+3. Settings - Calls up a window that allows you to edit each node's level of information and change when exchanges are allowed to occur.  See the BE Network Settings Window help file for additional information.
+
+Format Menu
+-----------
+The Format item allows you to add the specific details of the trading, restrict trades, and opt to pay the participants or not.
+
+1. Periods - Allows the selection for number of rounds per period, time per round, and position of a subject in the network. See the help file for BE Network Period Window for additional information.
+
+2. Pay - Allows experimenter to set payment due to subject (per point earned).  See the help file for the Set BE Pay Amount Window for additional information.
+
+3. Resources - Allows experimenter to adjust resource pool between each set of connected positions.  See the Edit BE Edge Resources window help file for additional information.
+
+(One of the following options will be available depending on which structural exchange rule you choose when you created the BE Network action.)
+4a. Exchanges - Allows you to set the minimum and maximum number of exchanges a node can make.  See the BE Set Number of Exchanges Window help file for additional information.
+
+4b. Subnetworks - Similar to Exchanges, but enables the creation of sub-groups within the network.
+
+4c. Subnetworks(Ord) - As with Subnetworks, but enables an ordering to be placed on the sub-groups.
+
+5. Sanctions - Allows you to assign the ability for nodes to send sanctions after a round of negoiating.  See the help file for the Set BE Sanctions window for additional details.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+Displays an image of the network.  Then numbers show to the top right of the node labels are the unique identifiers for the nodes.  Edges are represented as lines.  You can adjust the area shown in the display area by using the scroll bars located on the bottom and right side of the Edit BE Network Action window.

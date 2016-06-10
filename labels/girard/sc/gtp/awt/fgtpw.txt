@@ -1,0 +1,60 @@
+English
+fgtpw_aedi
+Attached Image:
+English
+fgtpw_ai
+Attach Image
+English
+fgtpw_cols
+Cols:
+English
+fgtpw_file
+File
+English
+fgtpw_font
+Font
+English
+fgtpw_exit
+Exit
+English
+fgtpw_help
+Help
+English
+fgtpw_iw
+Image Window
+English
+fgtpw_iwl
+Image Window Location
+English
+fgtpw_iw
+Information Window
+English
+fgtpw_location
+Location:
+English
+fgtpw_rows
+Rows:
+English
+fgtpw_save
+Save
+English
+fgtpw_size
+Size:
+English
+fgtpw_title
+Format Generic Tutorial Page
+English
+fgtpw_tlil
+  Type List             Image List
+English
+fgtpw_update
+Update
+English
+fgtpw_vi
+View Image
+English
+fgtpw_xl
+X Loc:
+English
+fgtpw_yl
+Y Loc:

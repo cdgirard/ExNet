@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/aaw_hlp.txt
+Add Action Window

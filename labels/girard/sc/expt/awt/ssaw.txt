@@ -1,0 +1,39 @@
+English
+ssaw_ag
+Access Groups
+English
+ssaw_cancel
+Cancel
+English
+ssaw_dywtoi
+Do You Want to Overwrite It?
+English
+ssaw_fae
+File Already Exists!
+English
+ssaw_filename
+Filename: 
+English
+ssaw_ftpstf
+Failed to properly save the file.
+English
+ssaw_help
+Help
+English
+ssaw_ga
+Group Access: 
+English
+ssaw_no
+No
+English
+ssaw_saf
+Simulant Actor Files
+English
+ssaw_save
+Save
+English
+ssaw_yes
+Yes
+English
+ssaw_title
+Save Simulant Actor

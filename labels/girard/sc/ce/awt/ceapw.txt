@@ -1,0 +1,30 @@
+English
+ceapw_co
+Change Order
+English
+ceapw_delete
+Delete
+English
+ceapw_done
+Done
+English
+ceapw_file
+File
+English
+ceapw_help
+Help
+English
+ceapw_new
+New
+English
+ceapw_rounds
+Rounds
+English
+ceapw_title
+CE Add Period Window
+English
+ceapw_time
+Time
+English
+ceapw_unnnn
+   User    Node ID  Node Label

@@ -1,0 +1,27 @@
+            Base Question Builder Window
+
+Allows you to build various types of questions.  At the moment there is only one question type available.
+
+File Menu
+---------
+1. New - Allows you to build a completely new question of a specific type by selecting one of the possible question types from the Question Types List and choosing this option.
+
+2. Open - Allows you to load a previously built question of a specific type by selecting one of the possible question types from the Question Types List and choosing this option.  Calls up the "Load Base Action Window", see its help file for additional information. 
+
+3. Delete - Allows you to delete a previously built question of a specific type by selecting one of the possible question types from the Question Types List and choosing this option.  Calls up the "Delete Base Action Window", see its help file for additional information.
+
+4. Exit - Allows you to ext out of this window and return control back to the Base Action Constructor Window.
+
+Help Menu
+---------
+1. Help - Calls up this help page.
+
+Main Area
+---------
+Question Types List - List all the available types of Questions that you can edit, build, or delete.
+
+Description - Shows a description of the selected Question type.
+
+Available Questions
+-------------------
+1. Likert - The Liket Question consists of an area of text where the question is displayed and a scale that can vary from 1-2, to 1-9.  The scale is anchored by two descriptors on the ends and one in the center.  The interface for building the Likert Question is the "Format Likert Question" window, see its help file for additional information.

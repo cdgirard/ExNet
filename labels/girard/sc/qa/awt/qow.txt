@@ -1,0 +1,12 @@
+English
+qow_file
+File
+English
+qow_exit
+Exit
+English
+qow_title
+Observer Window
+English
+qow_urqt
+User  Reg  Ques  Total

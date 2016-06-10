@@ -1,0 +1,12 @@
+English
+eeadw_cancel
+Cancel
+English
+eeadw_description
+Description
+English
+eeadw_ok
+  OK  
+English
+eeadw_title
+Edit Description

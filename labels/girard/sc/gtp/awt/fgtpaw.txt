@@ -1,0 +1,39 @@
+English
+fgtpaw_aedi
+Attached Image:
+English
+fgtpaw_ai
+Attach Image
+English
+fgtpaw_dwl
+Desc Window Location
+English
+fgtpaw_file
+File
+English
+fgtpaw_exit
+Exit
+English
+fgtpaw_help
+Help
+English
+fgtpaw_images
+Images
+English
+fgtpaw_iwl
+Image Window Location
+English
+fgtpaw_information
+Information
+English
+fgtpaw_title
+Format Generic Tutorial Page
+English
+fgtpaw_vi
+View Image
+English
+fgtpaw_xl
+X Loc:
+English
+fgtpaw_yl
+Y Loc:

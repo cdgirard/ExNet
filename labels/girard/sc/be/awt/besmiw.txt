@@ -1,0 +1,60 @@
+English
+besmiw_ns
+Non-Simultaneous
+English
+besmiw_done
+Done
+English
+besmiw_em
+Exchange Method
+English
+besmiw_file
+File
+English
+besmiw_help
+Help
+English
+besmiw_il
+Information Level
+English
+besmiw_l1
+Level 1: Local Structure and Network Information.
+English
+besmiw_l2
+Level 2: Intermediate Structure and Local Network Information.
+English
+besmiw_l3
+Level 3: Intermediate Structure and Local Network Information.
+English
+besmiw_l4
+Level 4: Intermediate Structure and Network Information.
+English
+besmiw_l5
+Level 5: Intermediate Structure and Network Information.
+English
+besmiw_l6
+Level 6: Full Structure and Local Network Information.
+English
+besmiw_l7
+Level 7: Full Structure and Intermediate Network Information.
+English
+besmiw_l8
+Level 8: Full Structure and Intermediate Network Information.
+English
+besmiw_l9
+Level 9: Full Structure and Network Information
+English
+besmiw_l10
+Level 10: Full Structure and Network Information.
+English
+besmiw_nil
+Node   ID  Level
+English
+besmiw_ns
+Non-Simultaneous
+English
+besmiw_simultaneous
+Simultaneous
+English
+besmiw_title
+BE Network Settings Window

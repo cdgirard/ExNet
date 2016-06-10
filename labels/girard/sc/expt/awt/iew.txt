@@ -1,0 +1,39 @@
+English
+iew_action
+Action: 
+English
+iew_actions
+Actions
+English
+iew_ag
+Access Groups
+English
+iew_cancel
+Cancel
+English
+iew_description
+Description
+English
+iew_experiments
+Experiments
+English
+iew_fixed
+Fixed:
+English
+iew_ftpltf
+Failed to properly load the file.
+English
+iew_help
+Help
+English
+iew_import
+Import
+English
+iew_nu
+# Users:
+English
+iew_title
+Import Experiment Action Window
+English
+iew_utia
+Unable to import action.

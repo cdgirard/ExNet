@@ -1,0 +1,27 @@
+             Delete Experiments Window
+
+To delete a file, select the file from the "Experiments" list, and then click "Delete". The file will be deleted when you confirm that you want to remove it. 
+*NOTE: This operation can not be undone.  
+
+Help Menu
+---------
+Help - Calls up this help file.
+
+Main Area
+---------
+1. Experiments List - List of files under the selected access group that are already saved.
+
+2. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, the list of Experiments saved under that group will be displayed in the Experiments List.  The "<NONE>" group refers to files that only you can access.
+
+3. The Descriptions - The Description under the Experiments List gives a description of the selected saved file.  The Description under the Access Group List gives a description of the selected Access Group.
+*Note: The "<NONE>" access group does not have a description, other Access Groups may not as well.
+
+4. Filename Field - Where the name of the file you have selected to delete is displayed.
+
+5. Group Access Field - Displays the name of the selected access group.
+
+Buttons
+-------
+Delete - Deletes the selected file.
+
+Done - Exits out without deleting anymore files.

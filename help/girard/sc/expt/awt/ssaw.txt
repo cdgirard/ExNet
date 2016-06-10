@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/ssaw_hlp.txt
+Save Simulant Actor Window

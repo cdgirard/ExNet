@@ -1,0 +1,42 @@
+        Format Generic Tutorial Page Window
+
+This interface is used to construct and save Generic Tutorial Pages that can then be added to a Tutorial application.  The interface consists of two parts: The "Format Generic Tutorial Page" window and the "Information Window".
+*Note: The title of the "Format Generic Tutorial Page" also contains the name of the file you are working on as well.  The filename "NONE" is used when you are working on a new file.
+
+File Menu
+---------
+1. Save - Allows you to save you Generic Tutorial Page in its present form.  Calls up the "Save Base Action Window", see its help file for additional information. 
+
+2. Exit - Exits out of this window and returns control to the Tutorial Page Builder window.
+*NOTE: Any changes will not be saved. 
+
+Help Menu
+---------
+1. Help - Calls up this help page.
+
+Main Area
+---------
+1. Location(Top) - The location to display the Information Window.  The X and Y location is the location for the top left corner of the window.
+
+2. Font - What font size to display the instructions in.  You can choose from "Small", "Medium", and "Large".
+
+3. Size - How big to make the actual display area for the Generic Tutorial Page.  This is defined in terms of rows (Rows:) and columns (Cols:) for the area in which the instructions are to be displayed.
+
+4. Update Button - Updates the Information Window to all the change you've made in the display settings so you can have a good idea as to how it will look to the subjects.
+
+5. Type List - Images are grouped together for better organization. By selecting one of the groups in this list you will cause the "Image List" to display a list of available images attached to that group.
+
+6. Image List - Displays a list of images that you can attach to your Generic Tutorial Page.  The list displayed is determined by the group you have selected in the Type List.
+
+7. View Image Button - Displays the selected image in a window as it would be displayed to a subject.  The location of the window is determined by the Bottom Location settings.
+
+8. Attach Image Button - Attaches the selected image to the Generic Tutorial Page.
+
+9. Attached Image Field - Shows the image you have choose to attach to the Generic Tutorial Page.  Is in the format: <Group Name> - <Image Name>.  If the Name is "-NONE-" then no image will be attached to the Generic Tutorial Page. 
+
+10. Location(Bottom)  - The location to display the Image Window.  The X and Y location is the location for the top left corner of the window.
+
+
+Information Window
+-----------------
+This is where you type in the actual text for what instructions you want to give the subjects.  Additionally when you use the "Update" button it will be updated based on all the display settings from the Main Area.

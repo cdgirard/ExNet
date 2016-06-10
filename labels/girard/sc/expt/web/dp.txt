@@ -1,0 +1,31 @@
+English
+dp_ag
+Access Groups
+English
+dp_back
+Back
+English
+dp_date
+Date:
+English
+dp_ed
+           Experiment            Date
+English
+dp_fdat
+            File               Date        
+English
+dp_help
+Help
+English
+dp_name
+Name:
+English
+dp_retrieve
+Retrieve
+English
+dp_title
+View Data
+English
+dp_vd
+View Desc
+

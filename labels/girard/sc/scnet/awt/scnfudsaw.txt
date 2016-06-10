@@ -1,0 +1,21 @@
+English
+scnfudsaw_description
+Description
+English
+scnfudsaw_exit
+Exit
+English
+scnfudsaw_file
+File
+English
+scnfudsaw_help
+Help
+English
+scnfudsaw_open
+Open
+English
+scnfudsaw_save
+Save
+English
+scnfudsaw_title
+Format SCNet UD Simulant Actor

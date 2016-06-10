@@ -1,0 +1,12 @@
+English
+cevrdw_exit
+Exit
+English
+cevrdw_file
+File
+English
+cevrdw_help
+Help
+English
+cevrdw_title
+CE View Resource Data

@@ -1,0 +1,39 @@
+English
+bejep_back
+Back
+English
+bejep_computer
+Computer
+English
+bejep_ens
+      Expt Name      Supervisor
+English
+bejep_false
+False
+English
+bejep_human
+Human
+English
+bejep_jawu
+Join attempt was unsuccessful.
+English
+bejep_join
+Join
+English
+bejep_observer
+Observer
+English
+bejep_password
+Password:
+English
+bejep_title
+Join Experiment
+English
+bejep_true
+True
+English
+bejep_ur
+   User      Registered
+English
+bejep_user
+User:

@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/ecw_hlp.txt
+The Experiment Constructor Window

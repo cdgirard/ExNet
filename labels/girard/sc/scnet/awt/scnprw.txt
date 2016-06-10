@@ -1,0 +1,12 @@
+English
+scnprw_einp
+Experiment is Now Paused
+English
+scnprw_pptre
+Press Button to Resume Experiment.
+English
+scnprw_resume
+RESUME
+English
+scnprw_title
+Resume Window

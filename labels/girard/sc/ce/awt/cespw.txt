@@ -1,0 +1,24 @@
+English
+cespw_done
+Done
+English
+cespw_file
+File
+English
+cespw_help
+Help
+English
+cespw_pay
+Pay:
+English
+cespw_set
+Set
+English
+cespw_sa
+Set All
+English
+cespw_title
+Set CE Pay Amounts
+English
+cespw_upr
+User   Pay Rate

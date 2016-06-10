@@ -1,0 +1,12 @@
+English
+ceedw_cancel
+Cancel
+English
+ceedw_description
+Description
+English
+ceedw_ok
+  OK  
+English
+ceedw_title
+CE Edit Description

@@ -1,0 +1,48 @@
+English
+feew_activate
+Activate
+English
+feew_cancel
+Cancel
+English
+feew_cf
+Continue From
+English
+feew_client
+Client
+English
+feew_experimenter
+Experimenter
+English
+feew_fs
+Font Size
+English
+feew_large
+Large
+English
+feew_location
+Location:
+English
+feew_medium
+Medium
+English
+feew_message
+Message
+English
+feew_no
+No
+English
+feew_ok
+  OK  
+English
+feew_small
+Small
+English
+feew_title
+Edit End Experiment Window Settings
+English
+feew_update
+Update
+English
+feew_yes
+Yes

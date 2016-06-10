@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/ccepw_hlp.txt
+Edit CC Period Window

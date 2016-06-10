@@ -1,0 +1,49 @@
+          Experiment Constructor Window
+
+Allows you to construct an Experiment and save it to a file.  An Experiment consists of a list of Experiment Actions executed in sequential order.  Examples of Experiment Actions are a Tutorial or a Questionaire.
+
+
+File Menu
+---------
+1. New - Clears out the present Experiment being worked on and allows you to start from scratch.
+
+2. Open - Calls up a window so that you can load a previously saved Experiment (see help file for Load Experiment Window).
+
+3. Save - Calls up a window so that you can save the Experiment you are working on (see help file for Save Experiment Window).
+
+4. Delete - Calls up a window so that you can delete Experiments you no longer want (see help file for Delete Experiment Window). 
+*NOTE: This operation can not be undone.
+
+5. Exit - Closes the Experiment Constructor window and returns control to the Construction Menu.
+
+Edit Menu
+---------
+1. Add Action - Calls up the Add Action Window allowing you to add an Experiment Action to the experiment.  See the help file for Add Action Window for additional information.
+
+2. Import Action - Allows you to import an Experiment Action from a previously built Experiment.  The Experiment Action imported will normally need to be for the same number of users as the Experiment being built.  See help file for Import Action Window for additional information.
+
+3. Delete Action - Used to delete an Experiment Action from the Experiment Actions List.  Select the Experiment Action you wish to delete, then select this menu option.
+*NOTE: It is not possible to undo a Delete Action.
+
+Format Menu
+-----------
+1. Format Action - This option allows you to change a variety of details about an Experiment Action in the experiment.  Simply select the Experiment Action you want to edit then choose this menu option.  Each Experiment Action has its own editor, see below for a list.
+
+2. Experiment End - Calls up a window that allows you to add a window to be displayed at the end of your Experiment.
+
+Help Menu
+---------
+1. Help - Calls up the Help System, displaying this help file.
+
+Main Area
+---------
+1. Experiment Actions - List the Experiment Actions in the order in which they will occur during the experiment.  You can add an Experiment Action to the list by using the menu option "Add Action".
+
+2. Change Order - Used to switch the order of any two Experiment Actions in the Experiment Actions List.  Select one Experiment Action, check the box marked "Change order", and then click the other Experiment Action that you wish to switch it with.
+
+3. Experiment Description - Allows you to provide a description for the experiment.
+
+4. Action Details - Gives the description for the selected Experiment Action.  This description can normally be changed in the editor for a given Experiment Action.  The editor is accessible through the "Format Action" menu option.
+
+5. Number of Users - Where you decide how many users will participate in the experiment. Type in the number of users in the text field to the right of the "Set" button.  Then click the "Set" button to update the allowed number of participate.
+*Note: Some Experiment Actions do not allow the number of users to change and will have to be removed before you can change the number of users.

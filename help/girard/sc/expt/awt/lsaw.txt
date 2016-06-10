@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/lsaw_hlp.txt
+Load Simulant Actor Window

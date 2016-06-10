@@ -1,0 +1,26 @@
+          BE Network Action Data Viewer 
+
+Used to view data from experiments that have been run.  To view a data file:
+
+1. First select the Action Type for which you wish to view data run by.  
+2. Then click the top "Retrieve" button.  If you have run any experiments with this Action Type a list of files should now be displayed in the File/Date List.  
+3. To view a specific file simply select it then click the bottom "Retrieve" Button.
+
+Main Area
+---------
+Action Types List - A list of all the Experiment Actions that can be run in experiments under the ExNet3 system.
+
+Action Description - A description of the presently selected Experiment Action.
+
+File/Date List - Displays a list of all the files saved from experiments run in a specific Experiment Action Type.
+
+Buttons
+-------
+Retrieve(Top) - Loads the list of saved files for the selected Experiment Action Type.
+
+Retrieve(Bottom) - Loads the actual data saved for the selected file for viewing.
+
+Back - Takes you back to the Main Menu.
+
+Help - Calls up the Help System with this help page being displayed.
+ 

@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/ccodw_hlp.txt
+CC Offer Data Window

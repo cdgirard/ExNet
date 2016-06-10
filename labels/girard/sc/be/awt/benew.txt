@@ -1,0 +1,21 @@
+English
+benew_cancel
+Cancel
+English
+benew_help
+Help
+English
+benew_mine
+Min Exch
+English
+benew_maxe
+Max Exch
+English
+benew_nimm
+   Node   ID  Max  Min
+English
+benew_ok
+  OK  
+English
+benew_title
+BE Set Number of Exchanges Window

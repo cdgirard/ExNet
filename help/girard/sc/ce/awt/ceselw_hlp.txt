@@ -1,0 +1,25 @@
+          CE Set Exchange Limits Window
+
+Used to modify the maximum number of exchanges each node can make and how many exchanges can be made along each edge.
+
+
+File Menu
+---------
+Done - Used to return to the Edit CE Network Action window when finished modifing the maximum number of exchanges.
+
+Help Menu
+---------
+Help - Calls up this help file.
+
+Main Display Area
+-----------------
+1. Node List - Lists all the nodes in the network (Label - ID) and how many exchanges they can make.  If the value is 0 then that node can make an infinite number of exchanges.  To change the number of exchanges a node can make, simply select the node, change the value in the 'Exchanges Allowed:' field below the list, then click the 'Update' button below the list.
+
+2. Edge List - Lists all the edges in the network [Node1(ID) - Node2(ID)] and how many exchanges can be made along that edge.  If the value is 0 then an infinite number of exchanges can be made along that edge.  To change the number of exchanges, simply select the edge, change the value in the 'Exchanges Allowed:' field below the list, then click the 'Update' button below the list.
+
+
+Buttons
+-------
+1. Update (below Node List) - Updates the selected node with the new maximum number of exchanges value set in the 'Exchanges Allowed' field above the button.
+
+2. Update (below Edge List) - Updates the selected edge with the new maximum number of exchanges value set in the 'Exchanges Allowed' field above the button.

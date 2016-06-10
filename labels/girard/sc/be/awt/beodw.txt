@@ -1,0 +1,12 @@
+English
+beodw_exit
+Exit
+English
+beodw_file
+File
+English
+beodw_help
+Help
+English
+beodw_title
+BE Offer Data

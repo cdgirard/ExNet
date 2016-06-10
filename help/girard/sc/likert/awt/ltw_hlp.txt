@@ -1,0 +1,12 @@
+             Likert Transition Window
+
+Main Area
+---------
+Questionaire - 
+
+Answer/Goto List -  
+
+Buttons
+   Done - 
+
+   Help - Calls up this help page.

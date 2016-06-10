@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/benadd_hlp.txt
+BE Network Action Data Viewer

@@ -1,0 +1,20 @@
+       BE Format UD Simulant Actor Window          
+
+BEUDSimActor - this actor begins by offering to split the resource pool evenly.  If he is excluded, the following round he will increase his offer by 1.  If included, he will reduce his offer by 1.
+
+Description - A description of the actor can be typed in here for the BE UD Simulant Actor.
+
+File Menu
+---------
+1. Open - used to load saved BEUDSimActors. See - Load Base Action Window
+
+2. Save - used to save BEUDSimActors that have been constructed. See - Save Base Action Window
+
+3. Exit - Exits out of the BE Format UD Simulant Actor Window and returns to the Simulant Actor Constructor Window.
+
+Help Menu
+---------
+1. Help - 
+
+NOTE:  There are no variables to adjust for the BEUDSimActor.  Therefore, once one actor of this type has been created, it can be used in any experiment.  There is no need to create more than one.
+

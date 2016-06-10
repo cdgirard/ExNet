@@ -1,0 +1,12 @@
+English
+ccrw_ftr
+FOR THIS ROUND
+English
+ccrw_ready
+READY
+English
+ccrw_title
+Start Next Round
+English
+ccrw_ya
+You Are: 

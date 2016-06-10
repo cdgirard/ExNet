@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/likert/awt/ltw_hlp.txt
+Likert Transition Window

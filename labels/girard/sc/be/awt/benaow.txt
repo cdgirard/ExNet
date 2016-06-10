@@ -1,0 +1,39 @@
+English
+benaow_details
+Details
+English
+benaow_ei
+Edge   Info
+English
+benaow_exit
+Exit
+English
+benaow_experiment
+Experiment
+English
+benaow_file
+File
+English
+benaow_period
+Period:
+English
+benaow_round
+Round:
+English
+benaow_sr
+Subject    Registered
+English
+benaow_stop
+Stop
+English
+benaow_timer
+Timer:
+English
+benaow_title
+Observer Station
+English
+benaow_zi
+Zoom In
+English
+benaow_zo
+Zoom Out

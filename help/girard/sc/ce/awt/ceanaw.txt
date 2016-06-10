@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/ceanaw_hlp.txt
+Add CE Network Action

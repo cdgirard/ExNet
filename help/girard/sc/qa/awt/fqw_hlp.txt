@@ -1,0 +1,48 @@
+           Format Questionaire Window
+
+A questionaire may be created for each individual user in the Experiment.
+
+File Menu
+---------
+1. Exit - Returns you back to the Experiment Constructor Window.
+
+Edit Menu
+---------
+1. Description - Allows the Action Details for this Experiment Action to be edited.  This allows you to add an explanation for the Questionaire for you or anyone else who needs to edit the Experiment or when viewing data for this Questionaire.  You can also change the detail name for the Questionaire, useful later when trying to tell data files apart.
+
+2. Initial Window - Allows you to customize the intial window shown to subjects when a BE Network Action starts.  You can set the text of the window, the size of the Font, the Location of the window, and whether the experimenter or the subjects can click past the window.
+    *Update Button - Updates any changes you have made.
+    *OK Button - Click when done, saves any changes.
+    *Cancel Button - Click when done and don't want to save any changes.
+
+Help Menu
+---------
+1. Help - Calls up this help page.
+
+Main Area
+---------
+1. Users List - Lists all the users for the Experiment that will be getting a Questionaire.
+
+2. Types List - Lists all available types of questions you can put into a Questionaire for a user.
+
+3. Access Grps List - Lists all access groups that you can check for saved questions.
+
+4. Available List - Lists all avaliable questions of the type selected in the Type List that are saved under the selected access group in Access Grps List.
+
+5. Questionaire List - Lists the questions in the default order in which they will be given for the selected user in the Users List.
+
+Buttons
+-------
+1. Add - Adds the selected question from the Available List to the Questionaire List for the selected user in the Users List.  The question is added to the end of the questionaire.
+
+2. Insert - Adds the selected question from the Available List to the Questionaire List for the selected user in the Users List.  The question is inserted before the selected question  in Questionaire List.
+
+3. Remove - Removes the selected question from the Questionaire List for the selected user in the Users List.
+
+4. Transition - Allows you to change which question will next be displayed to a user based on their answer for the selected question in the Questionaire List.  What transitions are possible are dependent on the type of question.
+
+5. View - Allows you to view the selected question in the Available List.
+
+6. View Desc(Access Grps) - Allows you to view the description for the selected access group in the Access Grps List.
+
+7. View Desc(Types) - Allows you to view the description for the selected question type in the Types List.

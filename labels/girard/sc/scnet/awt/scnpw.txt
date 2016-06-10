@@ -1,0 +1,6 @@
+English
+scnpw_ready
+READY
+English
+scnpw_title
+Start Next Period

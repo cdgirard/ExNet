@@ -1,0 +1,27 @@
+English
+esw_start
+Start
+English
+esw_stop
+Stop
+English
+esw_exit
+Exit
+English
+esw_file
+File
+English
+esw_help
+Help
+English
+esw_ur
+ User     Registered
+English
+esw_odl
+Other Data List
+English
+esw_experiment
+Experiment
+English
+esw_title
+Experimenter Station

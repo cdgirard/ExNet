@@ -1,0 +1,21 @@
+English
+ftsaw_description
+Description
+English
+ftsaw_exit
+Exit
+English
+ftsaw_file
+File
+English
+ftsaw_help
+Help
+English
+ftsaw_open
+Open
+English
+ftsaw_save
+Save
+English
+ftsaw_title
+Format Tutorial Simulant Actor

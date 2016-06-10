@@ -1,0 +1,34 @@
+                Format Likert Question
+
+This interface is used to construct and save Likert Questions that can then be added to a Questionaire application.  The interface consists of two parts: The "Format Likert Question" window and the "Question" window.
+
+File Menu
+---------
+1. Save - Allows you to save you Likert Question in its present form.  Calls up the "Save Base Action Window", see its help file for additional information. 
+
+2. Exit - Exits out of this window and returns control to the Base Question Builder window.
+*NOTE: Any changes will not be saved. 
+
+Help Menu
+---------
+1. Help - Calls up this help page.
+
+Main Area
+---------
+1. Location - The location to display the Likert Question.  The X and Y location is the location for the top left corner of the window.
+
+2. Font - What font size to display the question in.  You can choose from "Small", "Medium", and "Large".
+
+3. Size - How big to make the actual display area for the question.  This is defined in terms of rows (Rows:) and columns (Cols:) for the area in which the question is to be displayed.
+
+4. Title - The title of the question that is display at the top of the window for the quetion.
+
+5. Labels - Allows you to set the titles of the anchor points along the scale.
+
+6. Range - Allows you to set the range for the scale.  The starting point of the scale is always 1.
+
+7. Update Button - Updates the Question Window to all the change you've made in the display settings so you can have a good idea as to how it will look to the subjects.
+
+Question Window
+-----------------
+This is where you type in the actual text for your question.  Additionally when you use the "Update" button it will be updated based on all the display settings from the Main Area.

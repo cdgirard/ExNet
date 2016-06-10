@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/besmiw_hlp.txt
+BE Network Settings Window

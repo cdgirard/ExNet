@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/esw_hlp.txt
+Experimenter Station

@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ques/awt/bqbw_hlp.txt
+Base Question Builder Window

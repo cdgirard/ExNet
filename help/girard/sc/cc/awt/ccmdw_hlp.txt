@@ -1,0 +1,15 @@
+               CC Message Data Window 
+
+
+
+File Menu 
+---------
+Exit - Returns to CC Network Action Data Viewer Window.
+
+Help Menu
+---------
+Help - Brings up this help window.
+
+Main Area
+---------
+The chart lists all messages sent about other actors (these are positive or negative messages sent immediately following exchanges).  Listed are the type of network used, the round (beginning with 0), who the message was from, who it was sent, whom it was talking about, and whether it was positive or negative.

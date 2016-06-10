@@ -1,0 +1,30 @@
+English
+ccafw_about
+About:
+English
+ccafw_bad
+Bad
+English
+ccafw_from
+From:
+English
+ccafw_good
+Good
+English
+ccafw_message
+Message:
+English
+ccafw_mtws
+Messages that were sent.
+English
+ccafw_ready
+READY
+English
+ccafw_title
+Messages Sent Window
+English
+ccafw_to
+To:
+English
+ccafw_wrtcptrb
+When ready to continue press the READY button.

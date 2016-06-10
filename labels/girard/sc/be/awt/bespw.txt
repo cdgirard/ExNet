@@ -1,0 +1,24 @@
+English
+bespw_done
+Done
+English
+bespw_file
+File
+English
+bespw_help
+Help
+English
+bespw_pay
+Pay:
+English
+bespw_set
+Set
+English
+bespw_sa
+Set All
+English
+bespw_title
+Set BE Pay Amounts
+English
+bespw_upr
+User   Pay Rate

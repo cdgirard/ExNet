@@ -1,0 +1,12 @@
+English
+benacw_title
+Client Station
+English
+benacw_help
+Help
+English
+benacw_zi
+Zoom In 
+English
+benacw_zo
+Zoom Out

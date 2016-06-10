@@ -1,0 +1,6 @@
+English
+scnesw_ready
+READY
+English
+scnesw_title
+Start New Experiment

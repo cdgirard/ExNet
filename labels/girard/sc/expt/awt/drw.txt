@@ -1,0 +1,27 @@
+English
+drw_at
+Action Type
+English
+drw_bal
+Base Action List
+English
+drw_details
+Details
+English
+drw_exit
+Exit
+English
+drw_file
+File
+English
+drw_help
+Help
+English
+drw_retrieve
+Retrieve
+English
+drw_title
+Data Retrieval Window
+English
+drw_view
+View

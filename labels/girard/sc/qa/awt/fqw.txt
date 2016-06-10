@@ -1,0 +1,60 @@
+English
+fqw_add
+   Add    
+English
+fqw_ag
+Access Grps
+English
+fqw_available
+Available
+English
+fqw_cq
+Copy QA
+English
+fqw_description
+Description
+English
+fqw_edit
+Edit
+English
+fqw_exit
+Exit
+English
+fqw_file
+File
+English
+fqw_format
+Format
+English
+fqw_help
+Help
+English
+fqw_insert
+  Insert  
+English
+fqw_iw
+Initial Window
+English
+fqw_questionnaire
+Questionnaire
+English
+fqw_remove
+  Remove  
+English
+fqw_title
+Format Questionnaire
+English
+fqw_transition
+Transition
+English
+fqw_types
+Types
+English
+fqw_vd
+View Desc
+English
+fqw_view
+View
+English
+fqw_users
+Users

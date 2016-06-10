@@ -1,0 +1,42 @@
+English
+cefnaw_description
+Description
+English
+cefnaw_done
+Done
+English
+cefnaw_edit
+Edit
+English
+cefnaw_exchanges
+Exchanges
+English
+cefnaw_file
+File
+English
+cefnaw_format
+Format
+English
+cefnaw_help
+Help
+English
+cefnaw_iw
+Initial Window
+English
+cefnaw_it
+Info and Timing
+English
+cefnaw_pay
+Pay
+English
+cefnaw_periods
+Periods
+English
+cefnaw_resources
+Resources
+English
+cefnaw_settings
+Settings
+English
+cefnaw_title
+Edit CE Network Action

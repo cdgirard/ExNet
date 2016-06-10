@@ -1,0 +1,24 @@
+             Save Base Action Window
+
+Used to save Action objects you have created. To save an object to a file, type the file name you wish to refer to the object as in the available space, select which access group it is related to, and then click "OK".
+
+Main Area
+---------
+1. Saved Files List - List of files under the selected access group that are already saved.  Only lists Action objects of the same type as the one you are saving.
+
+2. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, a list of Actions of a specific type saved under that group will be displayed in the Saved Files List.  The "<NONE>" group refers to files that only you can access.
+
+3. The Descriptions - The Description under the Saved File List gives a description of the selected saved file.  The Description under the Access Group List gives a description of the selected Access Group.
+*Note: The "<NONE>" access group does not have a description, other Access Groups may not as well.
+
+4. Filename Field - Where you type in the name you want to refer to the Action object as.  If it matches a name in the Saved Files List you will be prompted to make sure that you want to overwrite the older file. 
+
+5. Group Access Field - Shows the selected Access Group that this file will be assigned to when it is saved.  If you assign the file to the "<NONE>" group then only you will be able to access it.
+
+Buttons
+-------
+1. Ok - First, checks to make sure you aren't overwriting an old file.  If you are it will make sure you want to overwrite the older file.  If so or if not overwriting an older file it saves the Action object to a file.
+
+2. Cancel - Exits out without saving the Action object.
+
+3. Help - Calls up this help file.

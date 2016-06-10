@@ -1,0 +1,12 @@
+English
+anw_title
+Add Node Window
+English
+anw_nlab
+Node Label
+English
+anw_ok
+OK
+English
+anw_cancel
+Cancel

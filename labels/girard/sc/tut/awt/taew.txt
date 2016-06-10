@@ -1,0 +1,18 @@
+English
+taew_file
+File
+English
+taew_observers
+Observers
+English
+taew_pause
+Pause
+English
+taew_stop
+Stop
+English
+taew_title
+Experimenter Window
+English
+taew_urp
+User  Reg  Page  Total

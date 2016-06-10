@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/ccnadd_hlp.txt
+CC Network Action Data Viewer

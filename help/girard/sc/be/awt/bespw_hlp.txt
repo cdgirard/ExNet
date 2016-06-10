@@ -1,0 +1,22 @@
+          Set BE Pay Amounts Window
+
+Allows the experimenter to set payment due to subjects (per point earned).  To set a pay rate, select a subject, then adjust the number in the pay field at the bottom to the number of dollars per point earned you wish to give that subject.  Then, click "Set".  By clicking "Set All", you can issue the same rate to all subjects simultaneously.
+
+File Menu
+---------
+1. Done - Exits out of the pay window saving the changes.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Pay List - Lists the users and their pay rates (per point).
+
+Buttons
+-------
+1. Set - Sets the pay amount listed to the selected user.
+
+2. Set All - Sets the pay amount listed to all users.
+

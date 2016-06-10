@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/sew_hlp.txt
+Save Experiment Window

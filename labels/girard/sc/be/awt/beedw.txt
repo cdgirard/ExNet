@@ -1,0 +1,12 @@
+English
+beedw_cancel
+Cancel
+English
+beedw_description
+Description
+English
+beedw_ok
+  OK  
+English
+beedw_title
+Edit Description

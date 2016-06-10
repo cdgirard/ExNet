@@ -1,0 +1,31 @@
+          Edit CC Network Action Window
+
+This option allows you to change a variety of details about the CCNetworkAction.
+
+File Menu
+---------
+1. Done - Returns you back to the Experiment Constructor Window. 
+
+Edit Menu
+---------
+1. Description - Allows the action details for this experiment to be edited.  This allows you to add an explanation to the CCNetworkAction for you or anyone else who needs to edit it later.
+
+Format Menu
+-----------
+The format item allows you to add the specific details of the trading, restrict trades, and opt to pay the participants or not.
+
+1. Exchanges - Allows you to change the maximum number of exchanges each actor can make.
+
+2. Period - Allows the selection for number of rounds for the CCNetworkAction, time per round, and position of a subject in the network.
+
+3. Pay - Allows the experimenter to set payment due to subject (per point earned).
+
+4. Node Resources - Allows experimenter to adjust resource pool for each position, the starting bank account of any position, as well as assign the ability to give tokens or sanctions to other players for potential rewards or punishments.
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+1. Display - Shows the network that the CCNetworkAction is based around.

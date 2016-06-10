@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/ce/awt/cevodw_hlp.txt
+CE View Offer Data Window

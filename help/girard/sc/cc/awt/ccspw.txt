@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc/awt/ccspw_hlp.txt
+Set CC Pay Amounts

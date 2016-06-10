@@ -1,0 +1,24 @@
+            Experimenter Station Window
+
+This is the final step in starting up an Experiment.
+
+File Menu
+---------
+1. Exit - Returns you to the Main Menu.
+
+Experiment Menu
+-----------------
+1. Start -  Allows you to start the Experiment once all the user positions are filled (see information on the User List below). 
+
+Help Menu
+---------
+1. Help - Calls up this help file.
+
+Main Area
+---------
+Observers List - Shows the experimenter who is observing the experiment.
+
+User List - Lists each actor participating in the experiment, and shows whether or not they have connected to the Experiment.  When they have connected to the Experiment their Registered status will go from "false" to "true".
+
+*Note:  Before beginning, for all users, "Registered" must read "true".  Computer actors will be true by default.  Human actors will become true after each participant has connected using the appropriate password.
+

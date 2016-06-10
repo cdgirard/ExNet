@@ -1,0 +1,43 @@
+         Format Tutorial Action Window
+
+A tutorial may be created for each individual user in the Experiment.
+
+File Menu
+---------
+1. Exit - Returns you back to the Experiment Constructor Window.
+
+Edit Menu
+---------
+1. Description - Allows the Action Details for this Experiment Action to be edited.  This allows you to add an explanation for the Tutorial for you or anyone else who needs to edit the Experiment or when viewing data for this Tutorial.  You can also change the detail name for the Tutorial, useful later when trying to tell data files apart.
+NOTE: The Tutorial does not generate any actual data.
+
+Help Menu
+---------
+1. Help - Calls up this help page.
+
+Main Area
+---------
+1. Users List - Lists all the users for the Experiment that will be getting a Tutorial.
+
+2. Types List - Lists all available types of pages you can put into a Tutorial for a user.
+
+3. Access Grps List - Lists all access groups that you can check for saved pages.
+
+4. Available List - Lists all avaliable pages of the type selected in the Type List that are saved under the selected access group in Access Grps List.
+
+5. Tutorial List - Lists the pages in the default order in which they will be given for the selected user in the Users List.
+
+Buttons
+-------
+1. Add - Adds the selected page from the Available List to the Tutorial List for the selected user in the Users List.  The page is added to the end of the tutorial.
+
+2. Insert - Adds the selected page from the Available List to the Tutorial List for the selected user in the Users List.  The page is inserted before the selected page  in Tutorial List.
+
+3. Remove - Removes the selected page from the Tutorial List for the selected user in the Users List.
+
+5. View Desc (Available) - Allows you to view the description for the selected page in the Available List.
+NOTE: This will normally match the description of the page's type description.
+
+6. View Desc (Access Grps) - Allows you to view the description for the selected access group in the Access Grps List.
+
+7. View Desc (Types) - Allows you to view the description for the selected page type in the Types List.

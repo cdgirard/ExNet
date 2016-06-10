@@ -1,0 +1,21 @@
+English
+befudsaw_description
+Description
+English
+befudsaw_exit
+Exit
+English
+befudsaw_file
+File
+English
+befudsaw_help
+Help
+English
+befudsaw_open
+Open
+English
+befudsaw_save
+Save
+English
+befudsaw_title
+Format BE UD Simulant Actor

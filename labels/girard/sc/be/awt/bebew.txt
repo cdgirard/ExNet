@@ -1,0 +1,12 @@
+English
+bebew_einp
+Experiment is Now Paused
+English
+bebew_pptre
+Press Button to Resume Experiment.
+English
+bebew_resume
+RESUME
+English
+bebew_title
+Resume Window

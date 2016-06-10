@@ -1,0 +1,27 @@
+English
+scnanw_cancel
+Cancel
+English
+scnanw_description
+Description
+English
+scnanw_ftpltf
+Failed to properly load the file.
+English
+scnanw_help
+Help
+English
+scnanw_nf
+Network Files
+English
+scnanw_nondnmnou
+Number of nodes do not match number of users.
+English
+scnanw_network
+Network: 
+English
+scnanw_ok
+OK
+English
+scnanw_title
+Add SCNet Network

@@ -1,0 +1,25 @@
+             Save Experiment Window
+
+Used to save Experiments you have created. To save an Experiment to a file, type the file name you wish to refer to the Experiment as in the available space, select which access group it is related to, and then click "OK".
+
+Help Menu
+---------
+Help - Calls up this help file.
+
+Main Area
+---------
+1. Experiments List - List of files under the selected access group that are already saved.
+
+2. Access Group List - Lists all the access groups that you are either the controller of or a member of within the Web-Lab.  These groups are termed Software Applications within the Web-Lab, a sub-group of the Application access system. By selecting a specific access group, the list of Experiments saved under that group will be displayed in the Experiments List.  The "<NONE>" group refers to files that only you can access.
+
+3. The Descriptions - The Description under the Experiments List gives a description of the selected saved file.  The Description under the Access Group List gives a description of the selected Access Group.
+*Note: The "<NONE>" access group does not have a description, other Access Groups may not as well.
+
+4. Filename Field - Where you can type in the file name that you wish to call the file.
+
+5. Group Access Field - Displays the name of the selected access group.
+Buttons
+-------
+Ok - First, checks to make sure you aren't overwriting an old file.  If you are it will make sure you want to overwrite the older file.  If so or if not overwriting an older file it saves the Experiment to a file..
+
+Cancel - Exits out without saving the Experiment.

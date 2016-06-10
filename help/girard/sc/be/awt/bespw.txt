@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/bespw_hlp.txt
+Set BE Pay Window

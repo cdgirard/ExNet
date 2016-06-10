@@ -1,0 +1,30 @@
+English
+cenaow_aa
+Active Action:
+English
+cenaow_exit
+Exit
+English
+cenaow_experiment
+Experiment:
+English
+cenaow_file
+File
+English
+cenaow_period
+Period:
+English
+cenaow_profit
+Profit
+English
+cenaow_round
+Round:
+English
+cenaow_sr
+Subject  Reg
+English
+cenaow_timer
+Timer:
+English
+cenaow_title
+CE Observer Window

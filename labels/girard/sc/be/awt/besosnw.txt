@@ -1,0 +1,72 @@
+English
+besosnw_an
+Available Node
+English
+besosnw_back
+Back
+English
+besosnw_cancel
+Cancel
+English
+besosnw_expand
+Expand
+English
+besosnw_group
+Group
+English
+besosnw_help
+Help
+English
+besosnw_iw
+Information Window
+English
+besosnw_mine
+Min Exchange:
+English
+besosnw_maxe
+Max Exchange:
+English
+besosnw_minv
+Min Value:
+English
+besosnw_maxv
+Max Value:
+English
+besosnw_mnl
+Main Node List
+English
+besosnw_ni
+  Node ID
+English
+besosnw_ninl
+Node ID    Node Label
+English
+besosnw_no
+No
+English
+besosnw_ok
+OK
+English
+besosnw_ol
+Ordering List
+English
+besosnw_on
+ Ordering        Nodes
+English
+besosnw_regroup
+Regroup
+English
+besosnw_reorder
+Reorder
+English
+besosnw_snn
+Subnetwork       Nodes
+English
+besosnw_snl
+Subnetworks List
+English
+besosnw_title
+Set Ordered Subnetworks Window
+English
+besosnw_yes
+Yes

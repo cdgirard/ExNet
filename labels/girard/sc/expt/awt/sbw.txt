@@ -1,0 +1,24 @@
+English
+sbw_al
+Actor List
+English
+sbw_create
+Create
+English
+sbw_description
+Description
+English
+sbw_exit
+Exit
+English
+sbw_file
+File
+English
+sbw_format
+Format
+English
+sbw_help
+Help
+English
+sbw_title
+Simulant Actor Constructor

@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/qa/awt/fqw_hlp.txt
+Format Questionaire Window

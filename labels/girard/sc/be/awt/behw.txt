@@ -1,0 +1,15 @@
+English
+behw_clear
+CLEAR
+English
+behw_nh
+ Needs Help.
+English
+behw_pbtc
+Press Button to Clear.
+English
+behw_title
+Help Window
+English
+behw_user
+User 

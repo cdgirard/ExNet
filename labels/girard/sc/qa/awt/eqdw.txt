@@ -1,0 +1,15 @@
+English
+eqdw_cancel
+Cancel
+English
+eqdw_description
+Description
+English
+eqdw_dn
+Detail Name: 
+English
+eqdw_ok
+  OK  
+English
+eqdw_title
+Edit Description

@@ -1,0 +1,19 @@
+          Load Simulant Actor Window
+
+  
+
+Help Menu
+---------
+Help - 
+
+Main Area
+---------
+Files - List of available files.
+
+Description - Gives a description of the saved file.
+
+Buttons
+-------
+Ok - .
+
+Cancel - Exits out without saving a file.

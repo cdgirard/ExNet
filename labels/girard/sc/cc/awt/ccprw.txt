@@ -1,0 +1,12 @@
+English
+ccprw_einp
+Experiment is Now Paused
+English
+ccprw_pptre
+Press Button to Resume Experiment.
+English
+ccprw_resume
+RESUME
+English
+ccprw_title
+Resume Window

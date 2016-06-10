@@ -1,0 +1,15 @@
+       Simulant Actor Constructor Window
+
+Actor List - Lists the possible simulant actor models for use in experiments.
+
+Description - Highlighting one of the simulants in the actor list will bring up a description of that list in the lower window.
+
+File Menu
+----------
+1. Create - after highlighting one of the choices of actors below, click on create to begin the creation process.
+
+2. Exit - closes window
+
+Help Menu
+---------
+1. Help - 

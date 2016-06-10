@@ -1,0 +1,12 @@
+English
+ccsdw_exit
+Exit
+English
+ccsdw_file
+File
+English
+ccsdw_help
+Help
+English
+ccsdw_title
+CC Sanction Data Window
