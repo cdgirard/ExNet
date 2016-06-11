@@ -8,7 +8,6 @@ import girard.sc.io.NetObjectStream;
 import girard.sc.web.WebPanel;
 import girard.sc.web.WebResourceBundle;
 import girard.sc.wl.io.msg.WLMessage;
-import girard.sc.wl.io.msg.WLUpdateAppTokenReqMsg;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -18,8 +17,8 @@ import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.GridLayout;
 import java.awt.Image;
-import java.awt.MediaTracker;
 import java.awt.Panel;
+import java.awt.Toolkit;
 import java.awt.image.ImageProducer;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -75,17 +74,12 @@ public class  WLOverlord extends Panel
  * @see girard.sc.wl.web.WLOverlord#getImgURL(String image)
  * @see girard.sc.wl.web.WLOverlord#sendWLMessage(WLMessage wlm)
  */
-    protected String HOST_NAME = new String("129.252.3.161");
-/* -kar- Change hostname to 129.252.164.137 (Maxweber)*/
+    protected String HOST_NAME = new String("weblab.cs.ship.edu");
 /**
- * The id of the user that is presently using ExNet 3.0;  Very important when determing
+ * The id of the user that is presently using ExNet 3.0;  Very important when determining
  * which files the user has access to.
  */
     protected int m_userID = -1;
-/**
- * The app token value used to make sure I should be at this page.
- */
-    protected String m_appToken = new String("");
 
     
 /**
@@ -307,13 +301,6 @@ public class  WLOverlord extends Panel
         {
         return m_activePanel;
         }
-/**
- * @return Returns the value of m_appToken.
- */
-    public String getAppToken()
-        {
-        return m_appToken;
-        }
 
 /**
  * @return Returns a defalut image for some of the GraphicButton objects used by 
@@ -321,7 +308,7 @@ public class  WLOverlord extends Panel
  */
     public Image getButtonImage()
         {
-        return getImage("girard/sc/wl/web/burgun.jpg");
+        return getImage("images/girard/sc/wl/web/burgun.jpg");
         }
 /**
  * @return Returns the value for m_buttonLabelColor.
@@ -356,22 +343,17 @@ public class  WLOverlord extends Panel
  * created by calling getImgURL.  Uses a MediaTracker to ensure the Image returned
  * has been fully loaded across the network.
  *
- * @param Loc The URL address of the image.
+ * @param loc The URL address of the image.
  * @return The java.awt.Image object just loaded,  will return null if fails
  * find the image.
  * @see girard.sc.wl.web.WLOverlord#getImgURL(String image)
  * @see java.awt.Image
  */
-    public Image getImag(URL Loc)
+    public Image getImage(String loc)
         {
         Image tmp = null;
 
-        MediaTracker tracker = new MediaTracker(m_WB);
-        tmp = m_WB.getImage(Loc);
-        tracker.addImage(tmp,1);
-        showStatus("Loading Image...");
-        try { tracker.waitForID(1); }
-        catch(InterruptedException e) {}
+        tmp = Toolkit.getDefaultToolkit().getImage(getClass().getResource(loc));
 
         return tmp;
         }
@@ -624,29 +606,14 @@ public class  WLOverlord extends Panel
  */
     public boolean loadParameters(boolean validate)
         {
-        HOST_NAME = m_WB.getParameter("HOST");
-        try { m_userID = Integer.valueOf(m_WB.getParameter("USER")).intValue(); }
-        catch (Exception e) { }
         IMAGE_DIR = "images";
         LABEL_DIR = "labels";
         GENERAL_PORT = 8080;
 
-        m_appToken = m_WB.getParameter("APP_TOKEN");
-
-        if (validate)
-            {
-            if (!updateAppToken())
-                {
-                try { m_WB.getAppletContext().showDocument(new URL(m_homeLink)); }
-                catch (MalformedURLException murle) { }
-
-                return false;
-                }
-            }
         if (m_width == 0)
-            m_width = Integer.valueOf(m_WB.getParameter("WIDTH")).intValue();
+            m_width = 800;
         if (m_height == 0)
-            m_height = Integer.valueOf(m_WB.getParameter("HEIGHT")).intValue();
+            m_height = 600;
 
         return true;
         }
@@ -877,15 +844,6 @@ public class  WLOverlord extends Panel
         {
         m_WebpageBasePanel.setSize(x,y);
         }
-/**
- * Display a status message through the m_WB Applet.
- *
- * @param Msg The message to be displayed.
- */
-    public void showStatus(String Msg)
-        {
-        m_WB.showStatus(Msg);
-        }
 
 /**
  * Creates the m_TitleCanvas.
@@ -893,17 +851,10 @@ public class  WLOverlord extends Panel
     private void createTitleCanvas()
         {
         Graphics g;
-        MediaTracker tracker;
         Image tmp1, tmp2;
 
-        tracker = new MediaTracker(m_WB);
-
         // Initialize Load Button Image
-        tmp1 = this.getImage(this.getImgURL("title_background"));
-        tracker.addImage(tmp1,1);
-        this.showStatus("Loading image: Title Canvas Background");
-        try { tracker.waitForID(1); }
-        catch(InterruptedException e) {}
+        tmp1 = this.getImage(this.getImgLoc("title_background"));
 
         tmp2 = this.createImage(tmp1.getWidth(null),tmp1.getHeight(null));
         
@@ -915,35 +866,5 @@ public class  WLOverlord extends Panel
         m_TitleCanvas.setFont(m_titleFont);
         m_TitleCanvas.centerLabel();
         m_TitleCanvas.setLabelColor(m_buttonLabelColor);
-        }
-/**
- * Checks to make sure a valid token was passed in and if so updates it.
- *
- * @return Returns true if the update succeeds, false otherwise.
- */
-    private boolean updateAppToken()
-        {
-        boolean flag = false;
-
-        Object[] out_args = new Object[1];
-        out_args[0] = m_appToken;
-
-        WLUpdateAppTokenReqMsg tmp = new WLUpdateAppTokenReqMsg(out_args);
-        WLMessage wlm = sendWLMessage(tmp);
-
-        if (wlm instanceof WLUpdateAppTokenReqMsg)
-            {
-            Object[] in_args = wlm.getArgs();
-            Hashtable h = (Hashtable)in_args[0];
-            m_appToken = (String)h.get("AppToken");
-            m_userID = ((Integer)h.get("UID")).intValue();
-            flag = true;
-            }
-        else
-            {
-            flag = false;
-            }
-
-        return flag;
         }
     }

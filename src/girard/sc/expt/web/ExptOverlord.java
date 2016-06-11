@@ -36,6 +36,10 @@ import java.util.Vector;
 /**
  * An extension of WLOverlord.  Provides a few additional functions designed
  * specifically for running online multi-user experiments.
+ * 
+ * TODO: Need to change all java.util classes to use generics
+ * TODO: Need to switch system to a newer GUI management system.
+ * 
  * <p>
  * <br> Started: 2001
  * <br> Modified: 10-30-2002
@@ -55,7 +59,7 @@ public class  ExptOverlord extends WLOverlord
  *
  * @see girard.sc.expt.help.HelpWindow
  */
-    protected String HELP_DIR = new String("/Java/ExNet/help/");
+    protected String HELP_DIR = new String("help/");
 
 /**
  * Port number for the expt server
@@ -427,8 +431,7 @@ public class  ExptOverlord extends WLOverlord
             }
         }
 /**
- * Calls the loadParameters of the WLOverlord, then loads any new parameters specific
- * to an ExptOverlord object.
+ * Just sets the values to the default values.
  *
  * @param validate Whether to validate the m_appToken or not.
  * @return Returns true if successful, false otherwise.
@@ -436,9 +439,8 @@ public class  ExptOverlord extends WLOverlord
     public boolean loadParameters(boolean validate)
         {
         boolean value = super.loadParameters(validate);
-        HELP_DIR = m_WB.getParameter("HELP_DIR");
-        try { EXPT_PORT = Integer.valueOf(m_WB.getParameter("EP")).intValue(); }
-        catch (Exception e) { }
+        HELP_DIR = "help";
+        EXPT_PORT = 8180;
 
         return value;
         }
