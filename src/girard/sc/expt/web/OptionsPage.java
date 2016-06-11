@@ -21,7 +21,7 @@ public class OptionsPage extends WebPanel implements ActionListener
     GridBagPanel m_spacePanel = new GridBagPanel();
     ExptOverlord m_EOApp;
     GraphicButton m_ConstructButton, m_DataButton, m_HelpButton;
-    GraphicButton m_StartButton, m_BackButton;
+    GraphicButton m_StartButton, m_QuitButton;
     int m_buttonWidth = 150;
     int m_buttonHeight = 40;
 
@@ -68,10 +68,10 @@ public class OptionsPage extends WebPanel implements ActionListener
         m_ExnetOptionsPanel.constrain(new Label(m_EOApp.getLabels().getObjectLabel("beeop_athf")),2,6,2,1,GridBagConstraints.WEST);
         m_ExnetOptionsPanel.constrain(m_HelpButton,1,6,1,1,GridBagConstraints.WEST); 
 
-        m_BackButton = new GraphicButton(m_buttonWidth,m_buttonHeight,null);
-        m_BackButton.addActionListener(this);
-        m_ExnetOptionsPanel.constrain(new Label(m_EOApp.getLabels().getObjectLabel("beeop_btthp")),2,7,2,1,GridBagConstraints.WEST);
-        m_ExnetOptionsPanel.constrain(m_BackButton,1,7,1,1,GridBagConstraints.WEST);   
+        m_QuitButton = new GraphicButton(m_buttonWidth,m_buttonHeight,null);
+        m_QuitButton.addActionListener(this);
+        m_ExnetOptionsPanel.constrain(new Label(m_EOApp.getLabels().getObjectLabel("beeop_qta")),2,7,2,1,GridBagConstraints.WEST);
+        m_ExnetOptionsPanel.constrain(m_QuitButton,1,7,1,1,GridBagConstraints.WEST);   
 
         loadImages();
 
@@ -115,10 +115,9 @@ public class OptionsPage extends WebPanel implements ActionListener
                 {
                 m_EOApp.helpWindow("ehlp_op");
                 }
-            if (theSource == m_BackButton)
+            if (theSource == m_QuitButton)
                 {
-                try { m_EOApp.getWB().getAppletContext().showDocument(new URL(m_EOApp.getBackLink()+"&A="+m_EOApp.getAppToken()+"&Type=4")); }
-                catch (MalformedURLException murle) { }
+                m_EOApp.getWB().dispose();
                 }
             }
         }
@@ -207,10 +206,10 @@ public class OptionsPage extends WebPanel implements ActionListener
         g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
-        x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("beeop_back").length()*12)/2;
+        x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("beeop_quit").length()*12)/2;
         y = ((m_buttonHeight - 6)/2) + 5;
-        g.drawString(m_EOApp.getLabels().getObjectLabel("beeop_back"),x,y);
+        g.drawString(m_EOApp.getLabels().getObjectLabel("beeop_quit"),x,y);
      
-        m_BackButton.setImage(tmp2);
+        m_QuitButton.setImage(tmp2);
         }
     }

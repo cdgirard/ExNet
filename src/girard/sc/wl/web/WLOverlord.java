@@ -10,7 +10,6 @@ import girard.sc.web.WebResourceBundle;
 import girard.sc.wl.io.msg.WLMessage;
 import girard.sc.wl.io.msg.WLUpdateAppTokenReqMsg;
 
-import java.applet.Applet;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
@@ -28,6 +27,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Hashtable;
+
+import javax.swing.JFrame;
 
 /**
  * The WLOverlord is the core of ExNet III.  It provides the base
@@ -86,14 +87,7 @@ public class  WLOverlord extends Panel
  * The app token value used to make sure I should be at this page.
  */
     protected String m_appToken = new String("");
-/**
- * Link to go back to after accessing ExNet 3.0.
- */
-    protected String m_backLink = new String("");
-/**
- * Homepage to go to if the app token value is invalid.
- */
-    protected String m_homeLink = new String("");
+
     
 /**
  * Is an address book giving the location of all the images that may be loaded
@@ -101,7 +95,7 @@ public class  WLOverlord extends Panel
  * be stored off a base directory and the programmer simply passes in a static location
  * that is off of this directory paty; Probably something to be removed at a later date.
  */
-    protected Hashtable m_ImgLoc;
+    protected Hashtable<String,String> m_imgLoc;
 /**
  * How wide the display area is in the web browser for ExNet 3.0's Applet.
  */
@@ -180,12 +174,10 @@ public class  WLOverlord extends Panel
     protected WebResourceBundle m_labels = new WebResourceBundle();
 
 /**
- * Is the main applet for ExNet 3;  It is passed in when WLOverlord
- * is first initialized; Used for such things as being able to create images.
- *
- * @see girard.sc.wl.web.WLOverlord#createImage(int width, int height)
+ * Is the main JFrame for ExNet 3;  It is passed in when WLOverlord
+ * is first initialized.
  */
-    protected Applet m_WB;
+    protected JFrame m_WB;
 
 /**
  *
@@ -207,9 +199,9 @@ public class  WLOverlord extends Panel
 /**
  * A constructor for WLOverlord.
  *
- * @param app The Applet running in the web browser that created WLOverlord.
+ * @param app The JFrame running that created WLOverlord.
  */
-    public WLOverlord(Applet app)
+    public WLOverlord(JFrame app)
         {
         Font f1 = new Font("TimesRoman",Font.BOLD,18);
         Font f2 = new Font("TimesRoman",Font.BOLD,12);
@@ -230,11 +222,11 @@ public class  WLOverlord extends Panel
 /**
  * A constructor for WLOverlord.
  *
- * @param app The Applet running in the web browser that created WLOverlord.
+ * @param app The JFrame running that created WLOverlord.
  * @param width The value for m_width.
  * @param height The value for m_height.
  */
-    public WLOverlord(Applet app, int width, int height)
+    public WLOverlord(JFrame app, int width, int height)
         {
         Font f1 = new Font("TimesRoman",Font.BOLD,18);
         Font f2 = new Font("TimesRoman",Font.BOLD,12);
@@ -336,7 +328,7 @@ public class  WLOverlord extends Panel
  */
     public Image getButtonImage()
         {
-        return getImage(getImgURL("girard/sc/wl/web/burgun.jpg"));
+        return getImage("girard/sc/wl/web/burgun.jpg");
         }
 /**
  * @return Returns the value for m_buttonLabelColor.
@@ -367,7 +359,7 @@ public class  WLOverlord extends Panel
         return m_height;
         }
 /**
- * Used to retreive an Image object from a URL address.  The URL address is
+ * Used to retrieve an Image object from a URL address.  The URL address is
  * created by calling getImgURL.  Uses a MediaTracker to ensure the Image returned
  * has been fully loaded across the network.
  *
@@ -377,7 +369,7 @@ public class  WLOverlord extends Panel
  * @see girard.sc.wl.web.WLOverlord#getImgURL(String image)
  * @see java.awt.Image
  */
-    public Image getImage(URL Loc)
+    public Image getImag(URL Loc)
         {
         Image tmp = null;
 
@@ -403,24 +395,21 @@ public class  WLOverlord extends Panel
  * @see girard.sc.wl.web.WLOverlord#HOST_NAME
  * @see java.net.URL
  */
-    public URL getImgURL(String image)
+    public String getImgLoc(String image)
         {
-        URL imageURL = null;
+        String imageLoc = null;
 
-        try
+      
+        if (m_imgLoc.containsKey(image))
             {
-            if (m_ImgLoc.containsKey(image))
-                {
-                imageURL = (URL)m_ImgLoc.get(image);
-                }
-            else
-                {
-                imageURL = new URL("http://"+HOST_NAME+IMAGE_DIR+image);
-                }
+            imageLoc = m_imgLoc.get(image);
             }
-        catch(MalformedURLException e) { e.printStackTrace(); }
+        else
+            {
+            imageLoc = "Invalid Image" ;
+            }
 
-        return imageURL;
+        return imageLoc;
         }
 /**
  * Used to get the WebResourceBundle object which contains labels grouped together
@@ -519,14 +508,14 @@ public class  WLOverlord extends Panel
         return m_winBkgColor;
         }
 /**
- * Useful if you need to use one of the Applet functions,
- * as the WLOverlord is not the main Applet.
+ * Useful if you need to use one of the JFrame functions,
+ * as the WLOverlord is not the main JFrame.
  *
- * @return Returns the main web Applet.
+ * @return Returns the main JFrame.
  * @see girard.sc.wl.web.WLOverlord#m_WB
- * @see java.applet.Applet
+ * @see java.swing.JFrame
  */
-    public Applet getWB()
+    public JFrame getWB()
         {
         return m_WB;
         }
@@ -619,27 +608,7 @@ public class  WLOverlord extends Panel
             }
         catch(Exception e) { e.printStackTrace(); }
         }
-/**
- * Leftover from when m_ImgLoc was used heavily.  Loads in the list of any images
- * and their URL location from the parameter list.  Should probably be removed in
- * a future edit of ExNet 3.0.
- */
-    public void initializeURLs()
-        {
-        // Set the locations for all the image URL's
-        m_ImgLoc = new Hashtable(); 
-        try
-            {
-            int numImages = Integer.valueOf(m_WB.getParameter("NUM_IMAGES")).intValue();
-            for (int i=0;i<numImages;i++)
-                {
-                String imgName = m_WB.getParameter("IMAGE"+i+"_NAME");
-                URL imgURL = new URL(m_WB.getParameter("IMAGE"+i+"_URL"));
-                m_ImgLoc.put(imgName,imgURL);
-                }
-            }
-        catch(MalformedURLException e) { e.printStackTrace(); }
-        }
+
 /**
  * Used to initialize a WLMessage before it is sent.  Must be called on any created
  * WLMessage.  To make things easier this function is automatically called by 
@@ -665,15 +634,11 @@ public class  WLOverlord extends Panel
         HOST_NAME = m_WB.getParameter("HOST");
         try { m_userID = Integer.valueOf(m_WB.getParameter("USER")).intValue(); }
         catch (Exception e) { }
-        IMAGE_DIR = m_WB.getParameter("IMAGE_DIR");
-        LABEL_DIR = m_WB.getParameter("LABEL_DIR");
-        try { GENERAL_PORT = Integer.valueOf(m_WB.getParameter("GP")).intValue(); }
-        catch (Exception e) { }
+        IMAGE_DIR = "images";
+        LABEL_DIR = "labels";
+        GENERAL_PORT = 8080;
 
         m_appToken = m_WB.getParameter("APP_TOKEN");
-
-        m_backLink = m_WB.getParameter("BACK_LINK");
-        m_homeLink = m_WB.getParameter("HOME_LINK");
 
         if (validate)
             {
