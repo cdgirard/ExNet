@@ -25,7 +25,7 @@ import girard.sc.wl.io.msg.WLAccessGroupListReqMsg;
 import girard.sc.wl.io.msg.WLMessage;
 import girard.sc.wl.web.WLOverlord;
 
-import java.applet.Applet;
+import java.awt.Frame;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -71,7 +71,7 @@ public class  ExptOverlord extends WLOverlord
  *
  * @param app The Applet running in the web browser that created ExptOverlord.
  */
-    public ExptOverlord(Applet app)
+    public ExptOverlord(Frame app)
         {
         super(app);
         }
@@ -82,7 +82,7 @@ public class  ExptOverlord extends WLOverlord
  * @param width The value for m_width.
  * @param height The value for m_height.
  */
-    public ExptOverlord(Applet app, int width, int height)
+    public ExptOverlord(Frame app, int width, int height)
         {
         super(app,width,height);
         }    

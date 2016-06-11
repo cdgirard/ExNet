@@ -13,6 +13,7 @@ import girard.sc.wl.io.msg.WLUpdateAppTokenReqMsg;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.GridLayout;
@@ -27,8 +28,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Hashtable;
-
-import javax.swing.JFrame;
 
 /**
  * The WLOverlord is the core of ExNet III.  It provides the base
@@ -177,7 +176,7 @@ public class  WLOverlord extends Panel
  * Is the main JFrame for ExNet 3;  It is passed in when WLOverlord
  * is first initialized.
  */
-    protected JFrame m_WB;
+    protected Frame m_WB;
 
 /**
  *
@@ -201,7 +200,7 @@ public class  WLOverlord extends Panel
  *
  * @param app The JFrame running that created WLOverlord.
  */
-    public WLOverlord(JFrame app)
+    public WLOverlord(Frame app)
         {
         Font f1 = new Font("TimesRoman",Font.BOLD,18);
         Font f2 = new Font("TimesRoman",Font.BOLD,12);
@@ -226,7 +225,7 @@ public class  WLOverlord extends Panel
  * @param width The value for m_width.
  * @param height The value for m_height.
  */
-    public WLOverlord(JFrame app, int width, int height)
+    public WLOverlord(Frame app, int width, int height)
         {
         Font f1 = new Font("TimesRoman",Font.BOLD,18);
         Font f2 = new Font("TimesRoman",Font.BOLD,12);
@@ -315,13 +314,7 @@ public class  WLOverlord extends Panel
         {
         return m_appToken;
         }
-/**
- * @return Returns the value of m_backLink.
- */
-    public String getBackLink()
-        {
-        return m_backLink;
-        }
+
 /**
  * @return Returns a defalut image for some of the GraphicButton objects used by 
  * ExNet 3.0.
@@ -515,7 +508,7 @@ public class  WLOverlord extends Panel
  * @see girard.sc.wl.web.WLOverlord#m_WB
  * @see java.swing.JFrame
  */
-    public JFrame getWB()
+    public Frame getWB()
         {
         return m_WB;
         }
