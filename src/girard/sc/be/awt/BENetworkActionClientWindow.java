@@ -368,35 +368,35 @@ public class BENetworkActionClientWindow extends ClientWindow
         Image tmp;
 
     // Initialize Black Arrow Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/black_arrow.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/black_arrow.gif"));
         m_images.put("Black Arrow",tmp);
 
     // Initialize Blue Arrow Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/blue_arrow.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/blue_arrow.gif"));
         m_images.put("Blue Arrow",tmp);
 
     // Initialize Red Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/red_bubble.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/red_bubble.gif"));
         m_images.put("Red Bubble",tmp);
 
     // Initialize Yellow Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/yellow_bubble.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/yellow_bubble.gif"));
         m_images.put("Yellow Bubble",tmp);
 
     // Initialize Green Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/green_bubble.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/green_bubble.gif"));
         m_images.put("Green Bubble",tmp);
 
     // Initialize Money Bag Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/money_bag.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/money_bag.gif"));
         m_images.put("Money Bag",tmp);
 
     // Initialize Final Arrow Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/final_arrow.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/final_arrow.gif"));
         m_images.put("Final Arrow",tmp);
 
     // Initialize Grey Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/be/awt/grey_bubble.gif"));
+        tmp = m_EOApp.getImage(m_EOApp.getImgLoc("images/girard/sc/be/awt/grey_bubble.gif"));
         m_images.put("Grey Bubble",tmp);
         }
     }

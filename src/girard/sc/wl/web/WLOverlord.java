@@ -90,11 +90,11 @@ public class  WLOverlord extends Panel
  */
     protected Hashtable<String,String> m_imgLoc;
 /**
- * How wide the display area is in the web browser for ExNet 3.0's Applet.
+ * How wide the display area is in the Frame for ExNet 3.0's.
  */
     protected int m_width = 0;
 /**
- * How tall the display area is in the web browser for ExNet 3.0's Applet.
+ * How tall the display area is the Frame for ExNet 3.0's.
  */
     protected int m_height = 0;
 
