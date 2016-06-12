@@ -158,8 +158,8 @@ public class ClientGTPWindow extends ClientTPWindow
 
     public Image loadImage(String imageFile, String title)
         {
-        URL imageURL = m_EOApp.getImgURL(imageFile);
-        Image tmp = m_EOApp.getImage(imageURL);
+        String imageLoc = "images/"+imageFile;
+        Image tmp = m_EOApp.getImage(imageLoc);
 
         return tmp;
         }

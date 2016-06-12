@@ -265,44 +265,25 @@ public class NetworkBuilderWindow extends BaseActionFormatWindow implements Acti
         {
         int x, y;
         Graphics g;
-        MediaTracker tracker;
         Image tmp, tmp2;
 
-        tracker = new MediaTracker(m_EOApp.getWB());
-
     // Initialize Delete Node Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/exnet/awt/delete_node.gif"));
-        tracker.addImage(tmp,1);
-        m_EOApp.showStatus("Loading image: DeleteNodeImg");
-        try { tracker.waitForID(1); }
-        catch(InterruptedException e) {}
+        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/delete_node.gif");
 
         m_DeleteNodeButton.setImage(tmp);
 
     // Initialize Add Node Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/exnet/awt/add_node.gif"));
-        tracker.addImage(tmp,2);
-        m_EOApp.showStatus("Loading image: AddNodeImg");
-        try { tracker.waitForID(2); }
-        catch(InterruptedException e) {}
+        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/add_node.gif");
 
         m_AddNodeButton.setImage(tmp);
 
     // Initialize Add Edge Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/exnet/awt/add_edge.gif"));
-        tracker.addImage(tmp,3);
-        m_EOApp.showStatus("Loading image: AddEdgeImg");
-        try { tracker.waitForID(3); }
-        catch(InterruptedException e) {}
+        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/add_edge.gif");
 
         m_AddEdgeButton.setImage(tmp);
 
     // Initialize Delete Edge Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/exnet/awt/delete_edge.gif"));
-        tracker.addImage(tmp,4);
-        m_EOApp.showStatus("Loading image: DeleteEdgeImg");
-        try { tracker.waitForID(4); }
-        catch(InterruptedException e) {}
+        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/delete_edge.gif");
 
         m_DeleteEdgeButton.setImage(tmp);
         }

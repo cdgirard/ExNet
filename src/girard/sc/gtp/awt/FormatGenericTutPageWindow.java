@@ -380,13 +380,8 @@ public class FormatGenericTutPageWindow extends FormatTutPageWindow implements A
 
     public Image loadImage(String imageFile, String title)
         {
-        URL imageURL = m_EOApp.getImgURL(imageFile);
-        MediaTracker tracker = new MediaTracker(m_EOApp.getWB());
-        Image tmp = m_EOApp.getImage(imageURL);
-        tracker.addImage(tmp,1);
-        m_EOApp.showStatus("Loading figure: "+title);
-        try { tracker.waitForID(1); }
-        catch(InterruptedException e) {}
+        String imageLoc = "image/"+imageFile;
+        Image tmp = m_EOApp.getImage(imageLoc);
 
         return tmp;
         }
@@ -400,10 +395,9 @@ public class FormatGenericTutPageWindow extends FormatTutPageWindow implements A
         {
         try
             {    
-            URL imageListURL = m_EOApp.getImgURL("girard/sc/gtp/awt/imageList.txt");
-            URLConnection urlCon = imageListURL.openConnection();
+            String imageListLoc = "images/girard/sc/gtp/awt/imageList.txt";
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(urlCon.getInputStream()));
+            BufferedReader in = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(imageListLoc)));
 
        // Now read in the HTML line by line
             String type = "None";

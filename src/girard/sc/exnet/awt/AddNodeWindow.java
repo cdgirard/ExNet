@@ -149,17 +149,10 @@ public class AddNodeWindow extends Frame implements ActionListener,WindowListene
         {
         Graphics g;
         int x, y;
-        MediaTracker tracker;
         Image tmp, tmp2;
-
-        tracker = new MediaTracker(m_NBApp.getEO().getWB());
 
         // Initialize Button Image
         tmp = m_NBApp.getEO().getButtonImage();
-        tracker.addImage(tmp,1);
-        m_NBApp.getEO().showStatus("Loading image: Button Image");
-        try { tracker.waitForID(1); }
-        catch(InterruptedException e) {}
 
         tmp2 = m_NBApp.getEO().createImage(m_buttonWidth-6,m_buttonHeight-6);
         

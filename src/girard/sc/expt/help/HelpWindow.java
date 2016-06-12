@@ -18,6 +18,7 @@ import java.awt.TextArea;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
@@ -259,9 +260,8 @@ public class HelpWindow extends Frame implements ActionListener
 
             String location = (String)m_helpAddresses.get(key);
     
-            URL helpURL = m_EOApp.getHelpURL(location);
-            URLConnection urlCon = helpURL.openConnection();
-            BufferedReader in = new BufferedReader(new InputStreamReader(urlCon.getInputStream()));
+            String helpLoc = m_EOApp.getHelpLoc(location);
+            BufferedReader in = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(helpLoc)));
 
        // Now read in the HTML line by line
             String lang = "None";
@@ -334,22 +334,7 @@ public class HelpWindow extends Frame implements ActionListener
 
             if (helpFile.length() > 0)
                 {
-                helpURL = m_EOApp.getHelpURL(helpFile);
-                urlCon = helpURL.openConnection();
-
-                in = new BufferedReader(new InputStreamReader(urlCon.getInputStream()));
-
-             // Now read in the HTML line by line
-                dataFile = new StringBuffer("");
-                inputline = in.readLine();
-                while(inputline != null ) 
-                    {
-                    dataFile.append(inputline+"\n");
-                    inputline = in.readLine();
-                    }
-
-                in.close();
-
+        	readInFile(helpFile, dataFile);
                 m_helpInfo.setText(dataFile.toString());
 
                 validate();
@@ -362,40 +347,45 @@ public class HelpWindow extends Frame implements ActionListener
                 String imageFile = (String)enm.nextElement();
                 String imageTitle = (String)enum2.nextElement();
 
-                URL imageURL = m_EOApp.getHelpURL(imageFile);
+                String imageStr = m_EOApp.getHelpLoc(imageFile);
                 MediaTracker tracker = new MediaTracker(m_EOApp.getWB());
-                tmp = m_EOApp.getImage(imageURL);
-                tracker.addImage(tmp,1);
-                m_EOApp.showStatus("Loading figure: "+title);
-                try { tracker.waitForID(1); }
-                catch(InterruptedException e) {}
+                tmp = m_EOApp.getImage(imageStr);
 
                 m_figureWindows.addElement(new FigureWindow(tmp,imageTitle));
                 }
             }
         catch(Exception e) { e.printStackTrace(); }
         }
+    
+    /**
+     * Used to read in a text file in the JAR and stores it in the provided StringBuffer.
+     * @param helpFile
+     * @param dataFile
+     * @throws IOException
+     */
+    private void readInFile(String helpFile, StringBuffer dataFile) throws IOException
+    {
+	String helpLoc = m_EOApp.getHelpLoc(helpFile);
+        BufferedReader in = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(helpLoc)));
+
+     // Now read in the HTML line by line
+        String inputline = in.readLine();
+        while(inputline != null ) 
+            {
+            dataFile.append(inputline+"\n");
+            inputline = in.readLine();
+            }
+
+        in.close();
+    }
 
     private void fillHelpAddress()
         {
         try
             {
-            URL helpURL = m_EOApp.getHelpURL("indexLocations.txt");
-            URLConnection urlCon = helpURL.openConnection();
-
-            BufferedReader in = new BufferedReader(new InputStreamReader(urlCon.getInputStream()));
-
        // Now read in the HTML line by line
             StringBuffer dataFile = new StringBuffer("");
-            String inputline = in.readLine();
-            while(inputline != null ) 
-                {
-                dataFile.append(inputline+"\n");
-                inputline = in.readLine();
-                }
-
-            in.close();
-
+            readInFile("indexLocations.txt",dataFile);
 
             String indexes = dataFile.toString();
 
@@ -429,21 +419,8 @@ public class HelpWindow extends Frame implements ActionListener
         {
         try
             {
-            URL helpURL = m_EOApp.getHelpURL("indexes.txt");
-            URLConnection urlCon = helpURL.openConnection();
-
-            BufferedReader in = new BufferedReader(new InputStreamReader(urlCon.getInputStream()));
-
-       // Now read in the HTML line by line
             StringBuffer dataFile = new StringBuffer("");
-            String inputline = in.readLine();
-            while(inputline != null ) 
-                {
-                dataFile.append(inputline+"\n");
-                inputline = in.readLine();
-                }
-
-            in.close();
+            readInFile("indexes.txt",dataFile);
 
             String indexes = dataFile.toString();
 

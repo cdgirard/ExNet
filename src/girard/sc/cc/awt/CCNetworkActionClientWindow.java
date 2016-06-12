@@ -315,35 +315,35 @@ public class CCNetworkActionClientWindow extends ClientWindow
         Image tmp;
 
     // Initialize Black Arrow Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/black_arrow.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/black_arrow.gif");
         m_images.put("Black Arrow",tmp);
 
     // Initialize Blue Arrow Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/blue_arrow.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/blue_arrow.gif");
         m_images.put("Blue Arrow",tmp);
 
     // Initialize Red Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/red_bubble.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/red_bubble.gif");
         m_images.put("Red Bubble",tmp);
 
     // Initialize Yellow Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/yellow_bubble.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/yellow_bubble.gif");
         m_images.put("Yellow Bubble",tmp);
 
     // Initialize Green Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/green_bubble.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/green_bubble.gif");
         m_images.put("Green Bubble",tmp);
 
     // Initialize Money Bag Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/money_bag.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/money_bag.gif");
         m_images.put("Money Bag",tmp);
 
     // Initialize Final Arrow Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/final_arrow.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/final_arrow.gif");
         m_images.put("Final Arrow",tmp);
 
     // Initialize Grey Bubble Image
-        tmp = m_EOApp.getImage(m_EOApp.getImgURL("girard/sc/cc/awt/grey_bubble.gif"));
+        tmp = m_EOApp.getImage("images/girard/sc/cc/awt/grey_bubble.gif");
         m_images.put("Grey Bubble",tmp);
         }
     }
