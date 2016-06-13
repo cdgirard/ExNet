@@ -334,7 +334,7 @@ public class HelpWindow extends Frame implements ActionListener
 
             if (helpFile.length() > 0)
                 {
-        	readInFile(helpFile, dataFile);
+        	m_EOApp.readInFile(m_EOApp.getHelpLoc(helpFile), dataFile);
                 m_helpInfo.setText(dataFile.toString());
 
                 validate();
@@ -356,28 +356,6 @@ public class HelpWindow extends Frame implements ActionListener
             }
         catch(Exception e) { e.printStackTrace(); }
         }
-    
-    /**
-     * Used to read in a text file in the JAR and stores it in the provided StringBuffer.
-     * @param helpFile
-     * @param dataFile
-     * @throws IOException
-     */
-    private void readInFile(String helpFile, StringBuffer dataFile) throws IOException
-    {
-	String helpLoc = m_EOApp.getHelpLoc(helpFile);
-        BufferedReader in = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(helpLoc)));
-
-     // Now read in the HTML line by line
-        String inputline = in.readLine();
-        while(inputline != null ) 
-            {
-            dataFile.append(inputline+"\n");
-            inputline = in.readLine();
-            }
-
-        in.close();
-    }
 
     private void fillHelpAddress()
         {
@@ -385,7 +363,7 @@ public class HelpWindow extends Frame implements ActionListener
             {
        // Now read in the HTML line by line
             StringBuffer dataFile = new StringBuffer("");
-            readInFile("indexLocations.txt",dataFile);
+            m_EOApp.readInFile(m_EOApp.getHelpLoc("indexLocations.txt"),dataFile);
 
             String indexes = dataFile.toString();
 
@@ -420,7 +398,7 @@ public class HelpWindow extends Frame implements ActionListener
         try
             {
             StringBuffer dataFile = new StringBuffer("");
-            readInFile("indexes.txt",dataFile);
+            m_EOApp.readInFile(m_EOApp.getHelpLoc("indexes.txt"),dataFile);
 
             String indexes = dataFile.toString();
 

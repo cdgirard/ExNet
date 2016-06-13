@@ -456,22 +456,6 @@ public class ExptOverlord extends WLOverlord
     }
 
     /**
-     * Just sets the values to the default values.
-     *
-     * @param validate
-     *            Whether to validate the m_appToken or not.
-     * @return Returns true if successful, false otherwise.
-     */
-    public boolean loadParameters(boolean validate)
-    {
-	boolean value = super.loadParameters(validate);
-	HELP_DIR = "help";
-	EXPT_PORT = 8180;
-
-	return value;
-    }
-
-    /**
      * Loads a SimActor file from its approaite database.
      *
      * @param fileName

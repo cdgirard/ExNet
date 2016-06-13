@@ -392,94 +392,89 @@ public class FormatGenericTutPageWindow extends FormatTutPageWindow implements A
         }
 
     public void loadAvailableImages()
-        {
-        try
-            {    
-            String imageListLoc = "images/girard/sc/gtp/awt/imageList.txt";
+    {
+	StringBuffer dataFile = new StringBuffer();
+	String imageListLoc = "images/girard/sc/gtp/awt/imageList.txt";
+	m_EOApp.readInFile(imageListLoc, dataFile);
+	String[] lines = dataFile.toString().split("\n");
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(imageListLoc)));
+	// Now read in the HTML line by line
+	String type = "None";
+	String loc = "None";
+	String title = "None";
 
-       // Now read in the HTML line by line
-            String type = "None";
-            String loc = "None";
-            String title = "None";
-            String inputline = in.readLine();
+	int counter = 0;
+	int index = 0;
+	String inputline = lines[index++];
+	while (index < lines.length)
+	{
+	    if (counter == 0)
+		type = inputline;
+	    if (counter == 1)
+		loc = inputline;
+	    if (counter == 2)
+		title = inputline;
+	    inputline = lines[index++];
+	    counter++;
+	    if (counter == 3)
+	    {
+		if (m_images.containsKey(type))
+		{
+		    Hashtable h = (Hashtable) m_images.get(type);
+		    String[] str = new String[2];
+		    str[0] = loc;
+		    str[1] = title;
+		    h.put(title, str);
+		} else
+		{
+		    Hashtable h = new Hashtable();
+		    String[] str = new String[2];
+		    str[0] = loc;
+		    str[1] = title;
+		    h.put(title, str);
+		    m_images.put(type, h);
+		}
+		counter = 0;
+	    }
+	}
 
-            int counter = 0;
+	Enumeration enm = m_images.keys();
+	while (enm.hasMoreElements())
+	{
+	    String[] str = new String[1];
+	    str[0] = (String) enm.nextElement();
+	    m_imageTypeList.addItem(str);
+	}
 
-            while(inputline != null) 
-                {
-                if (counter == 0)
-                    type = inputline;
-                if (counter == 1)
-                    loc = inputline;
-                if (counter == 2)
-                    title = inputline;
-                inputline = in.readLine();
-                counter++;
-                if (counter == 3)
-                    {
-                    if (m_images.containsKey(type))
-                        {
-                        Hashtable h = (Hashtable)m_images.get(type);
-                        String[] str = new String[2];
-                        str[0] = loc;
-                        str[1] = title;
-                        h.put(title,str);
-                        }
-                    else
-                        {
-                        Hashtable h = new Hashtable();
-                        String[] str = new String[2];
-                        str[0] = loc;
-                        str[1] = title;
-                        h.put(title,str);
-                        m_images.put(type,h);
-                        }
-                    counter = 0;
-                    }
-                }
+	for (int i = 0; i < m_imageTypeList.getItemCount(); i++)
+	{
+	    type = (String) m_imageTypeList.getSubItem(i, 0);
+	    Hashtable h = (Hashtable) m_images.get(type);
 
-            in.close();
+	    if (h.containsKey(m_GTP.getImageTitle()))
+	    {
+		String[] str = (String[]) h.get(m_GTP.getImageTitle());
+		if (m_GTP.getImageLocation().equals(str[0]))
+		{
+		    updateImageList(type);
+		    m_imageTypeIndex = i;
+		    for (int x = 0; x < m_imageList.getItemCount(); x++)
+		    {
+			String str2 = (String) m_imageList.getSubItem(x, 0);
+			if (str2.equals(m_GTP.getImageTitle()))
+			{
+			    m_imageIndex = x;
+			    m_imageList.select(x);
+			    m_imageTypeList.select(i);
+			    break;
+			}
+		    }
+		    break;
+		}
+	    }
+	}
 
-            Enumeration enm = m_images.keys();
-            while (enm.hasMoreElements())
-                {
-                String[] str = new String[1];
-                str[0] = (String)enm.nextElement();
-                m_imageTypeList.addItem(str);
-                }
-
-            for (int i=0;i<m_imageTypeList.getItemCount();i++)
-                {
-                type = (String)m_imageTypeList.getSubItem(i,0);
-                Hashtable h = (Hashtable)m_images.get(type);
-
-                if (h.containsKey(m_GTP.getImageTitle()))
-                    {
-                    String[] str = (String[])h.get(m_GTP.getImageTitle());
-                    if (m_GTP.getImageLocation().equals(str[0]))
-                        {
-                        updateImageList(type);
-                        m_imageTypeIndex = i;
-                        for (int x=0;x<m_imageList.getItemCount();x++)
-                            {
-                            String str2 = (String)m_imageList.getSubItem(x,0);
-                            if (str2.equals(m_GTP.getImageTitle()))
-                                {
-                                m_imageIndex = x;
-                                m_imageList.select(x);
-                                m_imageTypeList.select(i);
-                                break;
-                                }
-                            }
-                        break;
-                        }
-                    }
-                }
-            }
-        catch(Exception e) { e.printStackTrace(); }
-        }
+    }
 
     public void removeLabels()
         {

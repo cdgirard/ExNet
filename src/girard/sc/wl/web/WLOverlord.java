@@ -28,6 +28,8 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Hashtable;
 
+import javax.imageio.ImageIO;
+
 /**
  * The WLOverlord is the core of ExNet III.  It provides the base
  * information necessary to run multi-user experiments over the web.
@@ -353,39 +355,22 @@ public class  WLOverlord extends Panel
         {
         Image tmp = null;
 
-        tmp = Toolkit.getDefaultToolkit().getImage(getClass().getResource(loc));
+        ClassLoader myCL = WLOverlord.class.getClassLoader();
+        
+	try
+	{
+	    tmp = ImageIO.read(myCL.getResourceAsStream(loc));
+	} 
+	catch (IOException e)
+	{
+	    e.printStackTrace();
+	}
 
         return tmp;
         }
-/**
- * Creates a URL from the location given for an image.  Format of location should
- * be the directory path from the IMAGE_DIR and the filename of the image, 
- * Example: girard/wl/awt/GreenBubble.gif. 
- * <br> NOTE: The image must be located within the IMAGE_DIR path on the machine
- * listed under the HOST_NAME.
- *
- * @param image The directory path and name of the image.
- * @return The URL address just created, will return null if unable to create
- * a URL address.
- * @see girard.sc.wl.web.WLOverlord#HOST_NAME
- * @see java.net.URL
- */
-    public String getImgLoc(String image)
-        {
-        String imageLoc = null;
+    
+    
 
-      
-        if (m_imgLoc.containsKey(image))
-            {
-            imageLoc = m_imgLoc.get(image);
-            }
-        else
-            {
-            imageLoc = "Invalid Image" ;
-            }
-
-        return imageLoc;
-        }
 /**
  * Used to get the WebResourceBundle object which contains labels grouped together
  * based on language.
@@ -627,6 +612,36 @@ public class  WLOverlord extends Panel
         m_TitlePanel.constrain(m_TitleCanvas,1,1,1,1,GridBagConstraints.CENTER,GridBagConstraints.BOTH);
         m_TitlePanel.validate();
         }
+    
+    /**
+     * Used to read in a text file in the JAR and stores it in the provided StringBuffer.
+     * @param helpFile
+     * @param dataFile
+     * @throws IOException
+     */
+    public void readInFile(String file, StringBuffer dataFile)
+    {
+	ClassLoader myCL = WLOverlord.class.getClassLoader();
+        
+        BufferedReader in = new BufferedReader(new InputStreamReader(myCL.getResourceAsStream(file)));
+        
+	try
+	{
+	    // Now read in the HTML line by line
+	    String inputline = in.readLine();
+	    while (inputline != null)
+	    {
+		dataFile.append(inputline + "\n");
+		inputline = in.readLine();
+	    }
+
+	    in.close();
+	}
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
 /**
  * Will remove a set of labels from m_labels.  Format of str should be 
  * package/package/java filename.txt,
@@ -854,7 +869,7 @@ public class  WLOverlord extends Panel
         Image tmp1, tmp2;
 
         // Initialize Load Button Image
-        tmp1 = this.getImage(this.getImgLoc("title_background"));
+        tmp1 = this.getImage("images/girard/sc/wl/web/burgun.jpg");
 
         tmp2 = this.createImage(tmp1.getWidth(null),tmp1.getHeight(null));
         
