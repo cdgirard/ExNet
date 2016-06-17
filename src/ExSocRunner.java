@@ -17,7 +17,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Runner extends Application
+public class ExSocRunner extends Application
 {
 
     @Override
@@ -34,10 +34,11 @@ public class Runner extends Application
 	Scene scene = new Scene(grid, 300, 275);
 	primaryStage.setScene(scene);
 	scene.getStylesheets().add
-	 (Runner.class.getResource("labels/labels/Login.css").toExternalForm());
+	 (ExSocRunner.class.getResource("images/Login.css").toExternalForm());
 
 	Text scenetitle = new Text("Welcome");
-	scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+	scenetitle.setId("welcome-text");
+	//scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
 	grid.add(scenetitle, 0, 0, 2, 1);
 
 	Label userName = new Label("User Name:");
@@ -59,6 +60,7 @@ public class Runner extends Application
 	grid.add(hbBtn, 1, 4);
 
 	final Text actiontarget = new Text();
+	actiontarget.setId("actiontarget");
 	grid.add(actiontarget, 1, 6);
 
 	btn.setOnAction(new EventHandler<ActionEvent>()
@@ -67,7 +69,7 @@ public class Runner extends Application
 	    @Override
 	    public void handle(ActionEvent e)
 	    {
-		actiontarget.setFill(Color.FIREBRICK);
+		// actiontarget.setFill(Color.FIREBRICK);
 		actiontarget.setText("Sign in button pressed");
 	    }
 	});
