@@ -25,10 +25,7 @@ import girard.sc.wl.io.msg.WLAccessGroupListReqMsg;
 import girard.sc.wl.io.msg.WLMessage;
 import girard.sc.wl.web.WLOverlord;
 
-import java.awt.Frame;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
@@ -78,25 +75,8 @@ public class ExptOverlord extends WLOverlord
      *            The Applet running in the web browser that created
      *            ExptOverlord.
      */
-    public ExptOverlord(Frame app)
+    public ExptOverlord()
     {
-	super(app);
-    }
-
-    /**
-     * A constructor for ExptOverlord.
-     *
-     * @param app
-     *            The Applet running in the web browser that created
-     *            ExptOverlord.
-     * @param width
-     *            The value for m_width.
-     * @param height
-     *            The value for m_height.
-     */
-    public ExptOverlord(Frame app, int width, int height)
-    {
-	super(app, width, height);
     }
 
     /**

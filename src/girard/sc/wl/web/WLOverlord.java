@@ -18,8 +18,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridLayout;
 import java.awt.Image;
 import java.awt.Panel;
-import java.awt.Toolkit;
-import java.awt.image.ImageProducer;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -41,7 +39,7 @@ import javax.imageio.ImageIO;
  * @since JDK1.1
  */
 
-public class  WLOverlord extends Panel
+public class  WLOverlord extends Frame
     {
 
 /**
@@ -52,13 +50,13 @@ public class  WLOverlord extends Panel
  * Default location of the base directory where images are stored, can be changed by
  * adding the proper parameters to the html page that launched the Applet.
  */
-    private String IMAGE_DIR = new String("/Java/ExSoc/images/");
+     public static final String IMAGE_DIR = new String("images/");
 /**
  * Default location of the base directory where the text files for the labels are 
  * stored, can be changed by adding the proper parameters to the html page that
  * launched the Applet.
  */
-    private String LABEL_DIR = new String("/Java/ExSoc/labels/");
+    public static final String LABEL_DIR = new String("labels/");
 
 /**
  * Is the general access port;
@@ -94,11 +92,11 @@ public class  WLOverlord extends Panel
 /**
  * How wide the display area is in the Frame for ExNet 3.0's.
  */
-    protected int m_width = 0;
+    protected int m_width = 800;
 /**
  * How tall the display area is the Frame for ExNet 3.0's.
  */
-    protected int m_height = 0;
+    protected int m_height = 600;
 
 /**
  * A Preset color setting for making everything look similar.
@@ -169,12 +167,6 @@ public class  WLOverlord extends Panel
     protected WebResourceBundle m_labels = new WebResourceBundle();
 
 /**
- * Is the main JFrame for ExNet 3;  It is passed in when WLOverlord
- * is first initialized.
- */
-    protected Frame m_WB;
-
-/**
  *
  */
     protected GridBagPanel m_TitlePanel;
@@ -194,53 +186,25 @@ public class  WLOverlord extends Panel
 /**
  * A constructor for WLOverlord.
  *
- * @param app The JFrame running that created WLOverlord.
  */
-    public WLOverlord(Frame app)
+    public WLOverlord()
         {
-        Font f1 = new Font("TimesRoman",Font.BOLD,18);
-        Font f2 = new Font("TimesRoman",Font.BOLD,12);
-
-        m_WB = app;
-
         setBackground(Color.lightGray);
         setLayout(new BorderLayout());
 
         m_TitlePanel = new GridBagPanel();
+        placeTitlePanel();
 
         m_WebpageBasePanel = new Panel(new GridLayout(1,1));
 
-        add("North",new BorderPanel(m_TitlePanel));
+        add(BorderLayout.NORTH,new BorderPanel(m_TitlePanel));
 
         add("Center",new BorderPanel(m_WebpageBasePanel));
+        
+        setSize(m_width,m_height);
+        setVisible(true);
         }
-/**
- * A constructor for WLOverlord.
- *
- * @param app The JFrame running that created WLOverlord.
- * @param width The value for m_width.
- * @param height The value for m_height.
- */
-    public WLOverlord(Frame app, int width, int height)
-        {
-        Font f1 = new Font("TimesRoman",Font.BOLD,18);
-        Font f2 = new Font("TimesRoman",Font.BOLD,12);
-
-        m_WB = app;
-        m_width = width;
-        m_height = height;     
-
-        setBackground(Color.lightGray);
-        setLayout(new BorderLayout());
-
-        m_TitlePanel = new GridBagPanel();
-
-        m_WebpageBasePanel = new Panel(new GridLayout(1,1));
-
-        add("North",new BorderPanel(m_TitlePanel));
-
-        add("Center",new BorderPanel(m_WebpageBasePanel));
-        }    
+  
 
 /**
  * Add a WebPanel to be displayed within the m_WebpageBasePanel.
@@ -255,35 +219,6 @@ public class  WLOverlord extends Panel
         m_TitleCanvas.setLabel("Web-Lab - "+A.getTitle());
         m_TitleCanvas.centerLabel();
         m_WebpageBasePanel.validate();
-        }
-
-/**
- * Used to create an Image object for drawing on.
- * Uses m_WB to call createImage().
- *
- * @param producer The ImageProducer creating the image.
- * @return The java.awt.Image object just created.
- * @see java.awt.Component#createImage(ImpageProducer producer)
- * @see java.awt.Image
- */
-    public Image createImage(ImageProducer producer)
-        {
-        return m_WB.createImage(producer);
-        }
-
-/**
- * Used to create an Image object for drawing on.
- * Uses m_WB to call createImage().
- *
- * @param width How wide to make the image in pixels.
- * @param height How tall to make the image in pixels.
- * @return The java.awt.Image object just created.
- * @see java.awt.Component#createImage(int width, int height)
- * @see java.awt.Image
- */
-    public Image createImage(int width, int height)
-        {
-        return m_WB.createImage(width,height);
         }
 
 /**
@@ -351,7 +286,7 @@ public class  WLOverlord extends Panel
  * @see girard.sc.wl.web.WLOverlord#getImgURL(String image)
  * @see java.awt.Image
  */
-    public Image getImage(String loc)
+    public Image getImag(Strin loc)
         {
         Image tmp = null;
 
@@ -359,7 +294,7 @@ public class  WLOverlord extends Panel
         
 	try
 	{
-	    tmp = ImageIO.read(myCL.getResourceAsStream(loc));
+	    tmp = ImageIO.read(myCL.getResourceAsStream(IMAGE_DIR+loc));
 	} 
 	catch (IOException e)
 	{
@@ -467,18 +402,6 @@ public class  WLOverlord extends Panel
         {
         return m_winBkgColor;
         }
-/**
- * Useful if you need to use one of the JFrame functions,
- * as the WLOverlord is not the main JFrame.
- *
- * @return Returns the main JFrame.
- * @see girard.sc.wl.web.WLOverlord#m_WB
- * @see java.swing.JFrame
- */
-    public Frame getWB()
-        {
-        return m_WB;
-        }
 
 /**
  * Will load in a set of labels to be added to m_labels.  Format of str should be 
@@ -500,74 +423,40 @@ public class  WLOverlord extends Panel
  * @see girard.sc.wl.web.WLOverlord#m_labels
  */
     public void initializeLabels(String str)
-        {
-        URL labelURL = null;
+    {
 
-        int counter = 0;
+	StringBuffer data = new StringBuffer();
+	String labelLoc = LABEL_DIR + str;
+	readInFile(labelLoc, data);
+	String[] lines = data.toString().split("\n");
 
-        while ((labelURL == null) && (counter < 5))
-            {
-            try
-                {
-                labelURL = new URL("http://"+HOST_NAME+LABEL_DIR+str);
-                           }
-            catch(MalformedURLException e) { }
-            counter++;
-            }
+	int counter = 0;
 
-        if (labelURL == null)
-            return;
+	// Now read in the HTML line by line
+	String lang = "None";
+	String key = "None";
+	String label = "None";
+	String inputline;
 
-        URLConnection urlCon = null;
-        BufferedReader in = null;
+	while (counter < lines.length)
+	{
+	    inputline = lines[counter];
 
-        counter = 0;
+	    if (counter % 3 == 0)
+		lang = inputline;
+	    if (counter % 3 == 1)
+		key = inputline;
+	    if (counter % 3 == 2)
+		label = inputline;
+	    counter++;
 
-        while ((urlCon == null) && (counter < 5))
-            {
-            try
-                {
-                urlCon = labelURL.openConnection();
-            
-                in = new BufferedReader(new InputStreamReader(urlCon.getInputStream()));
-                }
-            catch(Exception e) { e.printStackTrace(); }
-     
-            counter++;
-            }
-
-        try
-            {
-       // Now read in the HTML line by line
-            String lang = "None";
-            String key = "None";
-            String label = "None";
-            String inputline = in.readLine();
-
-            counter = 0;
-
-            while(inputline != null ) 
-                {
-                if (counter == 0)
-                    lang = inputline;
-                if (counter == 1)
-                    key = inputline;
-                if (counter == 2)
-                    label = inputline;
-                counter++;
-
-                if (counter == 3)
-                    {
-                    m_labels.addObjectLabel(lang,key,label);
-                    counter = 0;
-                    }
-                inputline = in.readLine();
-                }
-
-            in.close();
-            }
-        catch(Exception e) { e.printStackTrace(); }
-        }
+	    if (counter % 3 == 0)
+	    {
+		m_labels.addObjectLabel(lang, key, label);
+		System.out.println("Added: "+key);
+	    }
+	}
+    }
 
 /**
  * Used to initialize a WLMessage before it is sent.  Must be called on any created
@@ -580,27 +469,6 @@ public class  WLOverlord extends Panel
         {
         msg.setSecurityKey(SECURITY_KEY);
         msg.setUserID(m_userID);
-        }
-
-/**
- * Reads all the parameter settings from the web page.
- *
- * @param validate Whether to validate the user or not.
- * @return Returns true if processed everything correctly, false otherwise.
- * @see girard.sc.wl.web.WLOverlord#HOST_NAME
- */
-    public boolean loadParameters(boolean validate)
-        {
-        IMAGE_DIR = "images";
-        LABEL_DIR = "labels";
-        GENERAL_PORT = 8080;
-
-        if (m_width == 0)
-            m_width = 800;
-        if (m_height == 0)
-            m_height = 600;
-
-        return true;
         }
 
 /**
@@ -668,7 +536,6 @@ public class  WLOverlord extends Panel
             String inputline = in.readLine();
             String lang = "None";
             String key = "None";
-            String label = "None";
 
             int counter = 0;
 
@@ -678,8 +545,7 @@ public class  WLOverlord extends Panel
                     lang = inputline;
                 if (counter == 1)
                     key = inputline;
-                if (counter == 2)
-                    label = inputline;
+
                 counter++;
 
                 if (counter == 3)
@@ -866,18 +732,18 @@ public class  WLOverlord extends Panel
     private void createTitleCanvas()
         {
         Graphics g;
-        Image tmp1, tmp2;
+        Image tmp1;
 
         // Initialize Load Button Image
         tmp1 = this.getImage("images/girard/sc/wl/web/burgun.jpg");
 
-        tmp2 = this.createImage(tmp1.getWidth(null),tmp1.getHeight(null));
+        //tmp2 = this.createImage(tmp1.getWidth(null),tmp1.getHeight(null));
         
-        g = tmp2.getGraphics();
+        g = tmp1.getGraphics();
 
-        g.drawImage(tmp1,0,0,m_WB);
+        g.drawImage(tmp1,0,0,null);
 
-        m_TitleCanvas = new LabelCanvas(m_width,50,tmp2,"Web-Lab");
+        m_TitleCanvas = new LabelCanvas(m_width,50,tmp1,"Web-Lab");
         m_TitleCanvas.setFont(m_titleFont);
         m_TitleCanvas.centerLabel();
         m_TitleCanvas.setLabelColor(m_buttonLabelColor);

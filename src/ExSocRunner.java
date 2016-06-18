@@ -1,3 +1,5 @@
+import girard.sc.expt.web.ExptOverlord;
+import girard.sc.expt.web.SubjectLoginPage;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -19,11 +21,24 @@ import javafx.stage.Stage;
 
 public class ExSocRunner extends Application
 {
-
+    Button m_experimenterLoginBtn, m_subjectLoginBtn;
+    Text actiontarget;
+    Stage m_primaryStage;
+    
+    EventHandler<ActionEvent> subjectEvent = p -> { 
+	ExptOverlord eo = new ExptOverlord();
+	eo.addPanel(new SubjectLoginPage(eo));
+	eo.validate();
+	m_primaryStage.hide();
+    };
+    
+    EventHandler<ActionEvent> experimenterEvent = p -> actiontarget.setText("Experimenter in button pressed");
+    
     @Override
-    public void start(Stage primaryStage)
+    public void start(Stage stage)
     {
-	primaryStage.setTitle("JavaFX Welcome");
+	m_primaryStage = stage;
+	m_primaryStage.setTitle("ExSoc Welcome");
 
 	GridPane grid = new GridPane();
 	grid.setAlignment(Pos.CENTER);
@@ -31,50 +46,37 @@ public class ExSocRunner extends Application
 	grid.setVgap(10);
 	grid.setPadding(new Insets(25, 25, 25, 25));
 
-	Scene scene = new Scene(grid, 300, 275);
-	primaryStage.setScene(scene);
+	// Scene scene = new Scene(grid, 300, 275);
+	Scene scene = new Scene(grid);
+	m_primaryStage.setScene(scene);
 	scene.getStylesheets().add
-	 (ExSocRunner.class.getResource("images/Login.css").toExternalForm());
-
-	Text scenetitle = new Text("Welcome");
+	 (ExSocRunner.class.getResource("images/Runner.css").toExternalForm());
+	
+	Text scenetitle = new Text("Welcome to ExSoc");
 	scenetitle.setId("welcome-text");
-	//scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
 	grid.add(scenetitle, 0, 0, 2, 1);
 
-	Label userName = new Label("User Name:");
-	grid.add(userName, 0, 1);
-
-	TextField userTextField = new TextField();
-	grid.add(userTextField, 1, 1);
-
-	Label pw = new Label("Password:");
-	grid.add(pw, 0, 2);
-
-	PasswordField pwBox = new PasswordField();
-	grid.add(pwBox, 1, 2);
-
-	Button btn = new Button("Sign in");
+	m_experimenterLoginBtn = new Button("Experimenter");
 	HBox hbBtn = new HBox(10);
 	hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
-	hbBtn.getChildren().add(btn);
-	grid.add(hbBtn, 1, 4);
+	hbBtn.getChildren().add(m_experimenterLoginBtn);
+	grid.add(hbBtn, 0, 1, 2, 1);
+	
+	m_experimenterLoginBtn.setOnAction(experimenterEvent);
 
-	final Text actiontarget = new Text();
+	m_subjectLoginBtn = new Button("Subject");
+	hbBtn = new HBox(10);
+	hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
+	hbBtn.getChildren().add(m_subjectLoginBtn);
+	grid.add(hbBtn, 0, 2, 2, 1);
+
+	m_subjectLoginBtn.setOnAction(subjectEvent);
+	
+	actiontarget = new Text();
 	actiontarget.setId("actiontarget");
 	grid.add(actiontarget, 1, 6);
 
-	btn.setOnAction(new EventHandler<ActionEvent>()
-	{
-
-	    @Override
-	    public void handle(ActionEvent e)
-	    {
-		// actiontarget.setFill(Color.FIREBRICK);
-		actiontarget.setText("Sign in button pressed");
-	    }
-	});
-
-	primaryStage.show();
+	m_primaryStage.show();
     }
 
     public static void main(String[] args)

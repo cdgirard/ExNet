@@ -24,8 +24,8 @@ import java.awt.Label;
 import java.awt.Panel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.awt.image.BufferedImage;
+import java.awt.image.IndexColorModel;
 
 public class SubjectLoginPage extends WebPanel implements ActionListener
 {
@@ -109,7 +109,7 @@ public class SubjectLoginPage extends WebPanel implements ActionListener
 	    if (theSource == m_CancelButton)
 	    {
 		// Handle Cancel
-		m_EOApp.getWB().dispose();
+		m_EOApp.dispose();
 	    }
 	}
     }
@@ -148,16 +148,16 @@ public class SubjectLoginPage extends WebPanel implements ActionListener
     {
 	int x, y;
 	Graphics g;
-	Image tmp, tmp2;
+	Image tmp;
 
 	// Initialize Login Button Image
 	tmp = m_EOApp.getButtonImage();
-
-	tmp2 = m_EOApp.createImage(m_buttonWidth - 6, m_buttonHeight - 6);
+	
+	BufferedImage tmp2 = new BufferedImage(m_buttonWidth - 6, m_buttonHeight - 6, BufferedImage.TYPE_3BYTE_BGR);
 
 	g = tmp2.getGraphics();
 
-	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, m_EOApp.getWB());
+	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, null);
 	g.setFont(m_EOApp.getLgButtonFont());
 	g.setColor(m_EOApp.getButtonLabelColor());
 	x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("slp_login").length() * 12) / 2;
@@ -167,11 +167,11 @@ public class SubjectLoginPage extends WebPanel implements ActionListener
 	m_LoginButton.setImage(tmp2);
 
 	// Create Cancel Button
-	tmp2 = m_EOApp.createImage(m_buttonWidth - 6, m_buttonHeight - 6);
+	tmp2 = new BufferedImage(m_buttonWidth - 6, m_buttonHeight - 6, BufferedImage.TYPE_3BYTE_BGR);
 
 	g = tmp2.getGraphics();
 
-	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, m_EOApp.getWB());
+	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, null);
 	g.setFont(m_EOApp.getLgButtonFont());
 	g.setColor(m_EOApp.getButtonLabelColor());
 	x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("slp_cancel").length() * 12) / 2;
