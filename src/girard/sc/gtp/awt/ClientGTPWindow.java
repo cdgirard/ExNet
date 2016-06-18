@@ -156,14 +156,6 @@ public class ClientGTPWindow extends ClientTPWindow
         dispose();
         }
 
-    public Image loadImage(String imageFile, String title)
-        {
-        String imageLoc = "images/"+imageFile;
-        Image tmp = m_EOApp.getImage(imageLoc);
-
-        return tmp;
-        }
-
     public void initializeLabels()
         {
         m_EOApp.initializeLabels("girard/sc/gtp/awt/cgtpw.txt");
@@ -188,7 +180,7 @@ public class ClientGTPWindow extends ClientTPWindow
                 }
             else
                 {
-                img = loadImage(m_tutorialPage.getImageLocation(),m_tutorialPage.getImageTitle());
+                img = m_EOApp.getImage(m_tutorialPage.getImageLocation());
                 }
             
             m_displayWindow = new ClientImageWindow(img,m_tutorialPage.getImageTitle());

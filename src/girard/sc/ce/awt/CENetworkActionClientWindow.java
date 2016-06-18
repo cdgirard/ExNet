@@ -385,31 +385,31 @@ public class CENetworkActionClientWindow extends ClientWindow
         Image tmp;
 
     // Initialize Red Bubble Image
-        tmp = m_EOApp.getImage("images/girard/sc/ce/awt/red_bubble.gif");
+        tmp = m_EOApp.getImage("girard/sc/ce/awt/red_bubble.gif");
         m_images.put("Red Bubble",tmp);
 
     // Initialize Yellow Bubble Image
-        tmp = m_EOApp.getImage("images/girard/sc/ce/awt/yellow_bubble.gif");
+        tmp = m_EOApp.getImage("girard/sc/ce/awt/yellow_bubble.gif");
         m_images.put("Yellow Bubble",tmp);
 
     // Initialize Green Bubble Image
-        tmp = m_EOApp.getImage("images/girard/sc/ce/awt/green_bubble.gif");
+        tmp = m_EOApp.getImage("girard/sc/ce/awt/green_bubble.gif");
         m_images.put("Green Bubble",tmp);
 
     // Initialize Grey Bubble Image
-        tmp = m_EOApp.getImage("images/girard/sc/ce/awt/grey_bubble.gif");
+        tmp = m_EOApp.getImage("girard/sc/ce/awt/grey_bubble.gif");
         m_images.put("Grey Bubble",tmp);
 
     // Initialize Black Arrow Image
-        tmp = m_EOApp.getImage("images/girard/sc/ce/awt/black_arrow.gif");
+        tmp = m_EOApp.getImage("girard/sc/ce/awt/black_arrow.gif");
         m_images.put("Black Arrow",tmp);
 
     // Initialize Blue Arrow Image
-        tmp = m_EOApp.getImage("images/girard/sc/ce/awt/blue_arrow.gif");
+        tmp = m_EOApp.getImage("girard/sc/ce/awt/blue_arrow.gif");
         m_images.put("Blue Arrow",tmp);
 
     // Initialize Final Arrow Image
-        tmp = m_EOApp.getImage("images/girard/sc/ce/awt/final_arrow.gif");
+        tmp = m_EOApp.getImage("girard/sc/ce/awt/final_arrow.gif");
         m_images.put("Final Arrow",tmp);
         }
 

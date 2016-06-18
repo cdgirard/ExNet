@@ -17,6 +17,7 @@ import java.awt.Label;
 import java.awt.Panel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 /**
  * Created for the new stand alone application so that Experimenters
  * can log into the system.
@@ -104,7 +105,7 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 	    }
 	    if (theSource == m_CancelButton)
 	    {
-		m_EOApp.getWB().dispose();
+		m_EOApp.dispose();
 	    }
 	}
     }
@@ -143,16 +144,16 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
     {
 	int x, y;
 	Graphics g;
-	Image tmp, tmp2;
+	Image tmp;
 
 	// Initialize Login Button Image
 	tmp = m_EOApp.getButtonImage();
 
-	tmp2 = m_EOApp.createImage(m_buttonWidth - 6, m_buttonHeight - 6);
+	BufferedImage tmp2 = new BufferedImage(m_buttonWidth - 6, m_buttonHeight - 6,BufferedImage.TYPE_3BYTE_BGR);
 
 	g = tmp2.getGraphics();
 
-	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, m_EOApp.getWB());
+	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, null);
 	g.setFont(m_EOApp.getLgButtonFont());
 	g.setColor(m_EOApp.getButtonLabelColor());
 	x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("elp_login").length() * 12) / 2;
@@ -162,11 +163,11 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 	m_LoginButton.setImage(tmp2);
 
 	// Create Cancel Button
-	tmp2 = m_EOApp.createImage(m_buttonWidth - 6, m_buttonHeight - 6);
+	tmp2 = new BufferedImage(m_buttonWidth - 6, m_buttonHeight - 6,BufferedImage.TYPE_3BYTE_BGR);
 
 	g = tmp2.getGraphics();
 
-	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, m_EOApp.getWB());
+	g.drawImage(tmp, 0, 0, m_buttonWidth - 6, m_buttonHeight - 6, null);
 	g.setFont(m_EOApp.getLgButtonFont());
 	g.setColor(m_EOApp.getButtonLabelColor());
 	x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("elp_cancel").length() * 12) / 2;

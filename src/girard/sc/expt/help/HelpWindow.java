@@ -243,119 +243,111 @@ public class HelpWindow extends Frame implements ActionListener
  * @param key Gives the location of the help file information.
  */
     public void displayHelpPage(String key)
-        {
-        try
-            {
-            String engHelpFile = new String("");
-            String engHelpFileTitle = new String("");
-            Vector engImageFiles = new Vector();
-            Vector engImageTitles = new Vector();
+    {
+	String engHelpFile = new String("");
+	String engHelpFileTitle = new String("");
+	Vector engImageFiles = new Vector();
+	Vector engImageTitles = new Vector();
 
-            String helpFile = new String("");
-            String helpFileTitle = new String("");
-            Vector imageFiles = new Vector();
-            Vector imageTitles = new Vector();
+	String helpFile = new String("");
+	String helpFileTitle = new String("");
+	Vector imageFiles = new Vector();
+	Vector imageTitles = new Vector();
 
-            boolean haveLang = false;
+	boolean haveLang = false;
 
-            String location = (String)m_helpAddresses.get(key);
-    
-            String helpLoc = m_EOApp.getHelpLoc(location);
-            BufferedReader in = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(helpLoc)));
+	String location = (String) m_helpAddresses.get(key);
 
-       // Now read in the HTML line by line
-            String lang = "None";
-            String type = "None";
-            String loc = "None";
-            String title = "None";
+	String helpLoc = m_EOApp.getHelpLoc(location);
+	StringBuffer dataFile = new StringBuffer("");
+	m_EOApp.readInFile(helpLoc, dataFile);
+	String[] lines = dataFile.toString().split("/n");
 
-            int counter = 0;
+	// Now read in the HTML line by line
+	String lang = "None";
+	String type = "None";
+	String loc = "None";
+	String title = "None";
 
-            StringBuffer dataFile = new StringBuffer("");
-            String inputline = in.readLine();
-            while(inputline != null ) 
-                {
-                if (counter == 0)
-                    lang = inputline;
-                if (counter == 1)
-                    type = inputline;
-                if (counter == 2)
-                    loc = inputline;
-                if (counter == 3)
-                    title = inputline;
-                counter++;
+	int counter = 0;
 
-                if (counter == 4)
-                    {
-                    String activeLang = m_EOApp.getLabels().getActiveLanguage();
+	String inputLine;
+	while (counter < lines.length)
+	{
+	    inputLine = lines[counter];
+	    int value = counter % 4;
+	    if (value == 0)
+		lang = inputLine;
+	    if (value == 1)
+		type = inputLine;
+	    if (value == 2)
+		loc = inputLine;
+	    if (value == 3)
+		title = inputLine;
 
-                    if (lang.equals("English"))
-                        {
-                        if (type.equals("TEXT"))
-                            {
-                            engHelpFile = loc;
-                            engHelpFileTitle = title;
-                            }
-                        else if (type.equals("IMAGE"))
-                            {
-                            engImageFiles.addElement(loc);
-                            engImageTitles.addElement(title);
-                            }
-                        }
-                    else if (lang.equals(activeLang))
-                        {
-                        if (type.equals("TEXT"))
-                            {
-                            helpFile = loc;
-                            helpFileTitle = title;
-                            }
-                        else if (type.equals("IMAGE"))
-                            {
-                            imageFiles.addElement(loc);
-                            imageTitles.addElement(title);
-                            }
-                        haveLang = true;
-                        }
-                    counter = 0;
-                    }
+	    if (value == 3)
+	    {
+		String activeLang = m_EOApp.getLabels().getActiveLanguage();
 
-                inputline = in.readLine();
-                }
+		if (lang.equals("English"))
+		{
+		    if (type.equals("TEXT"))
+		    {
+			engHelpFile = loc;
+			engHelpFileTitle = title;
+		    } else if (type.equals("IMAGE"))
+		    {
+			engImageFiles.addElement(loc);
+			engImageTitles.addElement(title);
+		    }
+		} else if (lang.equals(activeLang))
+		{
+		    if (type.equals("TEXT"))
+		    {
+			helpFile = loc;
+			helpFileTitle = title;
+		    } else if (type.equals("IMAGE"))
+		    {
+			imageFiles.addElement(loc);
+			imageTitles.addElement(title);
+		    }
+		    haveLang = true;
+		}
+	    }
+	    counter++;
+	}
 
-            in.close();
+	if (!haveLang)
+	{
+	    helpFile = engHelpFile;
+	    helpFileTitle = engHelpFileTitle;
+	    imageFiles = engImageFiles;
+	    imageTitles = engImageTitles;
+	}
 
-            if (!haveLang)
-                {
-                helpFile = engHelpFile;
-                helpFileTitle = engHelpFileTitle;
-                imageFiles = engImageFiles;
-                imageTitles = engImageTitles;
-                }
+	if (helpFile.length() > 0)
+	{
+	    StringBuffer helpFileData = new StringBuffer();
+	    m_EOApp.readInFile(m_EOApp.getHelpLoc(helpFile), helpFileData);
+	    m_helpInfo.setText(helpFileData.toString());
 
-            if (helpFile.length() > 0)
-                {
-        	m_EOApp.readInFile(m_EOApp.getHelpLoc(helpFile), dataFile);
-                m_helpInfo.setText(dataFile.toString());
+	    validate();
+	}
+	Enumeration enm = imageFiles.elements();
+	Enumeration enum2 = imageTitles.elements();
+	while (enm.hasMoreElements())
+	{
+	    Image tmp;
+	    String imageFile = (String) enm.nextElement();
+	    String imageTitle = (String) enum2.nextElement();
 
-                validate();
-                }
-            Enumeration enm = imageFiles.elements();
-            Enumeration enum2 = imageTitles.elements();
-            while (enm.hasMoreElements())
-                {
-                Image tmp;
-                String imageFile = (String)enm.nextElement();
-                String imageTitle = (String)enum2.nextElement();
+	    String imageStr = m_EOApp.getHelpLoc(imageFile);
+	    tmp = m_EOApp.getImage(imageStr);
 
-                String imageStr = m_EOApp.getHelpLoc(imageFile);
-                MediaTracker tracker = new MediaTracker(m_EOApp.getWB());
-                tmp = m_EOApp.getImage(imageStr);
+	    m_figureWindows.addElement(new FigureWindow(tmp, imageTitle));
+	}
 
-                m_figureWindows.addElement(new FigureWindow(tmp,imageTitle));
-                }
-            }
-        catch(Exception e) { e.printStackTrace(); }
-        }
+    }
 
     private void fillHelpAddress()
         {

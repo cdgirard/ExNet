@@ -245,7 +245,7 @@ public class  WLOverlord extends Frame
  */
     public Image getButtonImage()
         {
-        return getImage("images/girard/sc/wl/web/burgun.jpg");
+        return getImage("girard/sc/wl/web/burgun.jpg");
         }
 /**
  * @return Returns the value for m_buttonLabelColor.
@@ -286,7 +286,7 @@ public class  WLOverlord extends Frame
  * @see girard.sc.wl.web.WLOverlord#getImgURL(String image)
  * @see java.awt.Image
  */
-    public Image getImag(Strin loc)
+    public Image getImage(String loc)
         {
         Image tmp = null;
 
@@ -441,20 +441,20 @@ public class  WLOverlord extends Frame
 	while (counter < lines.length)
 	{
 	    inputline = lines[counter];
-
-	    if (counter % 3 == 0)
+            int value = counter % 3;
+	    if (value == 0)
 		lang = inputline;
-	    if (counter % 3 == 1)
+	    if (value == 1)
 		key = inputline;
-	    if (counter % 3 == 2)
+	    if (value == 2)
 		label = inputline;
-	    counter++;
 
-	    if (counter % 3 == 0)
+	    if (value == 2)
 	    {
 		m_labels.addObjectLabel(lang, key, label);
 		System.out.println("Added: "+key);
 	    }
+	    counter++;
 	}
     }
 
@@ -524,43 +524,36 @@ public class  WLOverlord extends Frame
  * @see girard.sc.wl.web.WLOverlord#initializeLabels(String str)
  */
     public void removeLabels(String str)
-        {
-        try
-            {
-            URL labelURL = new URL("http://"+HOST_NAME+LABEL_DIR+str);
-            URLConnection urlCon = labelURL.openConnection();
+    {
+	String labelLoc = LABEL_DIR + str;
+	StringBuffer data = new StringBuffer();
+	readInFile(labelLoc, data);
+	String[] lines = data.toString().split("\n");
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(urlCon.getInputStream()));
+	// Now read in the HTML line by line
+	String inputline;
+	String lang = "None";
+	String key = "None";
 
-       // Now read in the HTML line by line
-            String inputline = in.readLine();
-            String lang = "None";
-            String key = "None";
+	int counter = 0;
 
-            int counter = 0;
+	while (counter < lines.length)
+	{
+	    inputline = lines[counter];
+	    int value = counter % 3;
+	    if (value == 0)
+		lang = inputline;
+	    if (value == 1)
+		key = inputline;
 
-            while(inputline != null ) 
-                {
-                if (counter == 0)
-                    lang = inputline;
-                if (counter == 1)
-                    key = inputline;
-
-                counter++;
-
-                if (counter == 3)
-                    {
-                    m_labels.removeObjectLabel(lang,key);
-                    counter = 0;
-                    }
-                inputline = in.readLine();
-                }
-
-            in.close();
-            }
-        catch(MalformedURLException e) { e.printStackTrace(); }
-        catch(Exception e) { e.printStackTrace(); }
-        }
+	    if (value == 2)
+	    {
+		m_labels.removeObjectLabel(lang, key);
+		counter = 0;
+	    }
+	    counter++;
+	}
+    }
 
 /**
  * Removes a WebPanel from being dipslayed in m_WebpageBasePanel and sets m_activePanel
@@ -735,7 +728,7 @@ public class  WLOverlord extends Frame
         Image tmp1;
 
         // Initialize Load Button Image
-        tmp1 = this.getImage("images/girard/sc/wl/web/burgun.jpg");
+        tmp1 = this.getImage("girard/sc/wl/web/burgun.jpg");
 
         //tmp2 = this.createImage(tmp1.getWidth(null),tmp1.getHeight(null));
         

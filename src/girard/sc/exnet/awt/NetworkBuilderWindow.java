@@ -268,22 +268,22 @@ public class NetworkBuilderWindow extends BaseActionFormatWindow implements Acti
         Image tmp, tmp2;
 
     // Initialize Delete Node Image
-        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/delete_node.gif");
+        tmp = m_EOApp.getImage("girard/sc/exnet/awt/delete_node.gif");
 
         m_DeleteNodeButton.setImage(tmp);
 
     // Initialize Add Node Image
-        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/add_node.gif");
+        tmp = m_EOApp.getImage("girard/sc/exnet/awt/add_node.gif");
 
         m_AddNodeButton.setImage(tmp);
 
     // Initialize Add Edge Image
-        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/add_edge.gif");
+        tmp = m_EOApp.getImage("girard/sc/exnet/awt/add_edge.gif");
 
         m_AddEdgeButton.setImage(tmp);
 
     // Initialize Delete Edge Image
-        tmp = m_EOApp.getImage("images/girard/sc/exnet/awt/delete_edge.gif");
+        tmp = m_EOApp.getImage("girard/sc/exnet/awt/delete_edge.gif");
 
         m_DeleteEdgeButton.setImage(tmp);
         }

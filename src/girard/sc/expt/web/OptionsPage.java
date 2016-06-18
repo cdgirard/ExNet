@@ -12,6 +12,7 @@ import java.awt.Label;
 import java.awt.Panel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -117,7 +118,7 @@ public class OptionsPage extends WebPanel implements ActionListener
                 }
             if (theSource == m_QuitButton)
                 {
-                m_EOApp.getWB().dispose();
+                m_EOApp.dispose();
                 }
             }
         }
@@ -143,11 +144,11 @@ public class OptionsPage extends WebPanel implements ActionListener
         tmp = m_EOApp.getButtonImage();
 
     // Create Start Button
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("beeop_start").length()*12)/2;
@@ -157,11 +158,11 @@ public class OptionsPage extends WebPanel implements ActionListener
         m_StartButton.setImage(tmp2);
 
     // Create Tutorials Button
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("beeop_construct").length()*12)/2;
@@ -171,11 +172,11 @@ public class OptionsPage extends WebPanel implements ActionListener
         m_ConstructButton.setImage(tmp2);
 
     // Create Data Button
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("beeop_data").length()*12)/2;
@@ -185,11 +186,11 @@ public class OptionsPage extends WebPanel implements ActionListener
         m_DataButton.setImage(tmp2);
 
     // Create Help Button
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("beeop_help").length()*12)/2;
@@ -199,11 +200,11 @@ public class OptionsPage extends WebPanel implements ActionListener
         m_HelpButton.setImage(tmp2);
 
     // Create Back Button
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("beeop_quit").length()*12)/2;

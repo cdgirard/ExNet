@@ -29,6 +29,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+import java.awt.image.BufferedImage;
 import java.sql.Timestamp;
 import java.util.Enumeration;
 import java.util.Hashtable;
@@ -621,17 +622,17 @@ public class DataPage extends WebPanel implements ActionListener, ItemListener
         {
         Graphics g;
         int x, y;
-        Image tmp, tmp2;
+        Image tmp;
 
         // Initialize Button Image
         tmp = m_EOApp.getButtonImage();
 
     // Create Back Button
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        BufferedImage tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("dp_back").length()*12)/2;
@@ -641,11 +642,11 @@ public class DataPage extends WebPanel implements ActionListener, ItemListener
         m_BackButton.setImage(tmp2);
 
     // Create Help Button
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("dp_help").length()*12)/2;

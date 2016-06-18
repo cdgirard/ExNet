@@ -522,11 +522,11 @@ public class BEClientDisplayArrow implements ActionListener
 
         if (m_ActiveArrow == BLACK)
             {
-            g.drawImage(m_CWApp.getImage("Black Arrow"),0,0,m_CWApp.getEOApp().getWB());
+            g.drawImage(m_CWApp.getImage("Black Arrow"),0,0,null);
             }
         else
             {
-            g.drawImage(m_CWApp.getImage("Blue Arrow"),0,0,m_CWApp.getEOApp().getWB());
+            g.drawImage(m_CWApp.getImage("Blue Arrow"),0,0,null);
             }
 
         g.dispose();
@@ -551,7 +551,7 @@ public class BEClientDisplayArrow implements ActionListener
 
         g.setFont(m_CWApp.getEOApp().getSmLabelFont());
         
-        g.drawImage(m_CWApp.getImage("Money Bag"),5,5,m_CWApp.getEOApp().getWB());
+        g.drawImage(m_CWApp.getImage("Money Bag"),5,5,null);
 
         if (m_edge != null)
             {
@@ -589,7 +589,7 @@ public class BEClientDisplayArrow implements ActionListener
 
         if (m_edge == null)
             {
-            g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,m_CWApp.getEOApp().getWB());
+            g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,null);
 
             g.drawString("-",15,43);
 
@@ -602,19 +602,19 @@ public class BEClientDisplayArrow implements ActionListener
 
             if (beer.getExchangeState() == BEEdgeResource.NONE)
                 {
-                g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,m_CWApp.getEOApp().getWB());
+                g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,null);
                 }
             else if (beer.getExchangeState() == BEEdgeResource.RED)
                 {
-                g.drawImage(m_CWApp.getImage("Red Bubble"),0,0,m_CWApp.getEOApp().getWB());
+                g.drawImage(m_CWApp.getImage("Red Bubble"),0,0,null);
                 }
             else if (beer.getExchangeState() == BEEdgeResource.YELLOW)
                 {
-                g.drawImage(m_CWApp.getImage("Yellow Bubble"),0,0,m_CWApp.getEOApp().getWB());
+                g.drawImage(m_CWApp.getImage("Yellow Bubble"),0,0,null);
                 }
             else if (beer.getExchangeState() == BEEdgeResource.GREEN)
                 {
-                g.drawImage(m_CWApp.getImage("Green Bubble"),0,0,m_CWApp.getEOApp().getWB());
+                g.drawImage(m_CWApp.getImage("Green Bubble"),0,0,null);
                 }
 
             g.drawString(m_toNode.getLabel().substring(0,1),15,43);

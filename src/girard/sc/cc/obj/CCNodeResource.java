@@ -204,12 +204,12 @@ public class CCNodeResource extends CCNetworkComponent
             int boxHeight = (int)(22*bagSize);
             int boxWidth = (int)(40*bagSize);
             Image img = CWApp.getImage("Money Bag");
-            int imgWidth = (int)(img.getWidth(CWApp.getEOApp().getWB())*bagSize);
-            int imgHeight = (int)(img.getHeight(CWApp.getEOApp().getWB())*bagSize);
+            int imgWidth = (int)(img.getWidth(null)*bagSize);
+            int imgHeight = (int)(img.getHeight(null)*bagSize);
 
             g.setColor(CCColor.black);
             g.drawRect(loc.x,11+(int)(loc.y+10*scale),boxWidth,boxHeight);
-            g.drawImage(img,loc.x+2,13+(int)(loc.y+10*scale),imgWidth,imgHeight,CWApp.getEOApp().getWB());
+            g.drawImage(img,loc.x+2,13+(int)(loc.y+10*scale),imgWidth,imgHeight,null);
             g.setFont(f2);
             g.drawString(""+m_pointPool,4+loc.x+imgWidth,15+loc.y+(int)(10*scale + 10*bagSize));
             }

@@ -587,10 +587,10 @@ public class CEClientDisplayArrow extends GridBagPanel implements ActionListener
         g.setColor(Color.black);
 
         if (m_ActiveArrow == BLACK){
-	    g.drawImage(m_CWApp.getImage("Black Arrow"),0,0,m_CWApp.getEOApp().getWB());
+	    g.drawImage(m_CWApp.getImage("Black Arrow"),0,0,null);
 	}
         else{
-	    g.drawImage(m_CWApp.getImage("Blue Arrow"),0,0,m_CWApp.getEOApp().getWB());
+	    g.drawImage(m_CWApp.getImage("Blue Arrow"),0,0,null);
 	}
 	
         g.dispose();
@@ -614,7 +614,7 @@ public class CEClientDisplayArrow extends GridBagPanel implements ActionListener
 
         if (m_edge == null)
             {
-		g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,m_CWApp.getEOApp().getWB());
+		g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,null);
 
 		g.drawString("Offers - of - to",15,23);
 		g.drawString("Obtain - of - for",15,41);
@@ -631,19 +631,19 @@ public class CEClientDisplayArrow extends GridBagPanel implements ActionListener
 
 		if (es == CEEdgeDisplay.NONE)
 		    {
-			g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,m_CWApp.getEOApp().getWB());
+			g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,null);
 		    }
 		else if (es == CEEdgeDisplay.RED)
 		    {
-			g.drawImage(m_CWApp.getImage("Red Bubble"),0,0,m_CWApp.getEOApp().getWB());
+			g.drawImage(m_CWApp.getImage("Red Bubble"),0,0,null);
 		    }
 		else if (es == CEEdgeDisplay.YELLOW)
 		    {
-			g.drawImage(m_CWApp.getImage("Yellow Bubble"),0,0,m_CWApp.getEOApp().getWB());
+			g.drawImage(m_CWApp.getImage("Yellow Bubble"),0,0,null);
 		    }
 		else if (es == CEEdgeDisplay.GREEN)
 		    {
-			g.drawImage(m_CWApp.getImage("Green Bubble"),0,0,m_CWApp.getEOApp().getWB());
+			g.drawImage(m_CWApp.getImage("Green Bubble"),0,0,null);
 		    }
 
 		if (es != CEEdgeDisplay.NONE)

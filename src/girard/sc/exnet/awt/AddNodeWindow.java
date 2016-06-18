@@ -11,13 +11,13 @@ import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.Image;
 import java.awt.Label;
-import java.awt.MediaTracker;
 import java.awt.Point;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
+import java.awt.image.BufferedImage;
 
 public class AddNodeWindow extends Frame implements ActionListener,WindowListener
     {
@@ -149,16 +149,16 @@ public class AddNodeWindow extends Frame implements ActionListener,WindowListene
         {
         Graphics g;
         int x, y;
-        Image tmp, tmp2;
+        Image tmp;
 
         // Initialize Button Image
         tmp = m_NBApp.getEO().getButtonImage();
 
-        tmp2 = m_NBApp.getEO().createImage(m_buttonWidth-6,m_buttonHeight-6);
+        BufferedImage tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_NBApp.getEO().getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_NBApp.getEO().getSmButtonFont());
         g.setColor(m_NBApp.getEO().getButtonLabelColor());     
         x = (m_buttonWidth - 6 - m_NBApp.getEO().getLabels().getObjectLabel("anw_ok").length()*9)/2;
@@ -168,12 +168,12 @@ public class AddNodeWindow extends Frame implements ActionListener,WindowListene
         m_OKButton.setImage(tmp2);
 
         // Initialize Tutorial Button Image
-        tmp2 = m_NBApp.getEO().createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
 
         g = tmp2.getGraphics();
 
         g.setFont(m_NBApp.getEO().getSmButtonFont());
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_NBApp.getEO().getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setColor(m_NBApp.getEO().getButtonLabelColor());       
         x = (m_buttonWidth - 6 - m_NBApp.getEO().getLabels().getObjectLabel("anw_cancel").length()*9)/2;
         y = ((m_buttonHeight - 6)/2) + 4;

@@ -16,6 +16,7 @@ import java.awt.Label;
 import java.awt.Panel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 
 /**
  * Used to provide access to building actions, simulant actors, and experiments.
@@ -154,17 +155,17 @@ public class ConstructPage extends WebPanel implements ActionListener
         Graphics g;
         int x, y;
         Font f1 = new Font("TimesRoman",Font.BOLD,24);
-        Image tmp, tmp2;
+        Image tmp;
 
 
         // Initialize Button Image
         tmp = m_EOApp.getButtonImage();
 
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        BufferedImage tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
         
         g = tmp2.getGraphics();
 
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setFont(m_EOApp.getLgButtonFont());
         g.setColor(m_EOApp.getButtonLabelColor());     
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("ecp_action").length()*12)/2;
@@ -174,12 +175,12 @@ public class ConstructPage extends WebPanel implements ActionListener
         m_ActionsButton.setImage(tmp2);
 
         // Initialize Simulant Button Image
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
 
         g = tmp2.getGraphics();
 
         g.setFont(m_EOApp.getLgButtonFont());
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setColor(m_EOApp.getButtonLabelColor()); 
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("ecp_simulant").length()*12)/2;
         y = ((m_buttonHeight - 6)/2) + 5;
@@ -188,12 +189,12 @@ public class ConstructPage extends WebPanel implements ActionListener
         m_SimulantsButton.setImage(tmp2);
 
         // Initialize Experiment Button Image
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
 
         g = tmp2.getGraphics();
 
         g.setFont(m_EOApp.getLgButtonFont());
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setColor(m_EOApp.getButtonLabelColor()); 
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("ecp_experiment").length()*12)/2;
         y = ((m_buttonHeight - 6)/2) + 5;
@@ -202,12 +203,12 @@ public class ConstructPage extends WebPanel implements ActionListener
         m_ExperimentsButton.setImage(tmp2);
 
         // Initialize Help Button Image
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
 
         g = tmp2.getGraphics();
 
         g.setFont(m_EOApp.getLgButtonFont());
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("ecp_help").length()*12)/2;
         y = ((m_buttonHeight - 6)/2) + 5;
@@ -216,12 +217,12 @@ public class ConstructPage extends WebPanel implements ActionListener
         m_HelpButton.setImage(tmp2);
 
         // Initialize Back Button Image
-        tmp2 = m_EOApp.createImage(m_buttonWidth-6,m_buttonHeight-6);
+        tmp2 = new BufferedImage(m_buttonWidth-6,m_buttonHeight-6,BufferedImage.TYPE_3BYTE_BGR);
 
         g = tmp2.getGraphics();
 
         g.setFont(m_EOApp.getLgButtonFont());
-        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,m_EOApp.getWB());
+        g.drawImage(tmp,0,0,m_buttonWidth-6,m_buttonHeight-6,null);
         g.setColor(m_EOApp.getButtonLabelColor());
         x = (m_buttonWidth - 6 - m_EOApp.getLabels().getObjectLabel("ecp_back").length()*12)/2;
         y = ((m_buttonHeight - 6)/2) + 5;

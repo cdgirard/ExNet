@@ -437,11 +437,11 @@ public class CCClientDisplayArrow implements ActionListener
 
         if (m_ActiveArrow == BLACK)
             {
-            g.drawImage(m_CWApp.getImage("Black Arrow"),0,0,m_CWApp.getEOApp().getWB());
+            g.drawImage(m_CWApp.getImage("Black Arrow"),0,0,null);
             }
         else
             {
-            g.drawImage(m_CWApp.getImage("Blue Arrow"),0,0,m_CWApp.getEOApp().getWB());
+            g.drawImage(m_CWApp.getImage("Blue Arrow"),0,0,null);
             }
         g.dispose();
 
@@ -465,7 +465,7 @@ public class CCClientDisplayArrow implements ActionListener
 
         g.setFont(m_CWApp.getEOApp().getSmLabelFont());
         
-        g.drawImage(m_CWApp.getImage("Money Bag"),5,5,m_CWApp.getEOApp().getWB());
+        g.drawImage(m_CWApp.getImage("Money Bag"),5,5,null);
 
         if (tradeStatus() == 0)
             {
@@ -500,7 +500,7 @@ public class CCClientDisplayArrow implements ActionListener
 
         if (tradeStatus() != 0)
             {
-            g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,m_CWApp.getEOApp().getWB());
+            g.drawImage(m_CWApp.getImage("Grey Bubble"),0,0,null);
 
             g.setColor(Color.lightGray);
             g.fillRect(10,10,20,20);

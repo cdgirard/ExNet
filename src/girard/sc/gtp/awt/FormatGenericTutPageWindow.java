@@ -296,7 +296,7 @@ public class FormatGenericTutPageWindow extends FormatTutPageWindow implements A
                     String[] imageInfo = (String[])h.get(title);
                     String loc = imageInfo[0];
                     m_GTP.setImgLoc(m_iwXLocField.getIntValue(),m_iwYLocField.getIntValue());
-                    m_displayWindow = new ImageWindow(loadImage(loc,title),title,m_GTP.getImgLoc());
+                    m_displayWindow = new ImageWindow(m_EOApp.getImage(loc),title,m_GTP.getImgLoc());
                     }
                 }
             if ((theSource == m_attachButton) && (m_imageList.getSelectedIndex() > -1))
@@ -376,14 +376,6 @@ public class FormatGenericTutPageWindow extends FormatTutPageWindow implements A
                     }
                 }
             }
-        }
-
-    public Image loadImage(String imageFile, String title)
-        {
-        String imageLoc = "image/"+imageFile;
-        Image tmp = m_EOApp.getImage(imageLoc);
-
-        return tmp;
         }
 
     public void initializeLabels()
