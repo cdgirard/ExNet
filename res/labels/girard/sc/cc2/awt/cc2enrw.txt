@@ -1,0 +1,42 @@
+English
+cc2enrw_ae
+Attached to Edge:
+English
+cc2enrw_an
+Adj. Nodes
+English
+cc2enrw_ba
+Bank Account
+English
+cc2enrw_cop
+Can Offer Points
+English
+cc2enrw_crof
+Can Reward or Fine
+English
+cc2enrw_done
+Done
+English
+cc2enrw_edge
+   Edge    
+English
+cc2enrw_file
+File
+English
+cc2enrw_help
+Help
+English
+cc2enrw_nodes
+Nodes
+English
+cc2enrw_fa
+Fine Amt:
+English
+cc2enrw_pp
+Point Pool
+English
+cc2enrw_ra
+Reward Amt:
+English
+cc2enrw_title
+Edit CC2 Node Resources

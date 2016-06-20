@@ -1,0 +1,27 @@
+          BE Edit Initial Window Settings
+
+Allows you to customize the intial window shown to subjects when a BE Network Action starts.  You can set the text of the window, the size of the Font, the Location of the window, and whether the experimenter or the subjects can click past the window.
+
+Help Menu
+---------
+1. Help - Calls up this help page.
+
+Main Area
+---------
+1. Activate - If set to "Yes" then the window will appear before the subjects begin the network exchange experiment. If set to "No", then the subjects will go directly into the network exchange experiment. 
+
+2. Message - What message to display to the subjects.
+
+3. Font Size - How large to make the font for the message.
+
+4. Location - Where to position the initial window on the subject's screens.
+
+5. Continue From - If set to "Client" then the subjects are able to click past the window on their own.  If set to "Experimenter" then the experimenter will have to click past the window.  A window appears at the experimenter's station that allows them to do so if this option is choosen.
+
+Buttons
+-------
+1. Update Button - Updates any changes you have made.  Will display the BE Edit Initial Window Settings window in the location given by the values in "Location".
+
+2. OK Button - Click when done, saves any changes.
+
+3. Cancel Button - Click when done and don't want to save any changes.

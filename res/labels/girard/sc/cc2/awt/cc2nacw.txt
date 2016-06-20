@@ -1,0 +1,18 @@
+English
+cc2nacw_bank
+Bank:
+English
+cc2nacw_points
+Points:
+English
+cc2nacw_title
+Client Station
+English
+cc2nacw_tl
+Time Left:
+English
+cc2nacw_zi
+Zoom In 
+English
+cc2nacw_zo
+Zoom Out

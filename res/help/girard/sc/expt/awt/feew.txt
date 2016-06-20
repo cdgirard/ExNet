@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/expt/awt/feew_hlp.txt
+Edit End Experiment Window Settings

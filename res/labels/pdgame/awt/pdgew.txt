@@ -1,0 +1,18 @@
+English
+pdgew_title
+Experimenter Station
+English
+pdgew_file
+File
+English
+pdgew_stop
+Stop
+English
+pdgew_pause
+Pause
+English
+pdgew_observers
+Observers
+English
+pdgew_subjects
+Subject Registered?

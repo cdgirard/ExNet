@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2new_hlp.txt
+CC2 Set Nubmer of Exchanges Window

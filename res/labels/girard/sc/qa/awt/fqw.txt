@@ -38,6 +38,9 @@ English
 fqw_questionnaire
 Questionnaire
 English
+fqw_Questionnaire
+Questionnaire
+English
 fqw_remove
   Remove  
 English

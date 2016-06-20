@@ -18,4 +18,4 @@ ccnew_ok
   OK  
 English
 ccnew_title
-Set Number of Exchanges Window
+CC Set Number of Exchanges Window

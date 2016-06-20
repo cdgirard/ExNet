@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2anaw_hlp.txt
+Add CC2 Network Action

@@ -1,0 +1,12 @@
+English
+cc2bew_einp
+Experiment is Now Paused
+English
+cc2bew_pptre
+Press Button to Resume Experiment.
+English
+cc2bew_resume
+RESUME
+English
+cc2bew_title
+Resume Window

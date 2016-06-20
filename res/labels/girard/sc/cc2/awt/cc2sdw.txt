@@ -1,0 +1,12 @@
+English
+cc2sdw_exit
+Exit
+English
+cc2sdw_file
+File
+English
+cc2sdw_help
+Help
+English
+cc2sdw_title
+CC2 Sanction Data Window

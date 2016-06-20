@@ -1,0 +1,39 @@
+English
+cc2naow_details
+Details
+English
+cc2naow_ei
+Edge   Info
+English
+cc2naow_exit
+Exit
+English
+cc2naow_experiment
+Experiment
+English
+cc2naow_file
+File
+English
+cc2naow_period
+Period:
+English
+cc2naow_round
+Round:
+English
+cc2naow_sr
+Subject    Registered
+English
+cc2naow_stop
+Stop
+English
+cc2naow_timer
+Timer:
+English
+cc2naow_title
+Observer Station
+English
+cc2naow_zi
+Zoom In
+English
+cc2naow_zo
+Zoom Out

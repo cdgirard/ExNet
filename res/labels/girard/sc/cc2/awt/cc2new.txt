@@ -1,0 +1,21 @@
+English
+cc2new_cancel
+Cancel
+English
+cc2new_help
+Help
+English
+cc2new_mine
+Min Exchanges
+English
+cc2new_maxe
+Max Exchanges
+English
+cc2new_nimm
+  Node   ID  Max  
+English
+cc2new_ok
+  OK  
+English
+cc2new_title
+CC2 - Set Exchanges Window

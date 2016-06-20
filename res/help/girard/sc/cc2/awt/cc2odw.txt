@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2odw_hlp.txt
+CC2 Offer Data Window

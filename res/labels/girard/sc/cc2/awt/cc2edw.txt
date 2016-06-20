@@ -1,0 +1,12 @@
+English
+cc2edw_cancel
+Cancel
+English
+cc2edw_description
+Description
+English
+cc2edw_ok
+  OK  
+English
+cc2edw_title
+Edit CC2 Description Window

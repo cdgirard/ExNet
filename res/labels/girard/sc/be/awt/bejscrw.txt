@@ -1,0 +1,9 @@
+English
+bejscrw_tcft
+The coalition failed to form.
+English
+bejscrw_tcsi
+The coalition succeeded in forming.
+English
+bejscrw_title
+Voting Results

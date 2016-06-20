@@ -1,0 +1,21 @@
+English
+cc2epw_co
+Change Order
+English
+cc2epw_done
+Done
+English
+cc2epw_help
+Help
+English
+cc2epw_rounds
+Rounds
+English
+cc2epw_title
+Edit CC2 Period Window
+English
+cc2epw_time
+Time
+English
+cc2epw_unl
+  User     Node   Label  

@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/bescdw_hlp.txt
+BE Static Coalition Data Window

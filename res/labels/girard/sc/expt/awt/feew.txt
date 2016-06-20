@@ -17,6 +17,9 @@ English
 feew_fs
 Font Size
 English
+feew_help
+Help
+English
 feew_large
 Large
 English

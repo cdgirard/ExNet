@@ -1,0 +1,27 @@
+English
+cc2anaw_cancel
+Cancel
+English
+cc2anaw_description
+Description
+English
+cc2anaw_ftpltf
+Failed to properly load the file.
+English
+cc2anaw_help
+Help
+English
+cc2anaw_nf
+Network Files
+English
+cc2anaw_nondnmnou
+Number of nodes do not match number of users.
+English
+cc2anaw_network
+Network: 
+English
+cc2anaw_ok
+OK
+English
+cc2anaw_title
+Add CC2 Network

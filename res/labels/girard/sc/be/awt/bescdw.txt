@@ -1,0 +1,12 @@
+English
+bescdw_exit
+Exit
+English
+bescdw_file
+File
+English
+bescdw_help
+Help
+English
+bescdw_title
+BE Static Coalition Data Window

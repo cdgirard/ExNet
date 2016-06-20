@@ -23,6 +23,9 @@ English
 benadd_rb
 Run By:
 English
+benadd_scd
+Static Coalition Data
+English
 benadd_title
 BE Network Action Data Viewer
 English

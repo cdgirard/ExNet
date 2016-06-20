@@ -1,0 +1,27 @@
+English
+apdgw_ag
+Access Group
+English
+apdgw_fn
+Name of PD Object
+English
+apdgw_title
+Add PD Game Window
+English
+apdgw_help
+Help
+English
+apdgw_spdo
+Select PD Object
+English
+apdgw_ok
+Ok
+English
+apdgw_cancel
+Cancel
+English
+apdgw_nondnmnou
+Wrong number of Users
+English
+apdgw_ftpltf
+No PD Object loaded yet

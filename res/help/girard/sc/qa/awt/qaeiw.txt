@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/qa/awt/qaeiw_hlp.txt
+QA Edit Initial Window Settings

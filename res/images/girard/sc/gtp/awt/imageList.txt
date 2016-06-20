@@ -184,3 +184,63 @@ Making Deals 2
 Spsen Images
 girard/sc/gtp/awt/spsen/Resource_Pool.GIF
 Resource Pool
+Status 2002
+girard/sc/gtp/awt/status2002/1.gif
+Initial Shot A
+Status 2002
+girard/sc/gtp/awt/status2002/2.gif
+Initial Shot B
+Status 2002
+girard/sc/gtp/awt/status2002/3.gif
+Red Box A
+Status 2002
+girard/sc/gtp/awt/status2002/4.gif
+Red BOx B
+Status 2002
+girard/sc/gtp/awt/status2002/5.gif
+who is who A
+Status 2002
+girard/sc/gtp/awt/status2002/6.gif
+who is who B
+Status 2002
+girard/sc/gtp/awt/status2002/7.gif
+Resource Boxes A
+Status 2002
+girard/sc/gtp/awt/status2002/8.gif
+Resource Boxes B
+Status 2002
+girard/sc/gtp/awt/status2002/10.gif
+Offer/Obtain Boxes B
+Status 2002
+girard/sc/gtp/awt/status2002/11.gif
+Offer/Obtain Boxes A
+Status 2002
+girard/sc/gtp/awt/status2002/12.gif
+Amount Box B
+Status 2002
+girard/sc/gtp/awt/status2002/13.gif
+Amount Box A
+Status 2002
+girard/sc/gtp/awt/status2002/14.gif
+Offer Information B
+Status 2002
+girard/sc/gtp/awt/status2002/15.gif
+Offer Information A
+Status 2002
+girard/sc/gtp/awt/status2002/16.gif
+Color Change (to Green) B
+Status 2002
+girard/sc/gtp/awt/status2002/17.gif
+Color Change (to Yellow) A
+Status 2002
+girard/sc/gtp/awt/status2002/18.gif
+Completed Exchange B
+Status 2002
+girard/sc/gtp/awt/status2002/19.gif
+Completed Exchange A
+Status 2002
+girard/sc/gtp/awt/status2002/20.gif
+Color Change (to yellow) B
+Status 2002
+girard/sc/gtp/awt/status2002/21.gif
+Color Change (to green) A

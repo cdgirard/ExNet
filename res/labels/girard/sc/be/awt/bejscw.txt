@@ -1,0 +1,42 @@
+English
+bejscw_apebt
+All points earned by the group's members are combined and distributed equally.
+English
+bejscw_agmft
+are group members for that round.  Members will vote on the offer to send and 
+English
+bejscw_erydw
+Each round you decide whether to join the group.  Only those who choose to join 
+English
+bejscw_lrti
+Last round those in the coalition earned: 
+English
+bejscw_nsoyw
+Now some of you will have the opportunity to work together in a group.
+English
+bejscw_pftri
+points for that round.  If any member exchanges, all benefit.
+English
+bejscw_tagmw
+Therefore, all group members will earn the same number of
+English
+bejscw_tcft
+The coalition failed to form last round.
+English
+bejscw_tcsif
+The coalition succeeded in forming last round.
+English
+bejscw_tcpm
+The coalition's potential members are:
+English
+bejscw_tgawb
+the group average will be displayed.
+English
+bejscw_title
+Join Coalition Window
+English
+bejscw_ydnj
+You did not join the coalition last round.
+English
+bejscw_yhto
+You have the option to join a coalition.

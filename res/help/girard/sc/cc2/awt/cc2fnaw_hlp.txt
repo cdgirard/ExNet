@@ -1,0 +1,25 @@
+          Edit CC Network Action Window
+
+This option allows you to change a variety of details about the network in the experiment.
+
+File Menu
+---------
+1. Done - 
+
+Edit Menu
+---------
+1. Description - Allows the action details for this experiment to be edited.  This allows you to add an explanation of that part of the experiment for you or anyone else who needs to edit the experiment.
+
+Format Menu
+-----------
+The format item allows you to add the specific details of the trading, restrict trades, and opt to pay the participants or not.
+
+1. Periods - Allows the selection for number of rounds per period, time per round, and position of a subject in each network.
+
+2. Pay - allows experimenter to set payment due to subject (per point earned).
+
+3. Resources - allows experimenter to adjust resource pool between each set of connected positions, the bank account of any positions desired, as well as assign the ability to give tokens to other players for potential rewards or punishments.
+
+Help Menu
+
+1. Help -

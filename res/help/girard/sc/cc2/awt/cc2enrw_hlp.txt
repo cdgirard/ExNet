@@ -1,0 +1,23 @@
+           Edit CC Node Resources Window
+
+
+Allows experimenter to adjust resources both in point pools between connections as well as in the bank accounts of certain positions.  
+
+Top Frame
+---------
+The top of the window is used to set bank accounts and point pool values.  To set an amount for the account, highlight the desired node under the "Nodes" list on the left side.  Adjust the amount under "Bank Account" to the desired amount.
+
+1. Nodes & Adj. Nodes - highlight a node in the top left box, and a list of all positions to which it is connected will appear in the top right box
+
+2. Bank Account - adjusts the starting account of the highlighted node in Node window (left)
+
+3. Point Pool - adjusts the resource pool between highlighted node (left) and selected adjacent node (right)
+
+Bottom Frame
+------------
+1. Can offer points - for a node to be able to make an offer to each of its adjacent positions, this box must be checked for each
+
+2. Token - if the box enabling a node to send tokens is enabled, that actor will have the chance to send a token to one of the adjacent nodes after each round.  The token increases the receiver’s chance of receiving either a reward or fine at the end of the experiment.
+
+3. Reward amount/Fine amount - amount at stake if the actor receiving tokens does in fact receive the sufficient number of tokens
+

@@ -1,0 +1,21 @@
+English
+fpdgw_title
+Format PD Game Window
+English
+fpdgw_file
+File
+English
+fpdgw_done
+Done
+English
+fpdgw_format
+Format
+English
+fpdgw_pay
+Pay
+English
+fpdgw_rounds
+Rounds
+English
+fpdgw_help
+Help

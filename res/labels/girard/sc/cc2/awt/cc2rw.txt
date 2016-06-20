@@ -1,0 +1,21 @@
+English
+cc2rw_ftr
+FOR THIS ROUND
+English
+cc2rw_lr
+Last Round 
+English
+cc2rw_ready
+READY
+English
+cc2rw_title
+Start Next Round
+English
+cc2rw_wrtcptb
+To Continue Press the READY Button.
+English
+cc2rw_ya
+You Are: 
+English
+cc2rw_ye
+You Earned: 

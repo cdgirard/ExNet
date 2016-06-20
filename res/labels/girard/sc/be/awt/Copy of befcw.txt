@@ -1,0 +1,48 @@
+English
+befcw_cm
+Critical Mass:
+English
+befcw_coalition
+Coalition:
+English
+befcw_es
+     Node        Share
+English
+befcw_ic
+ID Color:
+English
+befcw_il
+Info Level:
+English
+befcw_node
+Node:
+English
+befcw_ntc
+    Node          Type      Coal     Info
+English
+befcw_nz
+Num Zapped:
+English
+befcw_rm
+Report Method:
+English
+befcw_sharing
+Sharing:
+English
+befcw_title
+BE Format Coalition Window
+English
+befcw_type
+Type:
+English
+befcw_vn
+Votes Needed:
+English
+befcw_zapping
+Zapping:
+English
+befcw_za
+Zap Amount: %
+English
+befcw_zc
+Zap Cost: %

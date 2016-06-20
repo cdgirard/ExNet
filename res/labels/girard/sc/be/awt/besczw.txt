@@ -1,0 +1,6 @@
+English
+besczw_paeiz
+Position  Amount Earned    If Zapped
+English
+besczw_title
+Zap Window

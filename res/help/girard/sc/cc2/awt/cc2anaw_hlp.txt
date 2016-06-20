@@ -1,0 +1,17 @@
+               Add CC Network Window
+
+Links a Network (created using the Network Builder Window) to the BENetworkAction.  Select the filename of the Network you wish to use, and then click "OK".  
+
+NOTE: Be sure that you have set the "Number of Users" at the bottom right of the Experiment Constructor Window to the number matching the number of actors in the Network you plan to use.
+
+Network Files - This is a list of all of the networks you have created using the Network Builder.  You must choose one to pair with the action you have selected. (Note: The number of nodes in the network must match the number of users in the experiment.)
+
+Description - A description of the network (which is written when the network is created) will appear at the bottom portion of the window as it is highlighted, which tells the number of positions for that particular network.
+
+OK - Highlight the name of the network you wish to use and click ‘OK’ to create a CC Network Action with this network.
+
+Cancel - Click ‘cancel’ to return to the experiment constructor without adding a CC Network Action.
+
+Help - Returns to this help file.
+
+Related Help Files - Construction Menu, Base Action Constructor, and Network Builder Window.

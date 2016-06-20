@@ -11,8 +11,14 @@ English
 ehlp_beapw
 BE Network Period Window
 English
+ehlp_beeiw
+BE Edit Initial Window Settings
+English
 ehlp_beerpw
 Edit BE Edge Resources
+English
+ehlp_befcw
+BE Format Coalition Window
 English
 ehlp_befnaw
 Edit BE Network Action
@@ -34,6 +40,9 @@ BE Offer Data
 English
 ehlp_besmiw
 BE Network Settings Window
+English
+ehlp_bescdw
+BE Static Coalition Data Window
 English
 ehlp_besdw
 BE Sanction Data Window
@@ -137,6 +146,9 @@ English
 ehlp_esw
 Experimenter Station
 English
+ehlp_feew
+Edit End Experiment Window Settings
+English
 ehlp_fgtpw
 Format Generic Tutorial Page
 English
@@ -175,6 +187,9 @@ Main Menu
 English
 ehlp_rep
 Start Experiment
+English
+ehlp_qaeiw
+QA Edit Initial Window Settings
 English
 ehlp_sbaw
 Save Base Action Window

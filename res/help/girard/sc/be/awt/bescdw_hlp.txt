@@ -1,0 +1,86 @@
+          BE Static Coalition Data Window
+
+Displays the data from a BE Network Action experiment in which there was one or more static coalitions.  The data is displayed in four seperate tabs.
+
+Menu Options
+------------
+
+File Menu
+    1. Exit - Exits out of the BE Static Coalition Data Window and returns you to the BE Network Action Data Viewer window.
+
+Help
+    1. Help - Calls up this help file.
+
+Join Data Panel
+---------------
+Displays the Votes to join coalitions during the experiment.
+
+1. ID - The unique ID for the experiment
+
+2. Action - In what order was the BE Network Action run that this data is from.  The first action is 0.
+
+3. Period - What period is this vote data for.
+
+4. Round - What round is this vote data for.
+
+5. Node - Which node is the vote for.
+
+6. Coalition - Which coalition was the node apart of.
+
+7. Vote - Did they vote to join the coalition (true) or not to join the coalition (false).
+
+Offer Data
+----------
+Displays the Consensus offers each node made that belonged to a successful coalition.
+
+
+1. ID - The unique ID for the experiment
+
+2. Action - In what order was the BE Network Action run that this data is from.  The first action is 0.
+
+3. Period - What period is this consensus offer data for.
+
+4. Round - What round is this consensus offer data for.
+
+5. Node - Which node is the consensus for.
+
+6. Coalition - Which coalition was the node apart of.
+
+7. Offer - How much did they make their consensus offer for.
+
+Zap Data Panel
+--------------
+Displays the Votes to zap free riders during the experiment.
+
+1. ID - The unique ID for the experiment
+
+2. Action - In what order was the BE Network Action run that this data is from.  The first action is 0.
+
+3. Period - What period is this vote data for.
+
+4. Round - What round is this vote data for.
+
+5. Node - Which node is the vote for.
+
+6. Coalition - Which coalition was the node apart of.
+
+7. Vote - Did they vote to zap the free rider (true) or not to zap the free rider (false).
+
+Earnings Data Panel
+-------------------
+Displays the earnings of each node for each round.
+
+
+1. ID - The unique ID for the experiment
+
+2. Action - In what order was the BE Network Action run that this data is from.  The first action is 0.
+
+3. Period - What period is this earnings data for.
+
+4. Round - What round is this earnings data for.
+
+5. Node - Which node is the earnings for.
+
+6. Coalition - Which coalition was the node apart of.
+
+7. Earnings - How much the node made.

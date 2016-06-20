@@ -1,0 +1,62 @@
+          BE Format Coalition Window
+
+This window is used to place nodes into coalitions.  Nodes within coalitions are granted means to work together such as the sharing of resources.  The main area of the window is split into three "tabbed" panels.  The Assign panel is used to place nodes into coalitions.  The Static panel is used to customize the available static coalitions.  A static coalition is one in which a node has no control over which people are in the coalition with it.  The Dynamic panel is used to customize the available dynamic coalitions.  A dynamic coalition is one is which a node has some control over who it is in a coalition with.  At the moment dynamic coalitions are not enabled.
+
+Menu Options
+------------
+
+File Menu
+   1. Done - Used to exit from this window and go back to the Edit BE Network Action window.
+
+Help
+   1. Help - Calls up this help file.
+
+Assign Panel
+------------
+1. Main Node List - Lists the Node, what Type of coalition it is in (- None, S Static, and D Dynamic), which coalition (Coal) it is in of that type, and how much information that node gets to see concerning coalitions (0 -> none, 1 -> it's coalition only, 2 -> all coalition information).
+
+2. Node Label - Tells which node you are changing the settings for.
+
+3. Type - Allows you to change what type of coalition the node belongs to.  Right now only None and Static are available.
+
+4. Coalition - Allows you to change which coalition the node belongs to.  You may create 6 different types of Static or Dynamic coalitions.  This value means nothing for a node that is in a type None coalition.  Type None basically means the node is not in any coalition.
+
+5. Info Level - How much information the subject that is that node can see on their screen concerning coalitions.
+
+6. Node Share List - Set to TRUE when payoffs to coalition members exchanging with this node are shared. Otherwise set to FALSE.
+
+Static Panel
+------------
+1. Coalition - Which coalition to edit the settings for.
+
+2. ID Color - During the experiments nodes that belong to an active coalition of this type will be identified by a circle of this color.
+
+3. Sharing - Are the resources that nodes in this coalition earn shared among the other nodes.  Only nodes that joined the coalition will share their coalition resources.
+
+4. Critical Mass - How many people need to want to join the coalition for it to form.
+
+5. Report Method - If the coalition fails to form, does the program report the actual number that tried to join, or some preset number.
+
+6. Zapping - Do nodes that joined a coalition that formed have the option to zap free riders (nodes that voted not to join the coalition).  Will only affect coalition resources.
+
+7. Zap Cost - What percentage of the total coalition resources earned by members of the coalition must be spent to zap any free riders.
+
+8. Zap Amount - What percentage of the coalition resources earned by free riders will be removed upon a successful zap.
+
+9. Votes Needed - How many votes are needed for each successful zap.
+
+10. Num Zapped - How many free riders are zapped per each successful zap.
+
+Dynamic Panel
+-------------
+1. Coalition - Which coalition to edit the settings for.
+
+2. Zapping - Do nodes that joined a coalition that formed have the option to zap free riders (nodes that voted not to join the coalition).  Will only affect coalition resources.
+
+3. Zap Cost - What percentage of the total coalition resources earned by members of the coalition must be spent to zap any free riders.
+
+4. Zap Amount - What percentage of the coalition resources earned by free riders will be removed upon a successful zap.
+
+5. Votes Needed - How many votes are needed for each successful zap.
+
+6. Num Zapped - How many free riders are zapped per each successful zap.

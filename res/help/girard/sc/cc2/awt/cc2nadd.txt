@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2nadd_hlp.txt
+CC2 Network Action Data Viewer

@@ -10,10 +10,7 @@ Edit Menu
 ---------
 1. Description - Allows the Action Details for this Experiment Action to be edited.  This allows you to add an explanation for the Questionaire for you or anyone else who needs to edit the Experiment or when viewing data for this Questionaire.  You can also change the detail name for the Questionaire, useful later when trying to tell data files apart.
 
-2. Initial Window - Allows you to customize the intial window shown to subjects when a BE Network Action starts.  You can set the text of the window, the size of the Font, the Location of the window, and whether the experimenter or the subjects can click past the window.
-    *Update Button - Updates any changes you have made.
-    *OK Button - Click when done, saves any changes.
-    *Cancel Button - Click when done and don't want to save any changes.
+2. Initial Window - Allows you to customize the intial window shown to subjects when a Questionnaire Action starts.  For more information see QA Edit Initial Window Settings.
 
 Help Menu
 ---------

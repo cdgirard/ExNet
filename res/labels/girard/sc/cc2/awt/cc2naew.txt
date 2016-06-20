@@ -1,0 +1,45 @@
+English
+cc2naew_details
+Details
+English
+cc2naew_ei
+Edge   Info
+English
+cc2naew_exit
+Exit
+English
+cc2naew_experiment
+Experiment
+English
+cc2naew_file
+File
+English
+cc2naew_observers
+Observers
+English
+cc2naew_pause
+Pause
+English
+cc2naew_period
+Period:
+English
+cc2naew_round
+Round:
+English
+cc2naew_sr
+Subject    Registered
+English
+cc2naew_stop
+Stop
+English
+cc2naew_timer
+Timer:
+English
+cc2naew_title
+Experimenter Station
+English
+cc2naew_zi
+Zoom In
+English
+cc2naew_zo
+Zoom Out

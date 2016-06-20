@@ -1,4 +1,7 @@
 English
+befnaw_coalitions
+Coalitions
+English
 befnaw_description
 Description
 English

@@ -6,8 +6,12 @@ ehlp_beanaw
 girard/sc/be/awt/beanaw.txt
 ehlp_beapw
 girard/sc/be/awt/beapw.txt
+ehlp_beeiw
+girard/sc/be/awt/beeiw.txt
 ehlp_beerpw
 girard/sc/be/awt/beerpw.txt
+ehlp_befcw
+girard/sc/be/awt/befcw.txt
 ehlp_befnaw
 girard/sc/be/awt/befnaw.txt
 ehlp_befsaw
@@ -20,6 +24,8 @@ ehlp_benew
 girard/sc/be/awt/benew.txt
 ehlp_beodw
 girard/sc/be/awt/beodw.txt
+ehlp_bescdw
+girard/sc/be/awt/bescdw.txt
 ehlp_besdw
 girard/sc/be/awt/besdw.txt
 ehlp_besmiw
@@ -90,6 +96,8 @@ ehlp_ecw
 girard/sc/expt/awt/ecw.txt
 ehlp_esw
 girard/sc/expt/awt/esw.txt
+ehlp_feew
+girard/sc/expt/awt/feew.txt
 ehlp_fgtpw
 girard/sc/gtp/awt/fgtpw.txt
 ehlp_flqw
@@ -116,6 +124,8 @@ ehlp_op
 girard/sc/expt/web/op.txt
 ehlp_rep
 girard/sc/expt/web/rep.txt
+ehlp_qaeiw
+girard/sc/qa/awt/qaeiw.txt
 ehlp_sbaw
 girard/sc/expt/awt/sbaw.txt
 ehlp_sbw

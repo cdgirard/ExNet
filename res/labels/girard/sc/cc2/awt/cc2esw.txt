@@ -1,0 +1,6 @@
+English
+cc2esw_ready
+READY
+English
+cc2esw_title
+Start New Experiment

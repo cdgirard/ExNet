@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/befcw_hlp.txt
+BE Format Coalition Window

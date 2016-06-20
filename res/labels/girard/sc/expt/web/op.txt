@@ -14,8 +14,8 @@ English
 beeop_athf
 Access the Help Files
 English
-beeop_qta
-Quit the Application
+beeop_btthp
+Back to the Home Page
 English
 beeop_start
 Start
@@ -32,8 +32,8 @@ English
 beeop_help
 Help
 English
-beeop_quit
-Quit
+beeop_back
+Back
 English
 beeop_title
 Main Menu

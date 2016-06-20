@@ -1,0 +1,27 @@
+English
+cc2asw_dnsafo
+did NOT send a FINE of
+English
+cc2asw_dnsaro
+did NOT send a REWARD of
+English
+cc2asw_pt
+points to
+English
+cc2asw_ready
+READY
+English
+cc2asw_raf
+Rewards and Fines
+English
+cc2asw_safo
+sent a FINE of
+English
+cc2asw_saro
+sent a REWARD of
+English
+cc2asw_title
+Rewards and Fines
+English
+cc2asw_wrtcptb
+When Ready to Continue Press the Button.

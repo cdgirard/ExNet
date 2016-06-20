@@ -17,6 +17,9 @@ English
 qaeiw_fs
 Font Size
 English
+qaeiw_help
+Help
+English
 qaeiw_large
 Large
 English

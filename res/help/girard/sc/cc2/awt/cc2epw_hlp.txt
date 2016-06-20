@@ -1,0 +1,30 @@
+              Edit CC Period Window
+
+A CCNetworkAction  consists of only one period.  However, the experimenter can alter the number of rounds assigned to it as well as how long each round is allowed to run.  In addition, a user's position within the network can be changed.
+
+Time and Rounds Area (Left)
+---------------------------
+Time - The number of ticks each round will take can be set here.  Depending on the speed of your computer network a tick can take as little as a second to multiple seconds in actual time.
+
+Rounds - Allows you to set how many rounds there will be in period you are editing.
+
+User Location Area (Right)
+--------------------------
+Main List - The area at the top tells you what user is in what node postion.
+
+To change the position of the users:
+
+    1. Highlight one of the users.
+
+    2. Click on "Change Order".
+
+    3. Then, click on the user you want to change places with.
+
+    4. The positions will be changed automatically.
+
+
+Bottom Area
+----------- 
+Done - Will save the changes you have made and exit back to the Edit BE Network Action Window.
+
+Help -

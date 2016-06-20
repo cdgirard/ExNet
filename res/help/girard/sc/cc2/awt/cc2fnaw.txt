@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2fnaw_hlp.txt
+Edit CC2 Network Action

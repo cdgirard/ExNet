@@ -1,0 +1,12 @@
+English
+cc2odw_exit
+Exit
+English
+cc2odw_file
+File
+English
+cc2odw_help
+Help
+English
+cc2odw_title
+CC2 Offer Data Window

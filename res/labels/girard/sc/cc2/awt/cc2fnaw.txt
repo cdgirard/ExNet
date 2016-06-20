@@ -1,0 +1,39 @@
+English
+cc2fnaw_add
+Add
+English
+cc2fnaw_description
+Description
+English
+cc2fnaw_done
+Done
+English
+cc2fnaw_edit
+Edit
+English
+cc2fnaw_exchanges
+Exchanges
+English
+cc2fnaw_file
+File
+English
+cc2fnaw_format
+Format
+English
+cc2fnaw_help
+Help
+English
+cc2fnaw_iw
+Initial Window
+English
+cc2fnaw_nr
+Node Resources
+English
+cc2fnaw_pay
+Pay
+English
+cc2fnaw_period
+Period
+English
+cc2fnaw_title
+Edit CC2 Network Action

@@ -1,4 +1,7 @@
 English
+besmiw_es
+Ed Schedule
+English
 besmiw_ns
 Non-Simultaneous
 English
@@ -13,6 +16,9 @@ File
 English
 besmiw_help
 Help
+English
+besmiw_hp
+High Power
 English
 besmiw_il
 Information Level
@@ -47,8 +53,17 @@ English
 besmiw_l10
 Level 10: Full Structure and Network Information.
 English
+besmiw_l11
+Level 11: Full Information and Flash on Offer.
+English
+besmiw_lp
+Low Power
+English
 besmiw_nil
-Node   ID  Level
+Node   ID  Level      Ed Sch
+English
+besmiw_no
+No
 English
 besmiw_ns
 Non-Simultaneous

@@ -1,0 +1,186 @@
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_1024.GIF
+Subject Screen
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_bottom_C.GIF
+BE Subject Screen 1
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_bottom_da.GIF
+BE Subject Screen 2
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_da.GIF
+BE Subject Screen 3
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_bottom_switch.GIF
+BE Subject Screen - Change Partners
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_dblarw.GIF
+BE Subject Screen - Completed Exchange
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_rela_cc.GIF
+BE Subject Screen - Edge Color Codes
+Sample Images
+girard/sc/gtp/awt/be_sub_da_gbubb.GIF
+BE Subject Screen - Green Bubble
+BE Screen Objects
+girard/sc/gtp/awt/be_sub_da_mbb.GIF
+BE Subject Screen - Offer Adjust Buttons
+BE Screen Shots
+girard/sc/gtp/awt/be_sub_bottom_offers.GIF
+BE Subject Screen - Offers
+Sample Images
+girard/sc/gtp/awt/be_sub_da_bubble.GIF
+BE Subject Screen - Red Bubble
+BE Screen Objects
+girard/sc/gtp/awt/be_sub_rw_init.GIF
+BE Subject Screen - Round Window
+BE Screen Objects
+girard/sc/gtp/awt/be_sub_rw_neg.GIF
+BE Subject Screen - Round Window 1
+BE Screen Objects
+girard/sc/gtp/awt/be_sub_rw_pos.GIF
+BE Subject Screen - Round Window 2
+BE Screen Objects
+girard/sc/gtp/awt/be_sub_da_arrow.GIF
+BE Subject Screen - Send Offer Button
+BE Screen Objects
+girard/sc/gtp/awt/be_sub_top_timer.GIF
+BE Subject Screen - Timer
+Sample Images
+girard/sc/gtp/awt/be_sub_da_ybubb.GIF
+BE Subject Screen - Yellow Bubble
+Sample Images
+girard/sc/gtp/awt/be_sub_top_zoom.GIF
+BE Subject Screen - Zoom Buttons
+Sample Images
+girard/sc/gtp/awt/black_arrow.gif
+Black Arrow
+Sample Images
+girard/sc/gtp/awt/blue_arrow.gif
+Blue Arrow
+Sample Images
+girard/sc/gtp/awt/final_arrow.gif
+Final Arrow
+Sample Images
+girard/sc/gtp/awt/green_bubble.gif
+Green Bubble
+Sample Images
+girard/sc/gtp/awt/grey_bubble.gif
+Grey Bubble
+Sample Images
+girard/sc/gtp/awt/money_bag.gif
+Money Bag
+Sample Images
+girard/sc/gtp/awt/red_bubble.gif
+Red Bubble
+Sample Images
+girard/sc/gtp/awt/yellow_bubble.gif
+Yellow Bubble
+Spring 2003
+girard/sc/gtp/awt/spring_2003/accepting_offers_1.GIF
+Accepting Offers 1
+Spring 2003
+girard/sc/gtp/awt/spring_2003/accepting_offers_1a.GIF
+Accepting Offers 1a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/completed_exchange_1.GIF
+Completed Exchange 1
+Spring 2003
+girard/sc/gtp/awt/spring_2003/completed_exchange_1a.GIF
+Completed Exchange 1a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/completed_exchange_2.GIF
+Completed Exchange 2
+Spring 2003
+girard/sc/gtp/awt/spring_2003/completed_exchange_2a.GIF
+Completed Exchange 2a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/completing_exchanges_1.GIF
+Completing Exchanges 1
+Spring 2003
+girard/sc/gtp/awt/spring_2003/completing_exchanges_1a.GIF
+Completing Exchanges 1a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/Multi_Partners_1.GIF
+Multiple Partners 1
+Spring 2003
+girard/sc/gtp/awt/spring_2003/Multi_Partners_2.GIF
+Multiple Partners 2
+Spring 2003
+girard/sc/gtp/awt/spring_2003/Multi_Partners_2a.GIF
+Multiple Partners 2a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/Multi_Partners_3.GIF
+Multiple Partners 3
+Spring 2003
+girard/sc/gtp/awt/spring_2003/Multi_Partners_3a.GIF
+Multiple Partners 3a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/Multi_Partners_4.GIF
+Multiple Partners 4
+Spring 2003
+girard/sc/gtp/awt/spring_2003/Multi_Partners_4a.GIF
+Multiple Partners 4a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/reading_offers_1.GIF
+Reading Offers 1
+Spring 2003
+girard/sc/gtp/awt/spring_2003/reading_offers_1a.GIF
+Reading Offers 1a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/resource_pool.GIF
+Resource Pool
+Spring 2003
+girard/sc/gtp/awt/spring_2003/resource_pool_a.GIF
+Resource Pool A
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_1.GIF
+Send Offer 1
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_1a.GIF
+Send Offer 1a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_2.GIF
+Send Offer 2
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_2a.GIF
+Send Offer 2a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_3.GIF
+Send Offer 3
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_3a.GIF
+Send Offer 3a
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_4.GIF
+Send Offer 4
+Spring 2003
+girard/sc/gtp/awt/spring_2003/send_offer_4a.GIF
+Send Offer 4a
+Spsen Images
+girard/sc/gtp/awt/spsen/Accepting_Offer_1.GIF
+Accepting Offer 1
+Spsen Images
+girard/sc/gtp/awt/spsen/Accepting_Offer_2.GIF
+Accepting Offer 2
+Spsen Images
+girard/sc/gtp/awt/spsen/Completed_Exchange_1.GIF
+Completed Exchange 1
+Spsen Images
+girard/sc/gtp/awt/spsen/Completing_Exchanges_1.GIF
+Completing Exchanges 1
+Spsen Images
+girard/sc/gtp/awt/spsen/Completing_Exchanges_2.GIF
+Completing Exchanges 2
+Spsen Images
+girard/sc/gtp/awt/spsen/Initial_Screen_Shot.GIF
+Initial Screen Shot
+Spsen Images
+girard/sc/gtp/awt/spsen/Making_Deals_1.GIF
+Making Deals 1
+Spsen Images
+girard/sc/gtp/awt/spsen/Making_Deals_2.GIF
+Making Deals 2
+Spsen Images
+girard/sc/gtp/awt/spsen/Resource_Pool.GIF
+Resource Pool

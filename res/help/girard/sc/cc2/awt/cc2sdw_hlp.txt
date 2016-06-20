@@ -1,0 +1,15 @@
+               CC Sanction Data Window 
+
+
+
+File Menu
+---------
+Exit - Returns to CC Network Action Data Viewer.
+
+Help Menu
+---------
+Help - Brings up this help window.
+
+Main Area
+---------
+Displays all information regarding sanctions sent (immediate reduction or addition to point total), including the source of the sanction, who received the sanction, whether it was a punishment or a reward, and the amount of that punishment or reward.  Note: in some cases, depending on how the experiment was set up, an actor will reward a positive number of points and punishments will be zero.  In other cases, punishments are a negative number of points and rewards are zero.

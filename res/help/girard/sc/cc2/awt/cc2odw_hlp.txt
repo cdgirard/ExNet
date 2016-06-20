@@ -1,0 +1,15 @@
+               CC Offer Data Window 
+
+
+
+File Menu
+---------
+Exit - Returns to CC Network Action Data Viewer.
+
+Help Menu
+---------
+Help - Brings up this help window.
+
+Main Area
+---------
+Displays all offers, acceptances, and confirmations (completed exchanges) for each round of the experiment, including the origin of the offer, its destination, its point values, and the point in time in the round it occurred.  

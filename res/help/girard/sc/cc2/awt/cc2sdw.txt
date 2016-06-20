@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2sdw_hlp.txt
+CC2 Sanction Data Window

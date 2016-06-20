@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2spw_hlp.txt
+Set CC2 Pay Amounts

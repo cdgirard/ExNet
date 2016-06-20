@@ -1,0 +1,24 @@
+English
+pdbw_title
+PDObject Builder Window
+English
+pdbw_delete
+Delete
+English
+pdbw_exit
+Exit
+English
+pdbw_file
+File
+English
+pdbw_help
+Help
+English
+pdbw_new
+New
+English
+pdbw_open
+Open
+English
+pdbw_save
+Save

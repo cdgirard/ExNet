@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/cc2/awt/cc2epw_hlp.txt
+Edit CC2 Period Window

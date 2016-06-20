@@ -1,0 +1,4 @@
+English
+TEXT
+girard/sc/be/awt/beeiw_hlp.txt
+BE Edit Initial Window Settings

@@ -1,0 +1,39 @@
+English
+cc2eiw_cancel
+Cancel
+English
+cc2eiw_cf
+Continue From
+English
+cc2eiw_client
+Client
+English
+cc2eiw_experimenter
+Experimenter
+English
+cc2eiw_fs
+Font Size
+English
+cc2eiw_large
+Large
+English
+cc2eiw_location
+Location:
+English
+cc2eiw_medium
+Medium
+English
+cc2eiw_message
+Message
+English
+cc2eiw_ok
+  OK  
+English
+cc2eiw_small
+Small
+English
+cc2eiw_title
+CC2 Edit Initial Window Settings
+English
+cc2eiw_update
+Update

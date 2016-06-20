@@ -1,0 +1,13 @@
+English
+pdgow_title
+Observer Station
+English
+pdgow_file
+File
+English
+pdgow_exit
+Exit
+English
+pdgow_sr
+Subjects
+

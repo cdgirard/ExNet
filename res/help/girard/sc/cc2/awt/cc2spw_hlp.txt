@@ -1,0 +1,11 @@
+                 Set CC Pay Amounts
+
+Allows the experimenter to set payment due to subjects (per point earned).  To set a pay rate, select a subject, then adjust the number in the pay field at the bottom to the number of dollars per point earned you wish to give that subject.  Then, press enter. 
+
+Help Menu
+---------
+1. Help - 
+
+Main Area
+---------
+1. Pay List - Lists the users and their pay rates (per point).
