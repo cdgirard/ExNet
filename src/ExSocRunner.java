@@ -1,4 +1,5 @@
 import girard.sc.expt.web.ExptOverlord;
+import girard.sc.expt.web.ExperimenterLoginPage;
 import girard.sc.expt.web.SubjectLoginPage;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -7,15 +8,8 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -25,14 +19,19 @@ public class ExSocRunner extends Application
     Text actiontarget;
     Stage m_primaryStage;
     
+    EventHandler<ActionEvent> experimenterEvent = p -> { 
+	ExptOverlord eo = new ExptOverlord();
+	eo.addPanel(new ExperimenterLoginPage(eo));
+	eo.validate();
+	m_primaryStage.hide();
+    };
+    
     EventHandler<ActionEvent> subjectEvent = p -> { 
 	ExptOverlord eo = new ExptOverlord();
 	eo.addPanel(new SubjectLoginPage(eo));
 	eo.validate();
 	m_primaryStage.hide();
     };
-    
-    EventHandler<ActionEvent> experimenterEvent = p -> actiontarget.setText("Experimenter in button pressed");
     
     @Override
     public void start(Stage stage)
