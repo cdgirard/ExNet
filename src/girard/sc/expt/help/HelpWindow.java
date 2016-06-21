@@ -261,7 +261,7 @@ public class HelpWindow extends Frame implements ActionListener
 	String helpLoc = m_EOApp.getHelpLoc(location);
 	StringBuffer dataFile = new StringBuffer("");
 	m_EOApp.readInFile(helpLoc, dataFile);
-	String[] lines = dataFile.toString().split("/n");
+	String[] lines = dataFile.toString().split("\n");
 
 	// Now read in the HTML line by line
 	String lang = "None";

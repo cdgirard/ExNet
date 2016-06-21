@@ -1,5 +1,6 @@
 package girard.sc.expt.web;
 
+import girard.sc.awt.BorderPanel;
 import girard.sc.awt.ErrorDialog;
 import girard.sc.expt.help.HelpWindow;
 import girard.sc.expt.io.ExptMessageListener;
@@ -25,6 +26,10 @@ import girard.sc.wl.io.msg.WLAccessGroupListReqMsg;
 import girard.sc.wl.io.msg.WLMessage;
 import girard.sc.wl.web.WLOverlord;
 
+import java.awt.BorderLayout;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Panel;
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.Hashtable;
@@ -90,10 +95,10 @@ public class ExptOverlord extends WLOverlord
     {
 	A.initializeLabels();
 	m_activePanel = A;
-	m_WebpageBasePanel.add(A);
-	m_TitleCanvas.setLabel("ExNet 3.0 - " + A.getTitle());
-	m_TitleCanvas.centerLabel();
-	m_WebpageBasePanel.validate();
+	m_webpageBasePanel.add(A);
+	m_titleCanvas.setLabel("ExNet 3.0 - " + A.getTitle());
+	m_titleCanvas.centerLabel();
+	m_webpageBasePanel.validate();
     }
 
     /**
@@ -559,14 +564,14 @@ public class ExptOverlord extends WLOverlord
     {
 	R.removeLabels();
 	m_activePanel = null;
-	m_WebpageBasePanel.remove(R);
-	m_TitleCanvas.setLabel("ExNet 3.0");
-	m_TitleCanvas.centerLabel();
-	m_WebpageBasePanel.validate();
+	m_webpageBasePanel.remove(R);
+	m_titleCanvas.setLabel("ExNet 3.0");
+	m_titleCanvas.centerLabel();
+	m_webpageBasePanel.validate();
     }
 
     /**
-     * Removes a WebPanel from being dipslayed in m_WebpageBasePanel and then
+     * Removes a WebPanel from being displayed in m_WebpageBasePanel and then
      * adds a new WebPanel to be displayed within the m_WebpageBasePanel.
      * Overridden so that the label of the m_TitleCanvas is set to ExNet 3.0
      * instead of Web-Lab.
@@ -579,13 +584,13 @@ public class ExptOverlord extends WLOverlord
     public void removeThenAddPanel(WebPanel R, WebPanel A)
     {
 	R.removeLabels();
-	m_WebpageBasePanel.remove(R);
+	m_webpageBasePanel.remove(R);
 	A.initializeLabels();
 	m_activePanel = A;
-	m_WebpageBasePanel.add(A);
-	m_TitleCanvas.setLabel("ExNet 3.0 - " + A.getTitle());
-	m_TitleCanvas.centerLabel();
-	m_WebpageBasePanel.validate();
+	m_webpageBasePanel.add(A);
+	m_titleCanvas.setLabel("ExNet 3.0 - " + A.getTitle());
+	m_titleCanvas.centerLabel();
+	this.validate();
     }
 
     /**

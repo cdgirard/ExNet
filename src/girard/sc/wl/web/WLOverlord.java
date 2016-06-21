@@ -169,15 +169,15 @@ public class  WLOverlord extends Frame
 /**
  *
  */
-    protected GridBagPanel m_TitlePanel;
+    protected GridBagPanel m_titlePanel;
 /**
  *
  */
-    protected LabelCanvas m_TitleCanvas;
+    protected LabelCanvas m_titleCanvas;
 /**
  * Where the m_activePanel is displayed.
  */
-    protected Panel m_WebpageBasePanel;
+    protected Panel m_webpageBasePanel;
 /**
  * The active WebPanel presently being displayed in the m_WebpageBasePanel.
  */
@@ -192,14 +192,14 @@ public class  WLOverlord extends Frame
         setBackground(Color.lightGray);
         setLayout(new BorderLayout());
 
-        m_TitlePanel = new GridBagPanel();
+        m_titlePanel = new GridBagPanel();
         placeTitlePanel();
 
-        m_WebpageBasePanel = new Panel(new GridLayout(1,1));
+        m_webpageBasePanel = new Panel(new GridLayout(1,1));
 
-        add(BorderLayout.NORTH,new BorderPanel(m_TitlePanel));
+        add(BorderLayout.NORTH, new BorderPanel(m_titlePanel));
 
-        add("Center",new BorderPanel(m_WebpageBasePanel));
+        add(BorderLayout.CENTER, new BorderPanel(m_webpageBasePanel));
         
         setSize(m_width,m_height);
         setVisible(true);
@@ -215,10 +215,10 @@ public class  WLOverlord extends Frame
         {
         A.initializeLabels();
         m_activePanel = A;
-        m_WebpageBasePanel.add(A);
-        m_TitleCanvas.setLabel("Web-Lab - "+A.getTitle());
-        m_TitleCanvas.centerLabel();
-        m_WebpageBasePanel.validate();
+        m_webpageBasePanel.add(A);
+        m_titleCanvas.setLabel("Web-Lab - "+A.getTitle());
+        m_titleCanvas.centerLabel();
+        m_webpageBasePanel.validate();
         }
 
 /**
@@ -303,8 +303,6 @@ public class  WLOverlord extends Frame
 
         return tmp;
         }
-    
-    
 
 /**
  * Used to get the WebResourceBundle object which contains labels grouped together
@@ -452,7 +450,6 @@ public class  WLOverlord extends Frame
 	    if (value == 2)
 	    {
 		m_labels.addObjectLabel(lang, key, label);
-		System.out.println("Added: "+key);
 	    }
 	    counter++;
 	}
@@ -477,8 +474,8 @@ public class  WLOverlord extends Frame
     public void placeTitlePanel()
         {
         createTitleCanvas();
-        m_TitlePanel.constrain(m_TitleCanvas,1,1,1,1,GridBagConstraints.CENTER,GridBagConstraints.BOTH);
-        m_TitlePanel.validate();
+        m_titlePanel.constrain(m_titleCanvas,1,1,1,1,GridBagConstraints.CENTER,GridBagConstraints.BOTH);
+        m_titlePanel.validate();
         }
     
     /**
@@ -549,7 +546,6 @@ public class  WLOverlord extends Frame
 	    if (value == 2)
 	    {
 		m_labels.removeObjectLabel(lang, key);
-		counter = 0;
 	    }
 	    counter++;
 	}
@@ -565,10 +561,10 @@ public class  WLOverlord extends Frame
         {
         R.removeLabels();
         m_activePanel = null;
-        m_WebpageBasePanel.remove(R);
-        m_TitleCanvas.setLabel("Web-Lab");
-        m_TitleCanvas.centerLabel();
-        m_WebpageBasePanel.validate();
+        m_webpageBasePanel.remove(R);
+        m_titleCanvas.setLabel("Web-Lab");
+        m_titleCanvas.centerLabel();
+        m_webpageBasePanel.validate();
         }
 /**
  * Removes a WebPanel from being dipslayed in m_WebpageBasePanel and then adds 
@@ -580,13 +576,13 @@ public class  WLOverlord extends Frame
     public void removeThenAddPanel(WebPanel R, WebPanel A)
         {
         R.removeLabels();
-        m_WebpageBasePanel.remove(R);
+        m_webpageBasePanel.remove(R);
         A.initializeLabels();
         m_activePanel = A;
-        m_WebpageBasePanel.add(A);
-        m_TitleCanvas.setLabel("Web-Lab - "+A.getTitle());
-        m_TitleCanvas.centerLabel();
-        m_WebpageBasePanel.validate();
+        m_webpageBasePanel.add(A);
+        m_titleCanvas.setLabel("Web-Lab - "+A.getTitle());
+        m_titleCanvas.centerLabel();
+        m_webpageBasePanel.validate();
         }
 
 /**
@@ -661,7 +657,7 @@ public class  WLOverlord extends Frame
     public void setButtonLabelColor(Color value)
         {
         m_buttonLabelColor = value;
-        m_TitleCanvas.setLabelColor(m_buttonLabelColor);
+        m_titleCanvas.setLabelColor(m_buttonLabelColor);
         }
 /**
  * Changes the value of m_dispBkgColor.
@@ -716,7 +712,7 @@ public class  WLOverlord extends Frame
  */
     public void setWPBPSize(int x, int y)
         {
-        m_WebpageBasePanel.setSize(x,y);
+        m_webpageBasePanel.setSize(x,y);
         }
 
 /**
@@ -736,9 +732,9 @@ public class  WLOverlord extends Frame
 
         g.drawImage(tmp1,0,0,null);
 
-        m_TitleCanvas = new LabelCanvas(m_width,50,tmp1,"Web-Lab");
-        m_TitleCanvas.setFont(m_titleFont);
-        m_TitleCanvas.centerLabel();
-        m_TitleCanvas.setLabelColor(m_buttonLabelColor);
+        m_titleCanvas = new LabelCanvas(m_width,50,tmp1,"Web-Lab");
+        m_titleCanvas.setFont(m_titleFont);
+        m_titleCanvas.centerLabel();
+        m_titleCanvas.setLabelColor(m_buttonLabelColor);
         }
     }

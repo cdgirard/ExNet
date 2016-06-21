@@ -140,6 +140,7 @@ public class SubjectLoginPage extends WebPanel implements ActionListener
 	{
 	    Integer uid = (Integer) em.getArgs()[0];
 	    m_EOApp.setUserID(uid.intValue());
+	    System.out.println(""+uid.intValue());
 	    return true;
 	}
     }

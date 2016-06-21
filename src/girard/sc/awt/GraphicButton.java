@@ -171,7 +171,9 @@ public class GraphicButton extends Canvas implements MouseListener,MouseMotionLi
 
         while (e2.hasMoreElements())
             {
-            ((ActionListener)(e2.nextElement())).actionPerformed(event);
+            Object item = e2.nextElement();
+            if (item != null)
+                ((ActionListener)(item)).actionPerformed(event);
             }
         m_ButtonState = 0;
         repaint();

@@ -7,6 +7,7 @@ import girard.sc.awt.GridBagPanel;
 import girard.sc.expt.io.msg.ExptErrorMsg;
 import girard.sc.expt.io.msg.ExptExperimenterLoginReqMsg;
 import girard.sc.expt.io.msg.ExptMessage;
+import girard.sc.expt.io.msg.ExptSubjectLoginReqMsg;
 import girard.sc.web.WebPanel;
 
 import java.awt.Graphics;
@@ -31,8 +32,8 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
     GridBagPanel m_spacePanel = new GridBagPanel();
     GridBagPanel m_MainPanel = new GridBagPanel();
 
-    ColorTextField m_UserNameField, m_PasswordField;
-    GraphicButton m_LoginButton, m_CancelButton;
+    ColorTextField m_userNameField, m_passwordField;
+    GraphicButton m_loginButton, m_cancelButton;
     int m_buttonWidth = 150;
     int m_buttonHeight = 40;
 
@@ -50,24 +51,24 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 
 	m_spacePanel.setBackground(m_EOApp.getDispBkgColor());
 
-	m_UserNameField = new ColorTextField(30);
-	m_UserNameField.setBackground(m_EOApp.getObjectBkgColor());
+	m_userNameField = new ColorTextField(30);
+	m_userNameField.setBackground(m_EOApp.getObjectBkgColor());
 	m_MainPanel.constrain(new Label(m_EOApp.getLabels().getObjectLabel("elp_logn")), 1, 1, 1, 1);
-	m_MainPanel.constrain(m_UserNameField, 2, 1, 3, 1);
+	m_MainPanel.constrain(m_userNameField, 2, 1, 3, 1);
 
-	m_PasswordField = new ColorTextField(30);
-	m_PasswordField.setEchoChar('*');
-	m_PasswordField.setBackground(m_EOApp.getObjectBkgColor());
+	m_passwordField = new ColorTextField(30);
+	m_passwordField.setEchoChar('*');
+	m_passwordField.setBackground(m_EOApp.getObjectBkgColor());
 	m_MainPanel.constrain(new Label(m_EOApp.getLabels().getObjectLabel("elp_password")), 1, 2, 1, 1);
-	m_MainPanel.constrain(m_PasswordField, 2, 2, 3, 1);
+	m_MainPanel.constrain(m_passwordField, 2, 2, 3, 1);
 
-	m_LoginButton = new GraphicButton(m_buttonWidth, m_buttonHeight, null);
-	m_LoginButton.addActionListener(this);
-	m_MainPanel.constrain(m_LoginButton, 1, 3, 2, 1, GridBagConstraints.CENTER);
+	m_loginButton = new GraphicButton(m_buttonWidth, m_buttonHeight, null);
+	m_loginButton.addActionListener(this);
+	m_MainPanel.constrain(m_loginButton, 1, 3, 2, 1, GridBagConstraints.CENTER);
 
-	m_CancelButton = new GraphicButton(m_buttonWidth, m_buttonHeight, null);
-	m_CancelButton.addActionListener(this);
-	m_MainPanel.constrain(m_CancelButton, 3, 3, 2, 1, GridBagConstraints.CENTER);
+	m_cancelButton = new GraphicButton(m_buttonWidth, m_buttonHeight, null);
+	m_cancelButton.addActionListener(this);
+	m_MainPanel.constrain(m_cancelButton, 3, 3, 2, 1, GridBagConstraints.CENTER);
 
 	loadImages();
 
@@ -91,10 +92,10 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 	{
 	    GraphicButton theSource = (GraphicButton) e.getSource();
 
-	    if (theSource == m_LoginButton)
+	    if (theSource == m_loginButton)
 	    {
-		String usr = m_UserNameField.getText();
-		String pwd = m_PasswordField.getText();
+		String usr = m_userNameField.getText();
+		String pwd = m_passwordField.getText();
 		if (sendLoginRequest(usr, pwd))
 		{
 		    m_EOApp.removeThenAddPanel(this, new OptionsPage(m_EOApp));
@@ -103,7 +104,7 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 		    new ErrorDialog("Invalid Login");
 		}
 	    }
-	    if (theSource == m_CancelButton)
+	    if (theSource == m_cancelButton)
 	    {
 		m_EOApp.dispose();
 	    }
@@ -126,13 +127,14 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 	out_args[0] = usr;
 	out_args[1] = pwd;
 
-	ExptExperimenterLoginReqMsg tmp = new ExptExperimenterLoginReqMsg(out_args);
+	ExptSubjectLoginReqMsg tmp = new ExptSubjectLoginReqMsg(out_args);
 	ExptMessage em = m_EOApp.sendExptMessage(tmp);
 
 	if (em instanceof ExptErrorMsg)
 	{
 	    return false;
-	} else
+	}
+	else
 	{
 	    Integer uid = (Integer) em.getArgs()[0];
 	    m_EOApp.setUserID(uid.intValue());
@@ -160,7 +162,7 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 	y = ((m_buttonHeight - 6) / 2) + 5;
 	g.drawString(m_EOApp.getLabels().getObjectLabel("elp_login"), x, y);
 
-	m_LoginButton.setImage(tmp2);
+	m_loginButton.setImage(tmp2);
 
 	// Create Cancel Button
 	tmp2 = new BufferedImage(m_buttonWidth - 6, m_buttonHeight - 6,BufferedImage.TYPE_3BYTE_BGR);
@@ -174,6 +176,6 @@ public class ExperimenterLoginPage extends WebPanel implements ActionListener
 	y = ((m_buttonHeight - 6) / 2) + 5;
 	g.drawString(m_EOApp.getLabels().getObjectLabel("elp_cancel"), x, y);
 
-	m_CancelButton.setImage(tmp2);
+	m_cancelButton.setImage(tmp2);
     }
 }

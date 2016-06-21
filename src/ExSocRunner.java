@@ -1,6 +1,7 @@
 import girard.sc.expt.web.ExptOverlord;
 import girard.sc.expt.web.ExperimenterLoginPage;
 import girard.sc.expt.web.SubjectLoginPage;
+import girard.sc.expt.web.JoinExperimentPage;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
